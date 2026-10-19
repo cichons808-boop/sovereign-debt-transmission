@@ -1,0 +1,6 @@
+{
+  "method": "same quarterly-HAC PDS penalty as the primary estimator",
+  "forced": "all source-specific Fed/ECB monetary and information slopes",
+  "selected": "external-state and other optional interactions",
+  "matched_support": true
+}

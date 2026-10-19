@@ -1,0 +1,101 @@
+source_file,status,observations,date_label,corrected_date,reason,date,witness
+latvia_debt_2011Q1.pdf,valid,2.0,,,,,
+latvia_debt_2011Q2.pdf,valid,2.0,,,,,
+latvia_debt_2011Q3.pdf,valid,2.0,,,,,
+latvia_debt_2011Q4.pdf,not_extracted,0.0,,,,,
+latvia_debt_2012Q1.pdf,valid,2.0,,,,,
+latvia_debt_2012Q2.pdf,valid,2.0,,,,,
+latvia_debt_2012Q3.pdf,invalid_end_month_day_corrected,,31.06.2012,2012-06-30,Published table says day 31 in a 30-day month; retain the same month-end reference,,
+latvia_debt_2012Q3.pdf,valid,2.0,,,,,
+latvia_debt_2012Q4.pdf,valid,2.0,,,,,
+latvia_debt_2013Q1.pdf,valid,2.0,,,,,
+latvia_debt_2013Q2.pdf,interval_only,,,,,30.06.2013,"<1 year < 3 years < 1 year
+< 25% < 3 years
+< 50% 23,3%^^ 44,0%^^"
+latvia_debt_2013Q2.pdf,valid,1.0,,,,,
+latvia_debt_2013Q3.pdf,interval_only,,,,,30.09.2013,"<1 year < 3 years < 1 year
+< 25% < 3 years
+< 50% 23,4%^^ 46,1%^^"
+latvia_debt_2013Q3.pdf,valid,1.0,,,,,
+latvia_debt_2013Q4.pdf,interval_only,,,,,31.12.2013,"≤1 year ≤ 3 years ≤ 1 year
+≤ 25% ≤ 3 years
+≤ 50% 23,1%^^^^ 46,1%^^^^"
+latvia_debt_2013Q4.pdf,valid,1.0,,,,,
+latvia_debt_2014Q1.pdf,interval_only,,,,,31.03.2014,"≤1 year ≤ 3 years ≤1 year
+≤25% ≤ 3 years
+≤ 50% 24,5%^^ 42,2%^^"
+latvia_debt_2014Q1.pdf,valid,1.0,,,,,
+latvia_debt_2014Q2.pdf,interval_only,,,,,31.06.2014,"≤1 year ≤ 3 years ≤1 year
+≤25% ≤ 3 years
+≤ 50% 20,70% 37,10%"
+latvia_debt_2014Q2.pdf,valid,1.0,,,,,
+latvia_debt_2014Q3.pdf,invalid_end_month_day_corrected,,31.06.2014,2014-06-30,Published table says day 31 in a 30-day month; retain the same month-end reference,,
+latvia_debt_2014Q3.pdf,interval_only,,,,,30.09.2014,"≤1 year ≤ 3
+years ≤1 year
+≤25% ≤ 3 years
+≤ 50% 21,0% 36,8%"
+latvia_debt_2014Q3.pdf,valid,1.0,,,,,
+latvia_debt_2014Q4.pdf,interval_only,,,,,31.12.2014,"≤ 1 year ≤ 3 years ≤ 1 year
+≤ 25% ≤ 3 years
+≤ 50% 21,4% 36,4%"
+latvia_debt_2014Q4.pdf,valid,1.0,,,,,
+latvia_debt_2015Q1.pdf,interval_only,,,,,30.03.2015,"≤ 1 year ≤ 3 years ≤ 1 year
+≤ 25% ≤ 3 years
+≤ 50% 11,4% 33,2%"
+latvia_debt_2015Q1.pdf,valid,1.0,,,,,
+latvia_debt_2015Q2.pdf,not_extracted,0.0,,,,,
+latvia_debt_2015Q3.pdf,not_extracted,0.0,,,,,
+latvia_debt_2015Q4.pdf,not_extracted,0.0,,,,,
+latvia_debt_2016Q1.pdf,not_extracted,0.0,,,,,
+latvia_debt_2016Q2.pdf,valid,2.0,,,,,
+latvia_debt_2016Q3.pdf,valid,2.0,,,,,
+latvia_debt_2016Q4.pdf,valid,2.0,,,,,
+latvia_debt_2017Q1.pdf,valid,2.0,,,,,
+latvia_debt_2017Q2.pdf,valid,2.0,,,,,
+latvia_debt_2017Q3.pdf,valid,2.0,,,,,
+latvia_debt_2017Q4.pdf,valid,2.0,,,,,
+latvia_debt_2018Q1.pdf,valid,2.0,,,,,
+latvia_debt_2018Q2.pdf,valid,2.0,,,,,
+latvia_debt_2018Q3.pdf,valid,2.0,,,,,
+latvia_debt_2018Q4.pdf,valid,2.0,,,,,
+latvia_debt_2019Q1.pdf,valid,2.0,,,,,
+latvia_debt_2019Q2.pdf,valid,2.0,,,,,
+latvia_debt_2019Q3.pdf,valid,2.0,,,,,
+latvia_debt_2019Q4.pdf,valid,2.0,,,,,
+latvia_debt_2020Q1.pdf,valid,2.0,,,,,
+latvia_debt_2020Q2.pdf,valid,2.0,,,,,
+latvia_debt_2020Q3.pdf,valid,2.0,,,,,
+latvia_debt_2020Q4.pdf,valid,2.0,,,,,
+latvia_debt_2021Q1.pdf,valid,2.0,,,,,
+latvia_debt_2021Q2.pdf,valid,2.0,,,,,
+latvia_debt_2021Q3.pdf,valid,2.0,,,,,
+latvia_debt_2021Q4.pdf,valid,2.0,,,,,
+latvia_debt_2022Q1.pdf,not_extracted,0.0,,,,,
+latvia_debt_2022Q2.pdf,valid,2.0,,,,,
+latvia_debt_2022Q3.pdf,invalid_end_month_day_corrected,,31.06.2022,2022-06-30,Published table says day 31 in a 30-day month; retain the same month-end reference,,
+latvia_debt_2022Q3.pdf,valid,2.0,,,,,
+latvia_debt_2022Q4.pdf,valid,2.0,,,,,
+latvia_debt_2023M12.pdf,valid,2.0,,,,,
+latvia_debt_2024M12.pdf,valid,2.0,,,,,
+latvia_debt_2025M12.pdf,valid,2.0,,,,,
+latvia_debt_2026M01.pdf,valid,2.0,,,,,
+latvia_debt_2026M02.pdf,valid,2.0,,,,,
+latvia_debt_2026M03.pdf,valid,2.0,,,,,
+latvia_debt_2026M04.pdf,valid,2.0,,,,,
+latvia_debt_2026M05.pdf,valid,2.0,,,,,
+latvia_debt_2026M06.pdf,valid,2.0,,,,,
+latvia_debt_2026M07.pdf,valid,2.0,,,,,
+latvia_debt_2026M08.pdf,valid,2.0,,,,,
+latvia_annual_2011.pdf,not_extracted,0.0,,,,,
+latvia_annual_2012.pdf,not_extracted,0.0,,,,,
+latvia_annual_2013.pdf,valid,2.0,,,,,
+latvia_annual_2014.pdf,valid,2.0,,,,,
+latvia_annual_2015.pdf,valid,2.0,,,,,
+latvia_annual_2016.pdf,valid,2.0,,,,,
+latvia_annual_2017.pdf,valid,2.0,,,,,
+latvia_annual_2018.pdf,not_extracted,0.0,,,,,
+latvia_annual_2019.pdf,not_extracted,0.0,,,,,
+latvia_annual_2020.pdf,not_extracted,0.0,,,,,
+latvia_annual_2021.pdf,not_extracted,0.0,,,,,
+latvia_annual_2022.pdf,interval_only,,,,,31.12.2022,≤ 3 years ≤ 1 year ≤ 3 years ≤ 50% 17.40% 38.20%
+latvia_annual_2022.pdf,not_extracted,0.0,,,,,

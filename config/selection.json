@@ -1,0 +1,40 @@
+{
+  "method": "post-double-selection with quarterly HAC penalty loadings",
+  "mandatory": "source and calendar-quarter intercepts, country seasons, source-specific own MP/information slopes, current focal-state levels and information interactions, four GDP/inflation lags, macro state levels and available baseline fiscal controls",
+  "optional": "Remaining columns in the original full-model nuisance dictionary",
+  "target": "All six monetary-by-debt and monetary-by-debt-by-refinancing regressors are retained unpenalized",
+  "penalty_c": 1.1,
+  "penalty_gamma": "0.1/log(max(T,3))",
+  "penalty_iterations": 3,
+  "penalty_initial_residual": "OLS on the five highest absolute-correlation residualized predictors",
+  "penalty_loadings": "Centered Bartlett(12) covariance of scores aggregated within calendar quarter; mandatory-rank finite-sample scaling",
+  "lag_bandwidth": 12,
+  "primary_horizons": [
+    4,
+    8,
+    12
+  ],
+  "curves": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "groups": [
+    "ea",
+    "advanced",
+    "emerging"
+  ],
+  "inference": "Quarter-score HAC(12), post-selection design rank; main simultaneous family has 48 contrasts",
+  "no_outcome_based_country_deletion": true,
+  "seed": 20261018
+}

@@ -1,0 +1,18 @@
+{
+  "model": "Post-double-selection panel VARX",
+  "endogenous": [
+    "log_gdp",
+    "log_prices",
+    "log_reer"
+  ],
+  "transformation": "first differences of 100 log levels",
+  "lags": 4,
+  "shock": "original observed high-frequency monetary and information surprises",
+  "focal": "six current shock-by-debt/refinancing terms",
+  "mandatory_dynamics": "all twelve endogenous lag coefficients in every equation",
+  "optional": "original nuisance dictionary without lagged exogenous shock products",
+  "penalty": "same centered quarterly-HAC plugin PDS penalty as the LP",
+  "response": "conditional on fixed future fiscal states and zero further exogenous innovations",
+  "inference": "joint multiequation HAC(12), complex-step delta method",
+  "support": "exact common country-quarter rows for all LP benchmarks and the VARX"
+}

@@ -1,0 +1,79 @@
+sample,model,country,observations,first,last,ownership_sources,maturity_sources
+euro_area,ownership,AT,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership,BE,107,1999Q1,2025Q3,Eurostat,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership,CY,71,2008Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; QPSD_GG
+euro_area,ownership,DE,107,1999Q1,2025Q3,Eurostat,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership,EE,59,2011Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EE_MF_GG_accounts
+euro_area,ownership,ES,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership,FI,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,BIS_NA_SEC_S13_N; DeGraeveMazzolini; EurostatRMD
+euro_area,ownership,FR,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership,GR,87,2004Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; QPSD_BC
+euro_area,ownership,HR,11,2023Q1,2025Q3,Eurostat,EurostatRMD
+euro_area,ownership,IE,91,2003Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership,IT,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership,LT,43,2015Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; QPSD_GG
+euro_area,ownership,LU,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,LU_IGF_classical_bonds
+euro_area,ownership,LV,47,2014Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,LV_Treasury_CG
+euro_area,ownership,MT,71,2008Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; QPSD_GG
+euro_area,ownership,NL,107,1999Q1,2025Q3,Eurostat,BIS_NA_SEC_S13_N; DeGraeveMazzolini
+euro_area,ownership,PT,107,1999Q1,2025Q3,Eurostat,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership,SI,75,2007Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; SI_MF_budget_debt
+euro_area,ownership,SK,67,2009Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; QPSD_GG
+euro_area,ownership_refinancing,AT,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership_refinancing,BE,107,1999Q1,2025Q3,Eurostat,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership_refinancing,CY,71,2008Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; QPSD_GG
+euro_area,ownership_refinancing,DE,107,1999Q1,2025Q3,Eurostat,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership_refinancing,EE,59,2011Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EE_MF_GG_accounts
+euro_area,ownership_refinancing,ES,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership_refinancing,FI,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,BIS_NA_SEC_S13_N; DeGraeveMazzolini; EurostatRMD
+euro_area,ownership_refinancing,FR,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership_refinancing,GR,74,2007Q2,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; QPSD_BC
+euro_area,ownership_refinancing,HR,11,2023Q1,2025Q3,Eurostat,EurostatRMD
+euro_area,ownership_refinancing,IE,91,2003Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership_refinancing,IT,107,1999Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership_refinancing,LT,42,2015Q2,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; QPSD_GG
+euro_area,ownership_refinancing,LU,39,2015Q1,2025Q3,Eurostat,LU_IGF_classical_bonds
+euro_area,ownership_refinancing,LV,47,2014Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,LV_Treasury_CG
+euro_area,ownership_refinancing,MT,57,2011Q3,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; QPSD_GG
+euro_area,ownership_refinancing,NL,107,1999Q1,2025Q3,Eurostat,BIS_NA_SEC_S13_N; DeGraeveMazzolini
+euro_area,ownership_refinancing,PT,107,1999Q1,2025Q3,Eurostat,DeGraeveMazzolini; EurostatRMD
+euro_area,ownership_refinancing,SI,75,2007Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; SI_MF_budget_debt
+euro_area,ownership_refinancing,SK,67,2009Q1,2025Q3,Eurostat; IMF_AT_AM_2025v,EurostatRMD; QPSD_GG
+own_policy,ownership,AU,76,2004Q1,2022Q4,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_GG
+own_policy,ownership,BR,54,2009Q3,2022Q4,IMF_AT_EM_2025v,BR_Tesouro_DPMFi
+own_policy,ownership,CA,84,2002Q1,2022Q4,IMF_AT_AM_2025v,BIS_NA_SEC_S13_N; DeGraeveMazzolini
+own_policy,ownership,CH,56,2009Q1,2022Q4,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_GG
+own_policy,ownership,CL,52,2010Q1,2022Q4,IMF_AT_EM_2025v,CL_Hacienda_schedule
+own_policy,ownership,CN,54,2006Q4,2020Q1,IMF_AT_EM_2025v,QPSD_CG
+own_policy,ownership,GB,91,2000Q2,2022Q4,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_GG
+own_policy,ownership,HU,75,2004Q2,2022Q4,IMF_AT_EM_2025v,HU_AKK_CG
+own_policy,ownership,IL,65,2006Q3,2022Q3,IMF_AT_AM_2025v,QPSD_CG
+own_policy,ownership,IN,90,2000Q3,2022Q4,IMF_AT_EM_2025v,IN_DEA_GG_earlier; IN_DEA_GG_revised2023
+own_policy,ownership,JP,52,2010Q1,2022Q4,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_GG
+own_policy,ownership,KR,90,2000Q2,2022Q3,IMF_AT_AM_2025v,QPSD_GG
+own_policy,ownership,MX,77,2003Q4,2022Q4,IMF_AT_EM_2025v,QPSD_GG
+own_policy,ownership,NO,80,2003Q1,2022Q4,FHL; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+own_policy,ownership,NZ,83,2002Q1,2022Q3,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_CG
+own_policy,ownership,PL,73,2004Q4,2022Q4,IMF_AT_EM_2025v,PL_MF_all; PL_MF_domestic_securities
+own_policy,ownership,SE,80,2003Q1,2022Q4,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_GG
+own_policy,ownership,TH,83,2002Q1,2022Q3,IMF_AT_EM_2025v,QPSD_CG
+own_policy,ownership,US,82,2001Q4,2022Q1,IMF_AT_AM_2025v,DeGraeveMazzolini
+own_policy,ownership_refinancing,AU,76,2004Q1,2022Q4,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_GG
+own_policy,ownership_refinancing,BR,54,2009Q3,2022Q4,IMF_AT_EM_2025v,BR_Tesouro_DPMFi
+own_policy,ownership_refinancing,CA,84,2002Q1,2022Q4,IMF_AT_AM_2025v,BIS_NA_SEC_S13_N; DeGraeveMazzolini
+own_policy,ownership_refinancing,CH,56,2009Q1,2022Q4,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_GG
+own_policy,ownership_refinancing,CL,52,2010Q1,2022Q4,IMF_AT_EM_2025v,CL_Hacienda_schedule
+own_policy,ownership_refinancing,CN,41,2010Q1,2020Q1,IMF_AT_EM_2025v,QPSD_CG
+own_policy,ownership_refinancing,GB,91,2000Q2,2022Q4,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_GG
+own_policy,ownership_refinancing,HU,75,2004Q2,2022Q4,IMF_AT_EM_2025v,HU_AKK_CG
+own_policy,ownership_refinancing,IL,65,2006Q3,2022Q3,IMF_AT_AM_2025v,QPSD_CG
+own_policy,ownership_refinancing,IN,63,2007Q2,2022Q4,IMF_AT_EM_2025v,IN_DEA_GG_earlier; IN_DEA_GG_revised2023
+own_policy,ownership_refinancing,JP,52,2010Q1,2022Q4,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_GG
+own_policy,ownership_refinancing,KR,43,2012Q1,2022Q3,IMF_AT_AM_2025v,QPSD_GG
+own_policy,ownership_refinancing,MX,59,2008Q2,2022Q4,IMF_AT_EM_2025v,QPSD_GG
+own_policy,ownership_refinancing,NO,80,2003Q1,2022Q4,FHL; IMF_AT_AM_2025v,DeGraeveMazzolini; EurostatRMD
+own_policy,ownership_refinancing,NZ,83,2002Q1,2022Q3,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_CG
+own_policy,ownership_refinancing,PL,73,2004Q4,2022Q4,IMF_AT_EM_2025v,PL_MF_all; PL_MF_domestic_securities
+own_policy,ownership_refinancing,SE,80,2003Q1,2022Q4,IMF_AT_AM_2025v,DeGraeveMazzolini; QPSD_GG
+own_policy,ownership_refinancing,TH,22,2017Q2,2022Q3,IMF_AT_EM_2025v,QPSD_CG
+own_policy,ownership_refinancing,US,81,2001Q4,2021Q4,IMF_AT_AM_2025v,DeGraeveMazzolini

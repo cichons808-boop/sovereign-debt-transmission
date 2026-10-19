@@ -1,0 +1,96 @@
+source_file,date,status,frequency,numerator,denominator,published_schedule_minus_stock,relative_schedule_gap,reason
+hungary_maturity_20021231.xls,2002-12-31,valid,A,3198.79,9224.19,-1.8189894035458565e-12,-1.9719773807194523e-16,
+hungary_maturity_20030331.xls,2003-03-31,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20030630.xls,2003-06-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20030930.xls,2003-09-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20031231.xls,2003-12-31,valid,A,2962.8999999999996,10588.109999999999,0.050000000001091394,4.72227810261618e-06,
+hungary_maturity_20040331.xls,2004-03-31,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20040630.xls,2004-06-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20040930.xls,2004-09-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20041231.xls,2004-12-31,valid,A,3356.04,11592.35,0.05999999999949068,5.175827161834372e-06,
+hungary_maturity_20050331.xls,2005-03-31,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20050630.xls,2005-06-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20050930.xls,2005-09-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20051231.xls,2005-12-31,valid,A,7134.260000000001,25488.36,0.059999999997671694,2.354015715317568e-06,
+hungary_maturity_20060331.xls,2006-03-31,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20060630.xls,2006-06-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20060930.xls,2006-09-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20061231.xls,2006-12-31,valid,A,3451.55,14676.7,0.020000000000436557,1.362704150145234e-06,
+hungary_maturity_20070331.xls,2007-03-31,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20070630.xls,2007-06-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20070930.xls,2007-09-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20071231.xls,2007-12-31,valid,A,3086.02,15576.4,-1.8189894035458565e-12,-1.1677854982832083e-16,
+hungary_maturity_20080331.xls,2008-03-31,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20080630.xls,2008-06-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20080930.xls,2008-09-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20081231.xls,2008-12-31,valid,A,3708.83,18025.38,-3.637978807091713e-12,-2.0182535996976002e-16,
+hungary_maturity_20090331.xls,2009-03-31,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20090630.xls,2009-06-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20090930.xls,2009-09-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20091231.xls,2009-12-31,valid,A,3544.87,18942.94,0.010000000002037268,5.279011601175567e-07,
+hungary_maturity_20100331.xls,2010-03-31,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20100630.xls,2010-06-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20100930.xls,2010-09-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20101231.xls,2010-12-31,valid,A,4047.69,19821.0,0.0,0.0,
+hungary_maturity_20110331.xls,2011-03-31,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20110630.xls,2011-06-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20110930.xls,2011-09-30,not_used_for_one_year_share,,,,,,Only calendar-year buckets; next 12 months not point identified at an intra-year date
+hungary_maturity_20111231.xls,2011-12-31,valid,Q,4004.714478,20532.623478,0.0,0.0,
+hungary_maturity_20120331.xls,2012-03-31,valid,Q,5250.539298,20488.522231,1.0000003385357559e-06,4.8807831392676685e-11,
+hungary_maturity_20120630.xls,2012-06-30,valid,Q,4903.741129,20083.8117,-1.9999970390927047e-06,-9.958254284432993e-11,
+hungary_maturity_20120930.xls,2012-09-30,valid,Q,4968.869796,20257.471867,0.0,0.0,
+hungary_maturity_20121231.xls,2012-12-31,valid,Q,5219.675046,20368.985553,-7.275957614183426e-12,-3.5720765745802217e-16,
+hungary_maturity_20130331.xls,2013-03-31,valid,Q,5494.751234,21404.665743,-1.000003976514563e-06,-4.6718971859749584e-11,
+hungary_maturity_20130630.xls,2013-06-30,valid,Q,5497.235361,22042.582788,-2.9999973776284605e-06,-1.3610008439036744e-10,
+hungary_maturity_20130930.xls,2013-09-30,valid,Q,5822.460745999999,21955.938638,1.0000003385357559e-06,4.5545779436867996e-11,
+hungary_maturity_20131231.xls,2013-12-31,valid,Q,5992.3100030000005,21881.356774,-2.0000006770715117e-06,-9.140204136920635e-11,
+hungary_maturity_20140331.xls,2014-03-31,valid,Q,7271.9191550000005,24157.410302,1.9999970390927047e-06,8.279020863950488e-11,
+hungary_maturity_20140630.xls,2014-06-30,valid,Q,6578.950218,24681.110234,0.0,0.0,
+hungary_maturity_20140930.xls,2014-09-30,valid,Q,5756.52205691847,24325.217236298282,1.8189894035458565e-11,7.477793048571612e-16,
+hungary_maturity_20141231.xls,2014-12-31,valid,Q,4774.16304869078,23569.94458487735,2.9103830456733704e-10,1.234785697180083e-14,
+hungary_maturity_20150331.xls,2015-03-31,valid,Q,4929.45191659493,23596.254854363866,7.421476766467094e-10,3.14519266395132e-14,
+hungary_maturity_20150630.xls,2015-06-30,valid,Q,5543.30659276967,24373.628915442878,-1.1314114090055227e-09,-4.6419489396947054e-14,
+hungary_maturity_20150930.xls,2015-09-30,valid,Q,5510.5660617493095,24304.055464507892,4.69299266114831e-10,1.9309504407614852e-14,
+hungary_maturity_20151231.xls,2015-12-31,valid,Q,5233.92918443185,23943.73507346701,2.764863893389702e-10,1.154733747640549e-14,
+hungary_maturity_20160331.xls,2016-03-31,valid,Q,5901.11501786601,24840.56914106313,-6.912159733474255e-11,-2.782609244668227e-15,
+hungary_maturity_20160630.xls,2016-06-30,valid,Q,5695.81285607166,24611.13931482768,-1.6370904631912708e-10,-6.651827216324598e-15,
+hungary_maturity_20160930.xls,2016-09-30,valid,Q,5546.3977632057795,24512.55200740862,4.3291947804391384e-10,1.7661134504194798e-14,
+hungary_maturity_20161231.xls,2016-12-31,valid,Q,6189.75656095033,24687.376099961384,-1.4915713109076023e-10,-6.041838164040185e-15,
+hungary_maturity_20170331.xls,2017-03-31,valid,Q,6321.397463522399,25294.27612529395,4.220055416226387e-10,1.6683835486426063e-14,
+hungary_maturity_20170630.xls,2017-06-30,valid,Q,7020.3480604107,25703.95976132132,-3.1650415621697903e-10,-1.2313439608369081e-14,
+hungary_maturity_20170930.xls,2017-09-30,valid,Q,6821.111465047519,25976.923516026698,-2.1827872842550278e-10,-8.402793667650202e-15,
+hungary_maturity_20171231.xls,2017-12-31,valid,Q,6944.89065026252,26471.96022201551,-3.2014213502407074e-10,-1.2093631613945358e-14,
+hungary_maturity_20180331.xls,2018-03-31,valid,Q,7493.45247771941,27521.08152831148,-9.094947017729282e-11,-3.3047200591928523e-15,
+hungary_maturity_20180630.xls,2018-06-30,valid,Q,8168.778749387011,28040.59542473834,-1.9281287677586079e-10,-6.876204797197526e-15,
+hungary_maturity_20180930.xls,2018-09-30,valid,Q,7826.27971404658,28174.01515589593,4.511093720793724e-10,1.601154005147078e-14,
+hungary_maturity_20181231.xls,2018-12-31,valid,Q,7524.66681127069,28520.722636990307,3.601599019020796e-10,1.2628007588943967e-14,
+hungary_maturity_20190331.xls,2019-03-31,valid,Q,7559.205060119331,28841.592869799693,2.6921043172478676e-10,9.334104150907683e-15,
+hungary_maturity_20190630.xls,2019-06-30,valid,Q,6451.1667125739,28654.34958854769,6.366462912410498e-10,2.2218137922610492e-14,
+hungary_maturity_20190930.xls,2019-09-30,valid,Q,6160.9572298514595,28993.924426528687,6.912159733474255e-11,2.384002810999193e-15,
+hungary_maturity_20191231.xls,2019-12-31,valid,Q,6033.76963025446,29478.28373555518,1.0913936421275139e-10,3.7023649406397815e-15,
+hungary_maturity_20200331.xls,2020-03-31,valid,Q,5857.326257203371,30061.15055240952,-5.456968210637569e-10,-1.815289205622295e-14,
+hungary_maturity_20200630.xls,2020-06-30,valid,Q,5286.9967409930505,31601.73049680182,6.83940015733242e-10,2.1642486186079543e-14,
+hungary_maturity_20200930.xls,2020-09-30,valid,Q,4568.72706503714,33285.627362604035,-1.964508555829525e-10,-5.9019724472329594e-15,
+hungary_maturity_20201231.xls,2020-12-31,valid,Q,5284.480591692421,36555.49625653098,-1.1641532182693481e-10,-3.184618832965128e-15,
+hungary_maturity_20210331.xls,2021-03-31,valid,Q,4118.500963693659,37137.02247524032,-3.710738383233547e-10,-9.99201911167633e-15,
+hungary_maturity_20210630.xls,2021-06-30,valid,Q,3893.94197691476,37275.77905051746,2.6193447411060333e-10,7.026934936909579e-15,
+hungary_maturity_20210930.xls,2021-09-30,valid,Q,3908.7066404703605,39894.167276005144,1.7462298274040222e-10,4.377155726356806e-15,
+hungary_maturity_20211231.xls,2021-12-31,valid,Q,4069.4561990085804,40516.38254229043,7.275957614183426e-12,1.795806327622878e-16,
+hungary_maturity_20220331.xls,2022-03-31,valid,Q,5052.445510745874,42146.667706795,0.0,0.0,
+hungary_maturity_20220630.xls,2022-06-30,valid,Q,4446.475135011285,43890.186938498744,7.275957614183426e-12,1.6577640975598677e-16,
+hungary_maturity_20220930.xls,2022-09-30,valid,Q,4756.482445061267,44112.445258169144,0.0,0.0,
+hungary_maturity_20221231.xls,2022-12-31,valid,Q,5795.948635204482,45172.956507469076,0.0,0.0,
+hungary_maturity_20230331.xls,2023-03-31,valid,Q,5734.263957688987,47055.69736370208,0.0,0.0,
+hungary_maturity_20230630.xls,2023-06-30,valid,Q,6101.315866838531,47751.30892525279,2.1827872842550278e-11,4.5711569659207455e-16,
+hungary_maturity_20230930.xls,2023-09-30,valid,Q,5734.855302293042,49781.504183108176,7.275957614183426e-12,1.4615784985967336e-16,
+hungary_maturity_20231231.xls,2023-12-31,valid,Q,6104.967590032667,50566.34727084718,1.4551915228366852e-11,2.8777865148975096e-16,
+hungary_maturity_20240331.xls,2024-03-31,valid,Q,6089.905155660508,53686.84731216925,2.1827872842550278e-11,4.06577661668774e-16,
+hungary_maturity_20240630.xls,2024-06-30,valid,Q,6777.962678696344,54717.15318073374,7.275957614183426e-12,1.3297397966137861e-16,
+hungary_maturity_20240930.xls,2024-09-30,valid,Q,6691.5084271439255,55587.04298927369,-7.275957614183426e-12,-1.308930503028813e-16,
+hungary_maturity_20241231.xls,2024-12-31,valid,Q,7715.946900088962,55259.40203638089,-3.799720000002708,-6.876151134427953e-05,
+hungary_maturity_20250331.xls,2025-03-31,valid,Q,7441.490425776111,57537.80110494847,7.275957614183426e-12,1.2645526027162804e-16,
+hungary_maturity_20250630.xls,2025-06-30,valid,Q,7814.356132094717,59147.340998831554,1.4551915228366852e-11,2.460282234607017e-16,
+hungary_maturity_20250930.xls,2025-09-30,valid,Q,7903.936833831729,59543.055131873116,-2.1827872842550278e-11,-3.6658973568297675e-16,
+hungary_maturity_20251231.xls,2025-12-31,valid,Q,8535.457612319391,60385.62157207429,7.275957614183426e-12,1.204915578371431e-16,
+hungary_maturity_20260331.xls,2026-03-31,valid,Q,10004.891117703562,64348.76563502641,0.0,0.0,
+hungary_maturity_20260630.xls,2026-06-30,valid,Q,9533.005531885497,62938.131342379544,-1.4551915228366852e-11,-2.3120983921822104e-16,

@@ -1,0 +1,21 @@
+issuer,swap_maturity,floating_reference,source,source_url
+AU,1 year,Overnight AONIA,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+BR,1 year,Overnight DI,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+CA,1 year,Overnight CORRA,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+CH,1 year,Overnight SARON,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+CL,1 year,Overnight CLPCamara,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+CN,1 year,7-day repo,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+Euro area,1 year,Overnight EONIA / euro short-term rate,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+GB,1 year,3-month LIBOR,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+HU,1 year,6-month BUBOR,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+IL,1 year,3-month TELBOR,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+IN,1 year,Overnight MIBOR,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+JP,1 year,Overnight TONAR,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+KR,1 year,91-day certificate of deposit,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+MX,13 months,28-day TIIE,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+NO,1 year,3-month OIBOR,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+NZ,1 year,3-month BKBM,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+PL,1 year,Overnight WIBOR,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+SE,1 year,Overnight STIBOR,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+TH,1 year,6-month THBFIX,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml
+US,1 year,Overnight EFFR,"Bolhuis, Das and Yao (2024), Table A.1",https://www.elibrary.imf.org/abstract/journals/001/2024/224/article-A001-en.xml

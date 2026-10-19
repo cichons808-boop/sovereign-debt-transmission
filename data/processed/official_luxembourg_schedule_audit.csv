@@ -1,0 +1,16 @@
+source_file,year,status,reason,bonds,numerator,denominator
+luxembourg_account_2010.pdf,2010,no_complete_debt_stock_table,New-issuance-only tables are not outstanding stocks,,,
+luxembourg_account_2011.pdf,2011,no_complete_debt_stock_table,New-issuance-only tables are not outstanding stocks,,,
+luxembourg_account_2012.pdf,2012,no_complete_debt_stock_table,New-issuance-only tables are not outstanding stocks,,,
+luxembourg_account_2013.pdf,2013,no_complete_debt_stock_table,New-issuance-only tables are not outstanding stocks,,,
+luxembourg_account_2014.pdf,2014,valid,,5.0,0.0,6050000000.0
+luxembourg_account_2015.pdf,2015,valid,,5.0,0.0,6050000000.0
+luxembourg_account_2016.pdf,2016,valid,,5.0,0.0,6050000000.0
+luxembourg_account_2017.pdf,2017,valid,,6.0,0.0,8050000000.0
+luxembourg_account_2018.pdf,2018,valid,,6.0,0.0,8050000000.0
+luxembourg_account_2019.pdf,2019,no_complete_debt_stock_table,New-issuance-only tables are not outstanding stocks,,,
+luxembourg_account_2020.pdf,2020,valid,,9.0,0.0,11750000000.0
+luxembourg_account_2021.pdf,2021,valid,,10.0,1000000000.0,14250000000.0
+luxembourg_account_2022.pdf,2022,valid,,11.0,2000000000.0,15750000000.0
+luxembourg_account_2023.pdf,2023,valid,,12.0,0.0,16750000000.0
+luxembourg_account_2024.pdf,2024,valid,,14.0,1500000000.0,19250000000.0

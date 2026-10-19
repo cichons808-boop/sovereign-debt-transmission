@@ -1,0 +1,18 @@
+country,gdp_series,gdp_kind,gdp_first,gdp_last,price_series,price_kind,price_first,price_last,gdp_transformation
+AU,NAEXKP01AUQ657S,real_gdp_growth,1995Q1,2026Q2,AUSCPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+BR,NAEXKP01BRQ657S,real_gdp_growth,1996Q2,2026Q2,BRACPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+CA,NAEXKP01CAQ657S,real_gdp_growth,1995Q1,2026Q2,CANCPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+CH,NAEXKP01CHQ657S,real_gdp_growth,1995Q1,2026Q2,CHECPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+CL,NAEXKP01CLQ657S,real_gdp_growth,1996Q2,2026Q2,CHLCPIALLQINMEI,CPI,1995Q1,2023Q4,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+GB,NAEXKP01GBQ657S,real_gdp_growth,1995Q1,2026Q2,GBRCPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+HU,NAEXKP01HUQ657S,real_gdp_growth,1995Q2,2026Q2,HUNCPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+IL,NAEXKP01ILQ657S,real_gdp_growth,1995Q2,2026Q2,ISRCPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+IN,NAEXKP01INQ657S,real_gdp_growth,2004Q3,2026Q2,INDCPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+JP,NAEXKP01JPQ657S,real_gdp_growth,1995Q1,2026Q2,JPNCPIALLQINMEI,CPI,1995Q1,2021Q2,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+KR,NAEXKP01KRQ657S,real_gdp_growth,1995Q1,2026Q2,CPALTT01KRQ657N,CPI_growth,1995Q1,2024Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+MX,NAEXKP01MXQ657S,real_gdp_growth,1995Q1,2026Q2,MEXCPIALLQINMEI,CPI,1995Q1,2024Q2,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+NO,NAEXKP01NOQ657S,real_gdp_growth,1995Q1,2026Q2,NORCPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+NZ,NAEXKP01NZQ657S,real_gdp_growth,1995Q1,2026Q2,NZLCPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+PL,NAEXKP01PLQ657S,real_gdp_growth,1995Q2,2026Q2,POLCPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+SE,NAEXKP01SEQ657S,real_gdp_growth,1995Q1,2026Q2,SWECPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences
+US,NAEXKP01USQ657S,real_gdp_growth,1995Q1,2026Q2,USACPIALLQINMEI,CPI,1995Q1,2025Q1,100*cumsum(log(1+qoq_growth/100)); arbitrary base cancels in LP differences

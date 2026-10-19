@@ -1,0 +1,12 @@
+{
+  "question": "Do debt denomination and external-balance conditions account for the early AE-EM price-interaction difference?",
+  "samples": ["advanced", "emerging"],
+  "outcome": "log_prices",
+  "horizons": [1, 2, 4],
+  "additional_unpenalized_terms": ["monetary surprise x lagged FX-denominated government-bond share / 0.1", "monetary surprise x lagged current-account deficit / 5 percentage points of GDP"],
+  "hierarchy": "State levels and central-bank-information interactions are mandatory; two lags of the additional products enter the optional control dictionary.",
+  "support": "For each setting and horizon, baseline and augmented PDS models use exactly the same country-quarter observations. Missing FX shares are not replaced with zero.",
+  "reported_contrasts": ["matched baseline price refinancing interaction", "augmented price refinancing interaction", "augmented minus matched baseline interaction", "FX-share shock interaction", "current-account-deficit shock interaction", "baseline AE-minus-EM comparison", "augmented AE-minus-EM comparison"],
+  "family_size": 36,
+  "interpretation": "Exploratory conditional mechanism checks, not mediation estimates or a new primary endpoint."
+}

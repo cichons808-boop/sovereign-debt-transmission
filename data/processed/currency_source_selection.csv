@@ -1,0 +1,17 @@
+country,source,sector,valuation,first,last,years,overlap_1999_2018
+AU,BIS_C4_annual_long_term_all_markets,S13,N,1994,2025,32,20
+BR,BIS_C4_annual_long_term_all_markets,S13,N,1995,2025,31,20
+CA,BIS_C4_annual_long_term_all_markets,S13,N,1975,2025,51,20
+CH,BIS_C4_annual_long_term_all_markets,S13,N,1999,2025,27,20
+CL,BIS_C4_annual_long_term_all_markets,S13,N,2002,2025,24,17
+GB,BIS_C4_annual_long_term_all_markets,S13,N,1998,2025,28,20
+HU,BIS_C4_annual_long_term_all_markets,S13,N,1995,2025,30,20
+IL,BIS_C4_annual_long_term_all_markets,S13,N,1995,2025,31,20
+IN,BIS_C4_annual_long_term_all_markets,S13,N,1995,2025,31,20
+JP,BIS_C4_annual_long_term_all_markets,S13,N,2012,2025,14,7
+KR,BIS_C4_annual_long_term_all_markets,S13,N,2002,2025,24,17
+MX,BIS_C4_annual_long_term_all_markets,S13,N,2005,2025,21,14
+NO,BIS_C4_annual_long_term_all_markets,S13,N,2005,2025,21,14
+PL,BIS_C4_annual_long_term_all_markets,S13,N,2000,2025,24,17
+SE,BIS_C4_annual_long_term_all_markets,S13,N,1998,2025,28,20
+US,BIS_C4_annual_long_term_all_markets,S13,N,1952,2025,74,20

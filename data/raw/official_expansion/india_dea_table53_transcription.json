@@ -1,0 +1,40 @@
+{
+  "publisher": "Government of India, Ministry of Finance, Department of Economic Affairs",
+  "retrieved_date_UTC": "2026-10-18",
+  "retrieval_method": "Numeric Table 5.3 cells from the web-search service's full indexed text of the canonical official PDFs; repeated overlapping official vintages checked; direct PDF downloads returned HTTP 502.",
+  "columns": ["March_end_year", "amount_INR_crore", "percent_of_general_government_public_debt", "percent_GDP"],
+  "definition": "Short-term on residual maturity basis, consolidated central plus state/UT government, after netting intergovernmental Treasury-bill holdings and loan repayments.",
+  "vintage_caution": "The 2022-23 and 2023-24 publications substantially revise earlier ratios, including 2018-19 and 2019-20. Preserve every vintage, select latest available per observation, and mark the earlier/revised definition regime. Do not backcast or splice the numerator to another source's denominator.",
+  "tables": [
+    {
+      "vintage": "2017-18",
+      "url": "https://dea.gov.in/files/public_debt_management_documents/Status_Paper_on_Govt_Debt_for_2017_18.pdf",
+      "page": 38,
+      "rows": [[2007,124879,5.2,2.9],[2008,134498,5.2,2.7],[2009,260432,8.6,4.6],[2010,317790,8.9,4.9],[2011,277625,6.9,3.6],[2012,429678,9.0,4.9],[2013,463355,8.6,4.7],[2014,543689,8.9,4.8],[2015,576120,8.4,4.6],[2016,629744,8.0,4.6],[2017,624375,7.2,4.1],[2018,711894,7.3,4.2]]
+    },
+    {
+      "vintage": "2020-21",
+      "url": "https://dea.gov.in/files/public_debt_management_documents/Final_Status_paper_2020_21.pdf",
+      "page": 50,
+      "rows": [[2011,278401,6.8,3.6],[2012,428562,8.9,4.9],[2013,462165,8.5,4.6],[2014,542301,8.8,4.8],[2015,575018,8.3,4.6],[2016,628899,8.0,4.6],[2017,627249,7.1,4.1],[2018,729453,7.5,4.3],[2019,860401,8.0,4.6],[2020,941855,7.7,4.6],[2021,1259881,8.5,6.4]]
+    },
+    {
+      "vintage": "2021-22",
+      "url": "https://dea.gov.in/files/public_debt_management_documents/Status_Paper_on_Government_Debt_for_2021_22.pdf",
+      "page": 46,
+      "rows": [[2018,729453,7.5,4.3],[2019,860401,8.0,4.6],[2020,941855,7.7,4.6],[2021,1237217,8.3,6.2],[2022,1352717,8.0,5.8]]
+    },
+    {
+      "vintage": "2022-23",
+      "url": "https://dea.gov.in/files/public_debt_management_documents/Status%20Paper%20on%20Government%20Debt%20for%202022-23.pdf",
+      "page": 46,
+      "rows": [[2019,853080,6.4,4.5],[2020,971455,6.4,4.8],[2021,1261908,7.2,6.4],[2022,1415319,7.2,6.0],[2023,1679457,7.7,6.2]]
+    },
+    {
+      "vintage": "2023-24",
+      "url": "https://dea.gov.in/files/public_debt_management_documents/Status%20Paper%20on%20Government%20Debt%20for%20%202023-24.pdf",
+      "page": 44,
+      "rows": [[2020,971455,6.4,4.8],[2021,1261908,7.2,6.4],[2022,1412136,7.2,6.0],[2023,1708421,7.8,6.4],[2024,1704730,7.0,5.7]]
+    }
+  ]
+}
