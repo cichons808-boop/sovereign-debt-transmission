@@ -13,11 +13,6 @@ uruchom kolejno:
     python -m pip install -r requirements.txt
     python run.py all
 
-W Windows, w Wierszu polecenia, środowisko aktywuje się poleceniem
-.venv\Scripts\activate. Internet jest potrzebny przy instalacji pakietów.
-Dalsze obliczenia korzystają z dołączonych plików. Nie wymagają konta
-w serwisie danych ani instalacji LaTeX-a.
-
 Polecenie all wykonuje całą analizę: przygotowuje panele z danych źródłowych,
 estymuje modele, liczy wnioskowanie i tworzy tablice oraz wykresy. Na końcu
 sprawdza zgodność danych i obliczeń. Etapy można też uruchamiać osobno:
@@ -51,21 +46,4 @@ jednostki w docs/variables.md. Kod estymacji jest w src; kolejność wywołań
 można prześledzić w run.py. Projekcje lokalne, LASSO i VARX są zaimplementowane
 bezpośrednio, z wykorzystaniem algebry numerycznej NumPy i SciPy.
 
-Końcowy raport kontroli to results/verification.json. Szczegóły niezależnych
-porównań numerycznych zapisują się w engine_validation.json i ml_validation.json
-w tym samym katalogu.
 
-Jeśli umieszczasz pakiet na GitHubie, wgraj zawartość katalogu projektu.
-README.md zostanie wyświetlony jako opis repozytorium. Dołączony .gitignore
-pomija wyniki obliczeń, wykresy, środowisko .venv i pamięć podręczną Pythona.
-Przykładowe polecenia dla nowego, pustego repozytorium:
-
-    git init -b main
-    git add .
-    git commit -m "Add replication data and code"
-    git remote add origin ADRES_REPOZYTORIUM
-    git push -u origin main
-
-W miejsce ADRES_REPOZYTORIUM wpisz adres swojego repozytorium na GitHubie.
-Git powinien być wcześniej skonfigurowany: imię i nazwisko, adres e-mail
-oraz logowanie do GitHuba. Artykuł PDF jest osobnym plikiem.
