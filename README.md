@@ -4,6 +4,8 @@ Szymon Cichoń · University of Economics in Katowice
 
 Data and estimation code accompanying the article. The question is whether monetary transmission depends on who holds public debt, particularly when a larger share of principal is due for refinancing. The ownership comparison reallocates claims from foreign investors to resident holders outside the central bank, at a given debt ratio and central-bank position.
 
+An independent [monetary/fiscal data lake](docs/data_lake/README.md) expands the source coverage for subsequent research. It has its own environment, provider catalogs, immutable originals, native-frequency Parquet observations, provenance, coverage reports and resumable download queue. It does not change the article's frozen data or estimation commands.
+
 The quarterly analysis covers nineteen euro-area countries, eleven advanced economies with their own monetary policy and eight emerging economies. It uses published monetary and information surprises from Bolhuis–Das–Yao and Jarociński–Karadi, together with creditor stocks, repayment schedules and macroeconomic series. The clearest finding is an early positive price interaction in advanced own-policy economies. Output estimates vary more across propagation models; the other monetary settings and the fiscal and exchange-rate extensions give a less uniform picture.
 
 ## Reproducing the results

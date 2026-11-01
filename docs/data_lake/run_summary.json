@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-11-01T23:51:56+00:00",
+  "current_dataset_count": 35,
+  "current_rows": 43811953,
+  "current_nonmissing_observations": 42855146,
+  "country_count_with_data": 217,
+  "immutable_downloads": 546,
+  "bytes_on_disk": 1416883721,
+  "failed_jobs": 1,
+  "notes": [
+    "Counts exclude historical retrievals of the same request.",
+    "A country is counted only when at least one value is observed.",
+    "Series from different providers retain distinct identities and may overlap.",
+    "Retrieval time is not a historical publication date.",
+    "Missing units and unknown release dates require resolution before research use."
+  ],
+  "verified_frozen_article_files": 404,
+  "frozen_article_checksum_mismatches": 0,
+  "offline_tests_passed": 20,
+  "verification": {
+    "verified_at": "2026-11-01T23:51:47+00:00",
+    "checked_files": 634,
+    "checked_partitions": 88,
+    "raw_hashes_recomputed": true,
+    "catalog_integrity": "ok",
+    "errors": []
+  },
+  "event_coverage": {
+    "FRBSF_USMPD_last": "2026-09-16",
+    "ECB_EA_MPD_last": "2025-10-30",
+    "BDY_author_file_last": "2022-12-20"
+  },
+  "bdy_comparison": {
+    "source": "Bolhuis-Das-Yao",
+    "frozen_events": 3545,
+    "author_events": 3545,
+    "overlap_events": 3545,
+    "new_dates": 0,
+    "frozen_last_date": "2022-12-20 00:00:00",
+    "author_last_date": "2022-12-20 00:00:00",
+    "max_absolute_revision": {
+      "mps": 0.0,
+      "orth": 0.0,
+      "orth_MP1": 0.0,
+      "orth_CBI1": 0.0
+    },
+    "finding": "The newly named author workbook does not extend the dates in the frozen project; retain actual file coverage."
+  },
+  "remote_storage": {
+    "google_drive_uploaded": false,
+    "reason": "Google Drive not connected; rclone remote not authorized",
+    "prepared": "Verified cloud-copy command and portable data checkpoints"
+  },
+  "research_readiness": {
+    "event_series_with_data": 157,
+    "event_sources": 3,
+    "refinancing": {
+      "bis_refinancing_rows": 8006,
+      "observed_shares": 2193,
+      "countries": 37,
+      "candidate_countries": 45
+    }
+  }
+}

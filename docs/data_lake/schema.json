@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "nullable": true,
+  "columns": {
+    "source": "String",
+    "dataset": "String",
+    "series_id": "String",
+    "ref_area": "String",
+    "country_iso3": "String",
+    "is_aggregate": "Boolean",
+    "indicator": "String",
+    "label": "String",
+    "frequency": "String",
+    "period": "String",
+    "period_start": "Date",
+    "period_end": "Date",
+    "value": "Float64",
+    "unit": "String",
+    "unit_multiplier": "Int16",
+    "currency": "String",
+    "obs_status": "String",
+    "is_forecast": "Boolean",
+    "is_estimate": "Boolean",
+    "publication_date": "String",
+    "dimensions": "String",
+    "attributes": "String",
+    "source_updated": "String",
+    "retrieved_at": "String",
+    "vintage_id": "String",
+    "raw_sha256": "String",
+    "source_url": "String"
+  },
+  "within_partition_key": [
+    "series_id",
+    "period"
+  ],
+  "cross_vintage_identity": [
+    "source",
+    "dataset",
+    "series_id",
+    "period",
+    "vintage_id"
+  ]
+}

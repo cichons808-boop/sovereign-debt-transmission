@@ -11,3 +11,7 @@ __pycache__/
 *.xdv
 results/
 output/
+.venv-data/
+lake/
+*.part
+.pytest_cache/
