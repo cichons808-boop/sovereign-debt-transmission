@@ -98,3 +98,11 @@ the provider supplies them. Currency unions may repeat a currency code and
 symbol across countries. These source rows are retained separately; their
 native country labels are not automatically ISO-mapped and do not change the
 Polish reporting reference area or inflate country coverage.
+
+For IMF FAS, when the response lacks an explicit unit, the reporting unit label
+comes from its archived DSD TYPE_OF_TRANSFORMATION enumeration. The native code
+stays in dimensions and the metadata path/hash stay in attributes. Explicit
+units take precedence and unknown codes remain unresolved. This is a
+dataset-specific definition, not a general assumption about transformation
+dimensions. Values and display SCALE semantics remain unchanged; Domestic
+currency does not supply a missing ISO currency code.

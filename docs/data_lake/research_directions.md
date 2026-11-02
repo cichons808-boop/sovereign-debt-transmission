@@ -86,3 +86,18 @@ NBP historical currency-country rows preserve currency-union membership as
 reported, potentially useful for auditing historical FX controls. Their sparse
 windows and source-country labels do not establish a complete historical
 regime panel; no membership dates or ISO crosswalks are inferred.
+
+## Financial access and sovereign-yield extension
+
+The resumed FAS acquisition supplies 210,427 nonmissing annual values for 193
+mapped countries over available years 2004–2025. Reporting units distinguish
+amounts, counts and ratios from the official DSD. This supports exploring
+whether banking access, deposit penetration or branch/ATM intensity moderates
+monetary transmission, subject to a common observed sample and clear source
+definitions. FAS missing cells remain missing.
+
+New Eurostat annual government finance, quarterly government debt and monthly
+long-term rates broaden the fiscal-outcome and yield-control side. Match units,
+issuer sectors and observation frequencies explicitly before building a joint
+research panel. These are coverage-backed directions; no causal estimate or
+new discovery is claimed by the acquisition itself.

@@ -88,7 +88,8 @@ class Lake:
             db.execute("INSERT OR IGNORE INTO jobs(id,spec,source,dataset,priority,state,updated_at) VALUES(?,?,?,?,?,'archived',?)",
                        (job.id, compact(asdict(job)), job.source, job.dataset, job.priority, utcnow()))
 
-    def claim(self, sources: list[str] | None = None, retry: bool = False) -> Job | None:
+    def claim(self, sources: list[str] | None = None, retry: bool = False,
+              datasets: list[str] | None = None) -> Job | None:
         with self.db() as db:
             db.execute("BEGIN IMMEDIATE")
             states = "('pending','failed')" if retry else "('pending')"
@@ -96,6 +97,8 @@ class Lake:
             args: list = []
             if sources:
                 sql += " AND source IN (" + ",".join("?" for _ in sources) + ")"; args += sources
+            if datasets:
+                sql += " AND dataset IN (" + ",".join("?" for _ in datasets) + ")"; args += datasets
             row = db.execute(sql + " ORDER BY priority,id LIMIT 1", args).fetchone()
             if not row:
                 return None

@@ -36,7 +36,7 @@ def run(lake, dl, args):
             with guard:
                 if time.monotonic() - started >= args.hours * 3600 or (args.max_jobs and counter >= args.max_jobs):
                     return
-                job = lake.claim(args.sources, args.retry_failed)
+                job = lake.claim(args.sources, args.retry_failed, args.datasets)
                 if not job: return
                 counter += 1
             try:
@@ -84,6 +84,7 @@ def main(argv=None):
     r.add_argument("--hours", type=float, default=6)
     r.add_argument("--max-jobs", type=int, default=0)
     r.add_argument("--sources", nargs="+")
+    r.add_argument("--datasets", nargs="+", help="Exact dataset IDs within the selected sources; other queue entries stay unchanged")
     r.add_argument("--retry-failed", action="store_true")
     r.add_argument("--refresh", action="store_true", help="Revalidate claimed requests; existing done jobs remain done")
     sub.add_parser("status")

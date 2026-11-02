@@ -295,3 +295,27 @@ collapsing the source rows; no continuity of the incomplete date windows is
 assumed. All 45 tests pass. New EDP tables cover 27 countries, 1995–2025, and
 monthly unemployment covers 36, 1983–September 2026. See
 `live_acquisition_20261102T0700.json` for the complete current coverage and checks.
+
+### Resumed acquisition and exact dataset selection
+
+`run --sources IMF --datasets FAS FD --workers 1 --max-jobs 2 --hours 0.15`
+selects exact dataset IDs within those sources. It leaves other queue states,
+attempts and priorities unchanged. The original source-only invocation remains
+available. A new regression test checks source/dataset intersection and
+unmodified unrelated entries.
+
+The resumed 2026-11-02 batch added 2,247,812 rows and 2,082,789 nonmissing values
+from NBP, IMF FAS and Eurostat annual government finance, quarterly debt and
+long-term interest rates. Current physical coverage is 51,900,559 rows,
+49,130,394 nonmissing values, 52 datasets and
+219 countries/territories; the dictionary has 1,281,764 series.
+All 47 tests and all 404 original-file hashes pass. Full evidence is in
+`live_acquisition_20261102T1130Z.json`.
+
+FAS unit labels are resolved from the actual IMF.STA/FAS/8.0.0 DSD's
+TYPE_OF_TRANSFORMATION codes, preserving their native dimension and the
+metadata hash in each affected observation. Explicit native units take
+precedence; unknown codes stay unresolved. Domestic currency, Number, Percent
+of GDP and per-population/area units remain separate. No SCALE conversion or
+ISO currency inference is applied. This fallback is specific to FAS; other
+datasets' transformation dimensions are not automatically treated as units.

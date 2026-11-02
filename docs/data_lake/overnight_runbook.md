@@ -56,3 +56,8 @@ without a whole-lake in-memory unique. Run it after the bounded acquisition
 finishes for a stable selected-partition report. Historical NBP B responses
 require native currency-country and symbol fields; never resolve their repeated
 currency codes by discarding rows. The incomplete NBP windows remain pending.
+
+For a concrete bounded family, use `run --sources IMF --datasets FAS FD` or
+`run --sources EUROSTAT --datasets gov_10a_main gov_10q_ggdebt irt_lt_mcby_m`.
+Source and dataset filters intersect; other entries are not reset or
+reprioritized. Check actual claimable entries and their attempt limits first.

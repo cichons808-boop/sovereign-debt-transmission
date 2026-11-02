@@ -329,6 +329,17 @@ def sdmx_xml(job: Job, raw: dict, path: Path, lake: Lake):
     labels = job.options.get("indicator_labels", {})
     label_file = lake.root / "metadata" / f"imf_{job.dataset}_indicators.json"
     if label_file.exists(): labels = json.loads(label_file.read_text())
+    unit_codes = {}; unit_metadata = None
+    if job.source == "IMF" and job.dataset == "FAS":
+        # FAS encodes reporting units/denominators in this dimension. Other
+        # datasets' transformation dimensions are not assumed to be units.
+        structure_file = lake.root / "metadata/imf_FAS_structure.json"
+        if structure_file.exists():
+            structure = json.loads(structure_file.read_text())
+            unit_codes = structure.get("codes", {}).get("TYPE_OF_TRANSFORMATION", {})
+            unit_metadata = {"path":str(structure_file.relative_to(lake.root)),
+                             "sha256":hashlib.sha256(structure_file.read_bytes()).hexdigest(),
+                             "raw_dsd_object":structure.get("raw_metadata_object")}
     series = {}; dataset = {}; rows = []; found = False; seen_dataset=False
     for event, elem in ET.iterparse(path, events=("start", "end")):
         tag = elem.tag.rsplit("}", 1)[-1]
@@ -352,9 +363,15 @@ def sdmx_xml(job: Job, raw: dict, path: Path, lake: Lake):
             status = merged.get("OBS_STATUS", "")
             attrs = {k: v for k, v in merged.items() if k not in dimnames | {"OBS_VALUE", "TIME_PERIOD"}}
             attrs["scale_semantics"] = "SCALE is display scaling; OBS_VALUE retained in actual API units"
+            unit = merged.get("UNIT_MEASURE", merged.get("UNIT", detail.get("unit"))) or reported_unit(detail.get("label", ""))
+            native_unit_code = dims.get("TYPE_OF_TRANSFORMATION")
+            if not unit and native_unit_code in unit_codes:
+                unit = unit_codes[native_unit_code].get("label")
+                if unit:
+                    attrs["unit_provenance"] = {**unit_metadata, "dimension":"TYPE_OF_TRANSFORMATION", "code":native_unit_code}
             rows.append(observation(job, raw, period=period, value=obs.get("OBS_VALUE"), dims=dims,
                 indicator=indicator, label=merged.get("SERIES_NAME", detail.get("label", "")),
-                ref_area=area, unit=merged.get("UNIT_MEASURE", merged.get("UNIT", detail.get("unit"))) or reported_unit(detail.get("label", "")),
+                ref_area=area, unit=unit,
                 multiplier=0, currency=merged.get("PRIMARY_DOMESTIC_CURRENCY", merged.get("CURRENCY")),
                 status=status, forecast=True if status == "F" else None, estimate=estimate,
                 publication_date=dataset.get("PUBLICATION_DATE"), attrs=attrs,
