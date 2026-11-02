@@ -72,6 +72,40 @@ def worldbank(job: Job, raw: dict, path: Path, lake: Lake):
     yield frame(rows)
 
 
+def worldbank_advanced(job: Job, raw: dict, path: Path, lake: Lake):
+    from .wb_advanced import data_records, later_pages, page_info
+    obj = json_body(path)
+    countries_path = lake.root / "metadata/worldbank_countries.json"
+    countries = json.loads(countries_path.read_text()) if countries_path.exists() else {}
+    indicators_path = lake.root / "metadata/worldbank_indicators_6.json"
+    indicators = json.loads(indicators_path.read_text()) if indicators_path.exists() else {}
+    # Validate the envelope before scheduling any of its follow-up pages.
+    iterator = iter(data_records(obj)); first = next(iterator, None)
+    lake.add([replace(job, url=url) for url in later_pages(job.url, obj)])
+    page, _ = page_info(obj); rows = []
+    from itertools import chain
+    for record in chain([] if first is None else [first], iterator):
+        native = record["dimensions"]; indicator = native["series"]
+        detail = indicators.get(indicator, {})
+        label = detail.get("name") or record["labels"].get("series", "")
+        dims = {"REF_AREA":native["country"], "COUNTERPART_AREA":native["counterpart_area"],
+                "INDICATOR":indicator, "WB_SOURCE":"6", "FREQ":"A"}
+        dims.update({"WB_"+k.upper():v for k,v in native.items()
+                     if k not in {"country","counterpart_area","series","time"}})
+        rows.append(observation(job, raw, period=record["period"], value=record["value"], dims=dims,
+            indicator=indicator, label=label, ref_area=native["country"],
+            unit=detail.get("unit") or reported_unit(label), multiplier=0, countries=countries,
+            attrs={**record["attributes"], "native_labels":record["labels"], "native_time_code":native["time"],
+                   "provider_page":page, "provider_total":obj.get("total"),
+                   "unit_note":"Reporting/valuation unit is not the currency denomination of the debt",
+                   "scope_note":"Keep the native external-debt/PPG portfolio; not automatically general government"},
+            source_updated=obj.get("lastupdated")))
+        if len(rows) >= 5000:
+            yield frame(rows); rows = []
+    if rows:
+        yield frame(rows)
+
+
 def eurostat_json(job: Job, raw: dict, path: Path, lake: Lake):
     obj = json_body(path)
     if "error" in obj: raise ValueError(compact(obj["error"]))
@@ -333,7 +367,7 @@ def sdmx_xml(job: Job, raw: dict, path: Path, lake: Lake):
     if not found and not seen_dataset: raise ValueError("No structure-specific SDMX dataset found")
 
 
-ADAPTERS = {"worldbank": worldbank, "sdmx_csv": sdmx_csv, "eurostat_tsv": eurostat_tsv,
+ADAPTERS = {"worldbank": worldbank, "worldbank_advanced":worldbank_advanced, "sdmx_csv": sdmx_csv, "eurostat_tsv": eurostat_tsv,
             "eurostat_json": eurostat_json, "fred_csv": fred_csv, "sdmx_xml": sdmx_xml,"bis_wide":bis_wide}
 
 

@@ -71,6 +71,13 @@ identify the joint creditor-by-remaining-maturity allocation.
 
 ## Validation boundaries
 
+IDS advanced queries retain the creditor's native `counterpart-area` code in
+the series identity. Creditor codes such as `001` are strings in a separate
+namespace from debtor ISO codes. Historical creditors and multilateral
+institutions are not automatically mapped to present-day countries. Reference
+dictionary coverage is reported separately from observed financial coverage.
+Source USD valuation units do not identify the debt's currency denomination.
+
 The test suite covers native periods, aggregate/country mapping, preservation
 of zeros and missingness, labeled BIS codes, distinct ECB provider dimensions,
 World Bank pagination, IMF actual-unit/display-scale separation, estimate

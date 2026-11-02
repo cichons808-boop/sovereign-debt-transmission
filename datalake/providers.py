@@ -131,6 +131,50 @@ def plan_worldbank(lake: Lake, dl: Downloader, profile="broad", source_ids=None)
     return jobs
 
 
+def plan_worldbank_creditors(lake: Lake, dl: Downloader, profile="broad") -> list[Job]:
+    """Resolve both native location namespaces before constructing IDS requests."""
+    from .wb_advanced import metadata_codes, later_pages, select_indicators
+    # Reuse ordinary discovery for countries, sources and the complete indicator
+    # dictionary, without adding its ordinary aggregate-creditor data requests.
+    plan_worldbank(lake, dl, profile="smoke", source_ids=["6"])
+    locations = {}
+    for concept in ["country", "counterpart-area"]:
+        first = f"https://api.worldbank.org/v2/sources/6/{concept}?format=json&per_page=20000&page=1"
+        path = metadata(lake, dl, "WB_META", "IDS_"+concept+"_catalog", first)
+        obj = json_body(path); codes = metadata_codes(obj, concept)
+        for index, url in enumerate(later_pages(first, obj), 2):
+            path = metadata(lake, dl, "WB_META", "IDS_"+concept+f"_catalog_page_{index}", url)
+            more = metadata_codes(json_body(path), concept)
+            for key, value in more.items():
+                if key in codes and codes[key] != value:
+                    raise ValueError("Conflicting IDS metadata across pages")
+                codes[key] = value
+        if not codes:
+            raise ValueError(f"No IDS {concept} identifiers returned")
+        locations[concept] = codes
+    indicators = json.loads((lake.root / "metadata/worldbank_indicators_6.json").read_text())
+    selected = select_indicators(indicators, full=profile == "full")
+    if not selected:
+        raise ValueError("No selected creditor indicators in the official IDS catalog")
+    debtors = sorted(locations["country"])
+    counterpart = "all"
+    if profile == "smoke":
+        debtors = ["AGO"] if "AGO" in locations["country"] else debtors[:1]
+        counterpart = "701" if "701" in locations["counterpart-area"] else sorted(locations["counterpart-area"])[0]
+        selected = selected[:1]
+    lake.atomic_json("metadata/ids_creditor_catalog.json", {
+        "source_id":"6", "native_namespaces":locations, "selected_indicators":selected,
+        "status":"Provider metadata discovery; successful country/value coverage is measured after normalization",
+        "reference_snapshot_note":"The separately archived Git tutorial CSV is not substituted for this live API catalog"})
+    jobs = []
+    for debtor in debtors:
+        for indicator in selected:
+            url = f"https://api.worldbank.org/v2/sources/6/country/{debtor}/series/{indicator}/counterpart-area/{counterpart}/time/all?format=json&per_page=20000&page=1"
+            jobs.append(Job("WORLDBANK", "IDS_CREDITOR", "worldbank_advanced", url,
+                            {"source_id":"6", "native_dimensions":["country","series","counterpart-area","time"]}, 16))
+    return jobs
+
+
 def plan_bis(lake: Lake, dl: Downloader, profile="broad") -> list[Job]:
     path = metadata(lake, dl, "BIS_META", "bulk_catalog", "https://data.bis.org/bulkdownload", True)
     available = set(re.findall(r"/static/bulk/([^\"<> ]+)_csv_flat\.zip", path.read_text()))
@@ -308,5 +352,5 @@ def plan_fred(lake: Lake, dl: Downloader, profile="broad") -> list[Job]:
                                     "multiplier": FRED_SERIES[code][2]}}}, 27) for code in codes]
 
 
-PLANNERS = {"BIS": plan_bis, "WORLDBANK": plan_worldbank, "EUROSTAT": plan_eurostat,
+PLANNERS = {"BIS": plan_bis, "WORLDBANK": plan_worldbank, "WB_CREDITOR":plan_worldbank_creditors, "EUROSTAT": plan_eurostat,
             "ECB": plan_ecb, "IMF": plan_imf, "FRED": plan_fred}

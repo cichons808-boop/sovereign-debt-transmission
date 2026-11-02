@@ -194,6 +194,23 @@ Readback byte hashes are required if the connector omits provider checksums.
 
 ### Additional catalogued sources
 
+The `WB_CREDITOR` planner and `worldbank_advanced` adapter implement IDS's
+four-dimensional route. Plan a smoke request first:
+`plan --providers WB_CREDITOR --profile smoke`. Both debtor and creditor
+identifiers must come from separately retrieved source-6 API catalogs. The
+official tutorial CSV is retained as an explicitly historical reference
+snapshot: 328 locations, 135 debtor codes, 305 creditor entities and 112 paired
+native identifiers. These are dictionary counts, not countries with observed
+financial data. Original Windows-1252 bytes and leading zeroes are preserved.
+No name-based mapping of historic entities or multilateral agencies is made.
+
+The parser preserves the creditor in series identity, unknown dimensions,
+zeros and missing values. USD reporting units do not establish debt currency
+denomination. World-total rows can overlap ordinary IDS totals and are useful
+for reconciliation, not independent economic observations. The new parser has
+offline tests; live API-to-Parquet validation is still pending because public
+provider access and dataframe dependency installation timed out.
+
 `plan --providers CATALOG_EXTENSIONS` queues the reviewed official links in
 `source_extensions_20261102.json`: six IDS releases and five DG ECFIN fiscal
 governance files. These are raw archival requests, not normalized coverage.
