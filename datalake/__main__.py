@@ -80,7 +80,7 @@ def main(argv=None):
     plan.add_argument("--wb-sources", nargs="+", help="Optional exact World Bank source IDs")
     plan.add_argument("--imf-flows", nargs="+", help="Optional exact IMF flow IDs")
     r = sub.add_parser("run")
-    r.add_argument("--workers", type=int, choices=range(1,9), default=3)
+    r.add_argument("--workers", type=int, choices=range(1,9), default=1)
     r.add_argument("--hours", type=float, default=6)
     r.add_argument("--max-jobs", type=int, default=0)
     r.add_argument("--sources", nargs="+")

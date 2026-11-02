@@ -83,7 +83,7 @@ class Downloader:
                                     self.lake.check_space(self.max_gb, self.min_free_gb, len(chunk))
                                 checked = size
                             sha.update(chunk); f.write(chunk)
-                    if size == 0:
+                    if size == 0 and response.status_code != 204:
                         raise ValueError("Empty response body")
                     hexdigest = sha.hexdigest()
                     target = self.lake.root / "raw/objects" / hexdigest[:2] / hexdigest

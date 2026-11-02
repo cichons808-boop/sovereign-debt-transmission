@@ -21,6 +21,10 @@ restarting the entire acquisition.
    retain at least 8 GiB free on a small environment. Completed partitions are
    atomic and raw responses are content-addressed. Large active jobs can finish
    after a batch's admission deadline.
+   On the initial 8 GiB memory environment, prefer one worker and batches such
+   as `run --workers 1 --hours 0.5 --max-jobs 30`. Check the actual filesystem
+   runner lock and committed ledger after an interruption; a stale process
+   identifier is not proof of a live acquisition process.
 5. Generate `report`, `build-panels`, `research-readiness` and `verify --hashes`.
    Update `run_summary.json` with measured counts and limitations. A failed
    provider or missing unit must not be described as integrated coverage.

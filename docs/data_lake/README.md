@@ -19,7 +19,7 @@ python3 -m venv .venv-data
 .venv-data/bin/python -m datalake --root /data/monetary-fiscal plan --profile broad
 .venv-data/bin/python -m datalake --root /data/monetary-fiscal import-existing --repository .
 .venv-data/bin/python -u -m datalake --root /data/monetary-fiscal \
-  --max-gb 40 --min-free-gb 8 run --workers 3 --hours 7
+  --max-gb 40 --min-free-gb 8 run --workers 1 --hours 7
 
 .venv-data/bin/python -m datalake --root /data/monetary-fiscal report
 .venv-data/bin/python -m datalake --root /data/monetary-fiscal build-panels

@@ -16,7 +16,7 @@
   ],
   "verified_frozen_article_files": 404,
   "frozen_article_checksum_mismatches": 0,
-  "offline_tests_passed": 20,
+  "offline_tests_passed": 21,
   "verification": {
     "verified_at": "2026-11-02T00:20:36+00:00",
     "checked_files": 779,
@@ -88,5 +88,12 @@
     "partition_count": 147,
     "observation_rows": 47822217,
     "filename": "monetary_fiscal_lake_checkpoint_20261102.tar.gz"
+  },
+  "runtime_policy": {
+    "default_workers": 1,
+    "sdmx_xml_batch_rows": 5000,
+    "initial_memory_limit_gib": 8,
+    "recommended_continuation": "bounded batches with durable checkpoints",
+    "valid_empty_sdmx_and_http204": "explicit empty state"
   }
 }

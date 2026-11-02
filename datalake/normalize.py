@@ -295,10 +295,11 @@ def sdmx_xml(job: Job, raw: dict, path: Path, lake: Lake):
     labels = job.options.get("indicator_labels", {})
     label_file = lake.root / "metadata" / f"imf_{job.dataset}_indicators.json"
     if label_file.exists(): labels = json.loads(label_file.read_text())
-    series = {}; dataset = {}; rows = []; found = False
+    series = {}; dataset = {}; rows = []; found = False; seen_dataset=False
     for event, elem in ET.iterparse(path, events=("start", "end")):
         tag = elem.tag.rsplit("}", 1)[-1]
         if event == "start" and tag == "DataSet":
+            seen_dataset=True
             dataset = {k: v for k, v in elem.attrib.items() if "}" not in k}
         elif event == "start" and tag == "Series":
             series = dict(elem.attrib)
@@ -324,12 +325,12 @@ def sdmx_xml(job: Job, raw: dict, path: Path, lake: Lake):
                 status=status, forecast=True if status == "F" else None, estimate=estimate,
                 publication_date=dataset.get("PUBLICATION_DATE"), attrs=attrs,
                 source_updated=dataset.get("UPDATE_DATE")))
-            if len(rows) >= 25000: yield frame(rows); rows = []
+            if len(rows) >= 5000: yield frame(rows); rows = []
             elem.clear()
         elif event == "end" and tag == "Series":
             elem.clear()
     if rows: yield frame(rows)
-    if not found: raise ValueError("No structure-specific SDMX observations found")
+    if not found and not seen_dataset: raise ValueError("No structure-specific SDMX dataset found")
 
 
 ADAPTERS = {"worldbank": worldbank, "sdmx_csv": sdmx_csv, "eurostat_tsv": eurostat_tsv,
@@ -337,6 +338,8 @@ ADAPTERS = {"worldbank": worldbank, "sdmx_csv": sdmx_csv, "eurostat_tsv": eurost
 
 
 def normalize(lake: Lake, job: Job, raw: dict, *, max_gb=40.0, min_free_gb=8.0) -> dict:
+    if raw.get("http_status")==204:
+        return {"rows":0,"empty":True}
     if job.adapter == "raw":
         return {"rows": 0, "raw_only": True}
     if job.adapter not in ADAPTERS: raise ValueError(f"No adapter for {job.adapter}")

@@ -159,6 +159,16 @@ def test_average_and_end_of_period_are_distinct_series(tmp_path):
     assert {json.loads(x)["COLLECTION"] for x in d["dimensions"]}=={"A","E"}
 
 
+def test_valid_empty_sdmx_dataset_differs_from_an_invalid_response(tmp_path):
+    l=Lake(tmp_path/"lake");p=tmp_path/"empty.xml"
+    job=Job("IMF","test","sdmx_xml","https://api.imf.org",{"dimensions":["COUNTRY","INDICATOR","FREQUENCY"]})
+    p.write_text('<StructureSpecificData><DataSet/></StructureSpecificData>')
+    assert list(sdmx_xml(job,raw(),p,l))==[]
+    p.write_text('<Error>temporarily unavailable</Error>')
+    with pytest.raises(ValueError,match="dataset"):
+        list(sdmx_xml(job,raw(),p,l))
+
+
 def test_observed_refinancing_share_does_not_fill_a_missing_component(tmp_path,monkeypatch):
     from datalake.model import observation,frame
     import datalake.research as research
