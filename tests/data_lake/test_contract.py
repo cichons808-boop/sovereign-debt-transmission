@@ -127,11 +127,12 @@ def test_metadata_only_sdmx_rows_and_nan_are_not_observed_values(tmp_path):
 
 
 def test_snapshot_contains_new_downloads_and_excludes_frozen_git_files(tmp_path):
+    import hashlib
     import tarfile
     from datalake.snapshot import snapshot
     lake=Lake(tmp_path/"lake")
     source=lake.root/"raw/objects/new";source.write_text("new observations")
-    row={"snapshot_id":"new","job_id":"j","url":"https://api.worldbank.org","sha256":"test","bytes":16,
+    row={"snapshot_id":"new","job_id":"j","url":"https://api.worldbank.org","sha256":hashlib.sha256(source.read_bytes()).hexdigest(),"bytes":source.stat().st_size,
          "retrieved_at":"2026-11-01","source_last_modified":None,"etag":None,"content_type":"text/plain",
          "path":"raw/objects/new","http_status":200}
     lake.register_download(row)

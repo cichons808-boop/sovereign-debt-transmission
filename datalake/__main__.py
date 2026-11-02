@@ -90,6 +90,7 @@ def main(argv=None):
     sub.add_parser("stop", help="Stop the current runner after active jobs finish")
     sub.add_parser("report")
     sub.add_parser("build-panels")
+    sub.add_parser("build-creditor-panel")
     sub.add_parser("research-readiness",help="Build observed refinancing ratios and monetary-event coverage")
     sync=sub.add_parser("cloud-copy",help="Copy to an already authorized Google Drive/S3 rclone remote and verify")
     sync.add_argument("--remote",required=True)
@@ -125,6 +126,9 @@ def main(argv=None):
     elif a.command == "report":
         from .research import report
         print(json.dumps(report(lake), indent=2))
+    elif a.command == "build-creditor-panel":
+        from .creditor_panel import build_creditor_panel
+        print(json.dumps(build_creditor_panel(lake), indent=2))
     elif a.command == "build-panels":
         from .research import build_panels
         print(json.dumps(build_panels(lake), indent=2))

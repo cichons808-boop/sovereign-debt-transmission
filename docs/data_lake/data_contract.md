@@ -85,3 +85,10 @@ flags, duplicate rejection and concurrent queue integrity. Live runs additionall
 verify original/Parquet SHA256, schema and row counts. Scientific comparability,
 release timing and causal identification still require a research-specific
 sample definition.
+
+The IDS creditor gold view retains nonmissing provider entries, including
+explicit zeroes and future-dated values. `after_retrieval_year` compares annual
+period to retrieval year; it is neither a forecast classification nor proof of
+actual realization. Native `is_forecast`/`is_estimate` fields are preserved.
+Only WLD is identified as the world total by its native code; no other creditor
+aggregate is guessed or summed. Missing cells remain available in silver.

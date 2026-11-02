@@ -216,5 +216,81 @@
     "stdlib_tests_passed": 19,
     "live_api_to_parquet_validation": "pending: provider network and dataframe packages unavailable",
     "new_raw_reference_objects": 1
+  },
+  "live_acquisition_20261102T0600": {
+    "generated_at": "2026-11-02T05:10:43+00:00",
+    "scope": "Physical lake, without optional legacy bridge; no global economic deduplication",
+    "new_partitions": [
+      {
+        "dataset": "IDS_CREDITOR",
+        "partitions": 31,
+        "rows": 574623,
+        "nonmissing": 133575
+      },
+      {
+        "dataset": "QPSD",
+        "partitions": 11,
+        "rows": 209640,
+        "nonmissing": 24934
+      }
+    ],
+    "catalog": {
+      "partitions": 189,
+      "rows": 48606480,
+      "nonmissing": 46001338
+    },
+    "downloads": 257,
+    "new_downloads": 44,
+    "new_rows": 784263,
+    "new_nonmissing_values": 158509,
+    "live_ids_catalog": {
+      "debtor_entities": 134,
+      "creditor_entities": 304
+    },
+    "ids_panel": {
+      "generated_at": "2026-11-02T05:10:43+00:00",
+      "normalized_rows": 574623,
+      "missing_rows": 441048,
+      "observed_rows": 133575,
+      "debtor_entities": 28,
+      "debtor_countries_with_values": 23,
+      "native_creditor_entities_with_values": 304,
+      "indicators_with_values": [
+        "DT.DIS.BLAT.CD",
+        "DT.DOD.BLAT.CD",
+        "DT.DOD.DPPG.CD",
+        "DT.DOD.MLAT.CD",
+        "DT.INT.BLAT.CD",
+        "DT.TDS.BLAT.CD"
+      ],
+      "reported_zeroes": 103836,
+      "world_total_rows": 1629,
+      "after_retrieval_year_rows": 1085,
+      "first_period": "1970",
+      "last_period": "2032",
+      "semantics": "Nonmissing provider values, including reported zeroes and future-dated entries. These are not all realized historical observations; after_retrieval_year is a calendar flag, not a forecast classification. Native estimate/forecast fields remain unchanged. Missing source cells are retained in silver. Native creditor entities include institutions and historical entities; they are not a country count. WLD is flagged separately; other aggregate codes are not guessed. No creditor summation, interpolation, zero-filling or currency-denomination inference. Latest successful retrieval resolves overlapping requests."
+    },
+    "verification": {
+      "verified_at": "2026-11-02T05:10:02+00:00",
+      "checked_files": 446,
+      "checked_partitions": 189,
+      "raw_hashes_recomputed": true,
+      "catalog_integrity": "ok",
+      "errors": []
+    },
+    "tests": {
+      "passed": 42,
+      "scope": "All tests/data_lake tests, including 21 original contract tests and 20 stdlib tests plus new creditor-view test"
+    },
+    "original_file_checksums": {
+      "checked": 404,
+      "mismatches": 0
+    },
+    "limitations": [
+      "Full global coverage/series-dictionary report was not recomputed; previous baseline includes legacy bridge. New IDS/QPSD measurements are separate.",
+      "IDS sample is an incomplete acquisition, not a balanced panel or all 134 debtors.",
+      "Future-dated values are provider numbers, not established historical realizations.",
+      "Existing 10 failed jobs remain recorded; no mass retry."
+    ]
   }
 }

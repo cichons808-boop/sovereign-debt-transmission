@@ -253,3 +253,26 @@ vendor-derived data and author-provided research workbooks. The Bolhuis–Das–
 author page permits academic research use and requests citation. The lake
 does not download Bloomberg or other paid-vendor microdata without a separately
 authorized source and appropriate rights.
+
+### Verified live IDS creditor acquisition
+
+The provider/package connection succeeded in the 06:00 Warsaw continuation on
+2026-11-02. All 42 data-lake tests now pass, and advanced API responses have
+been normalized into checked Parquet. Current source-6 catalogs contain 134
+debtor entities and 304 creditor entities, distinct from the historical Git
+reference. The first bounded sample contains 133,575 nonmissing provider values
+for 28 native debtor entities (23 mapped countries), across six indicators.
+This is incomplete acquisition coverage, not the full IDS sample.
+
+`build-creditor-panel` writes an observed-value view with native creditor
+codes/labels, source hashes, reporting units and a separate WLD flag. Its
+103,836 explicitly reported zeroes remain zero; 441,048 missing source cells
+stay in silver. There are 1,085 nonmissing entries after the retrieval year,
+with periods extending to 2032. The calendar flag does not classify them as
+forecasts or realized history. No creditor totals or concentration measures
+are inferred from overlapping aggregate categories. See
+`live_acquisition_20261102T0600.json` for checked batch counts and limits.
+
+If the standard Polars runtime cannot load on the host, install the matching
+`polars-runtime-compat==2.1.0` in the separate data environment and verify its
+import before claiming queue jobs. The frozen article environment is untouched.
