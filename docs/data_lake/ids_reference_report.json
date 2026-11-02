@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-02T02:59:43+00:00",
+  "reference_rows": 328,
+  "debtor_identifiers": 135,
+  "creditor_identifiers": 305,
+  "paired_native_identifiers": 112,
+  "duplicate_debtor_identifiers": 0,
+  "duplicate_creditor_identifiers": 0,
+  "raw_bytes": 8254,
+  "raw_sha256": "94c0d041f7d7f8b47cbef5ab9e357f31b5663ae552e1a75fa9d90e841bab5252",
+  "git_blob_sha1_verified": true,
+  "new_normalized_observations": 0,
+  "scope": "Reference dictionary; not observed-country coverage",
+  "stdlib_tests_passed": 19,
+  "live_api_to_parquet_validation": "pending: provider network and dataframe packages unavailable",
+  "new_raw_reference_objects": 1
+}

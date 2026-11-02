@@ -1,0 +1,256 @@
+{
+  "inspected_date": "2026-11-02",
+  "status": "discovered_and_queued_not_integrated",
+  "entries": [
+    {
+      "source_page": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+      "evidence": "Link inspected in the official archive table; binary download pending.",
+      "job": {
+        "source": "WB_ARCHIVE",
+        "dataset": "IDS_RELEASE_2025_02",
+        "adapter": "raw",
+        "url": "https://thedocs.worldbank.org/en/doc/6e72b0ded996306fa01f5db7a0c38b19-0050052021/related/IDS-Feb2025update.xlsx",
+        "options": {
+          "catalog_release_label": "2025-02",
+          "release_precision": "month",
+          "release_contents_verified": false,
+          "publication_date": null,
+          "source_catalog": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+          "note": "Catalog month is not an exact publication day. Verify workbook contents and revisions before point-in-time use."
+        },
+        "priority": 28
+      }
+    },
+    {
+      "source_page": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+      "evidence": "Link inspected in the official archive table; binary download pending.",
+      "job": {
+        "source": "WB_ARCHIVE",
+        "dataset": "IDS_RELEASE_2025_12",
+        "adapter": "raw",
+        "url": "https://thedocs.worldbank.org/en/doc/6e72b0ded996306fa01f5db7a0c38b19-0050052021/related/IDS-Dec2025update.xlsx",
+        "options": {
+          "catalog_release_label": "2025-12",
+          "release_precision": "month",
+          "release_contents_verified": false,
+          "publication_date": null,
+          "source_catalog": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+          "note": "Catalog month is not an exact publication day. Verify workbook contents and revisions before point-in-time use."
+        },
+        "priority": 28
+      }
+    },
+    {
+      "source_page": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+      "evidence": "Link inspected in the official archive table; binary download pending.",
+      "job": {
+        "source": "WB_ARCHIVE",
+        "dataset": "IDS_RELEASE_2024_02",
+        "adapter": "raw",
+        "url": "https://thedocs.worldbank.org/en/doc/6e72b0ded996306fa01f5db7a0c38b19-0050052021/related/Feb2024update.xlsx",
+        "options": {
+          "catalog_release_label": "2024-02",
+          "release_precision": "month",
+          "release_contents_verified": false,
+          "publication_date": null,
+          "source_catalog": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+          "note": "Catalog month is not an exact publication day. Verify workbook contents and revisions before point-in-time use."
+        },
+        "priority": 28
+      }
+    },
+    {
+      "source_page": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+      "evidence": "Link inspected in the official archive table; binary download pending.",
+      "job": {
+        "source": "WB_ARCHIVE",
+        "dataset": "IDS_RELEASE_2024_12",
+        "adapter": "raw",
+        "url": "https://thedocs.worldbank.org/en/doc/6e72b0ded996306fa01f5db7a0c38b19-0050052021/related/IDS2024-December2024.xlsx",
+        "options": {
+          "catalog_release_label": "2024-12",
+          "release_precision": "month",
+          "release_contents_verified": false,
+          "publication_date": null,
+          "source_catalog": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+          "note": "Catalog month is not an exact publication day. Verify workbook contents and revisions before point-in-time use."
+        },
+        "priority": 28
+      }
+    },
+    {
+      "source_page": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+      "evidence": "Link inspected in the official archive table; binary download pending.",
+      "job": {
+        "source": "WB_ARCHIVE",
+        "dataset": "IDS_RELEASE_2023_12",
+        "adapter": "raw",
+        "url": "https://thedocs.worldbank.org/en/doc/6e72b0ded996306fa01f5db7a0c38b19-0050052021/related/IDS-ALLCountries.xlsx",
+        "options": {
+          "catalog_release_label": "2023-12",
+          "release_precision": "month",
+          "release_contents_verified": false,
+          "publication_date": null,
+          "source_catalog": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+          "note": "Catalog month is not an exact publication day. Verify workbook contents and revisions before point-in-time use."
+        },
+        "priority": 28
+      }
+    },
+    {
+      "source_page": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+      "evidence": "Link inspected in the official archive table; binary download pending.",
+      "job": {
+        "source": "WB_ARCHIVE",
+        "dataset": "IDS_RELEASE_2022_12",
+        "adapter": "raw",
+        "url": "https://thedocs.worldbank.org/en/doc/6e72b0ded996306fa01f5db7a0c38b19-0050052021/related/IDS-Excel-2022-12.zip",
+        "options": {
+          "catalog_release_label": "2022-12",
+          "release_precision": "month",
+          "release_contents_verified": false,
+          "publication_date": null,
+          "source_catalog": "https://www.worldbank.org/en/programs/debt-statistics/idr/products",
+          "note": "Catalog month is not an exact publication day. Verify workbook contents and revisions before point-in-time use."
+        },
+        "priority": 28
+      }
+    },
+    {
+      "source_page": "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en",
+      "evidence": "Official download link inspected; binary download pending. MTBF questionnaire returned HTTP 429 during link inspection; do not retry aggressively.",
+      "job": {
+        "source": "ECFIN",
+        "dataset": "NFR_2025_UPDATE",
+        "adapter": "raw",
+        "url": "https://economy-finance.ec.europa.eu/document/download/57a58927-0240-4bc2-8686-f2c8cb50bf19_en?filename=Numerical-Fiscal-Rules-database-2025.xlsx",
+        "options": {
+          "catalog_publication_date": "2026-03-05",
+          "release_contents_verified": false,
+          "source_catalog": "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en",
+          "note": "Keep legal institutional scope and methodology. These indicators do not by themselves establish de-facto compliance."
+        },
+        "priority": 28
+      }
+    },
+    {
+      "source_page": "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en",
+      "evidence": "Official download link inspected; binary download pending. MTBF questionnaire returned HTTP 429 during link inspection; do not retry aggressively.",
+      "job": {
+        "source": "ECFIN",
+        "dataset": "MTBF_INDEX_2025",
+        "adapter": "raw",
+        "url": "https://economy-finance.ec.europa.eu/document/download/ff5179ce-6b95-4728-8e91-c8ae4d462af0_en?filename=Medium-Term-Budgetary-Frameworks-Index-2025.xls",
+        "options": {
+          "catalog_publication_date": "2025-11-26",
+          "release_contents_verified": false,
+          "source_catalog": "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en",
+          "note": "Keep legal institutional scope and methodology. These indicators do not by themselves establish de-facto compliance."
+        },
+        "priority": 28
+      }
+    },
+    {
+      "source_page": "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en",
+      "evidence": "Official download link inspected; binary download pending. MTBF questionnaire returned HTTP 429 during link inspection; do not retry aggressively.",
+      "job": {
+        "source": "ECFIN",
+        "dataset": "MTBF_SURVEY_2025",
+        "adapter": "raw",
+        "url": "https://economy-finance.ec.europa.eu/document/download/b05aa6cc-2d41-4ad4-824e-6970f6d3209d_en?filename=MTBF-qualitative-answers-2025.xlsx",
+        "options": {
+          "catalog_publication_date": "2025-11-26",
+          "release_contents_verified": false,
+          "source_catalog": "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en",
+          "note": "Keep legal institutional scope and methodology. These indicators do not by themselves establish de-facto compliance."
+        },
+        "priority": 28
+      }
+    },
+    {
+      "source_page": "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en",
+      "evidence": "Official download link inspected; binary download pending. MTBF questionnaire returned HTTP 429 during link inspection; do not retry aggressively.",
+      "job": {
+        "source": "ECFIN",
+        "dataset": "IFI_SCOPE_2025",
+        "adapter": "raw",
+        "url": "https://economy-finance.ec.europa.eu/document/download/039af488-e7ef-41a1-86e3-7d66739b3238_en?filename=Scope-Index-of-Fiscal-Institutions-2025.xls",
+        "options": {
+          "catalog_publication_date": "2025-11-26",
+          "release_contents_verified": false,
+          "source_catalog": "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en",
+          "note": "Keep legal institutional scope and methodology. These indicators do not by themselves establish de-facto compliance."
+        },
+        "priority": 28
+      }
+    },
+    {
+      "source_page": "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en",
+      "evidence": "Official download link inspected; binary download pending. MTBF questionnaire returned HTTP 429 during link inspection; do not retry aggressively.",
+      "job": {
+        "source": "ECFIN",
+        "dataset": "IFI_SURVEY_2025",
+        "adapter": "raw",
+        "url": "https://economy-finance.ec.europa.eu/document/download/d8cd0ee6-18ae-4ee6-ba4d-69159b70e5e6_en?filename=Independent-Fiscal-Institution-Database-2025.xlsx",
+        "options": {
+          "catalog_publication_date": "2025-11-26",
+          "release_contents_verified": false,
+          "source_catalog": "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en",
+          "note": "Keep legal institutional scope and methodology. These indicators do not by themselves establish de-facto compliance."
+        },
+        "priority": 28
+      }
+    }
+  ],
+  "research_gaps": [
+    {
+      "source": "World Bank IDS creditor composition",
+      "url": "https://worldbank.github.io/debt-data/creditor-composition/creditor-data-python.html",
+      "status": "fourth dimension confirmed; dedicated advanced-API adapter still required",
+      "dimensions": [
+        "debtor",
+        "indicator",
+        "time",
+        "counterpart-area"
+      ],
+      "note": "Ordinary indicator queries default to world creditors. Keep bilateral lender codes distinct from debtor ISO codes and debt currency."
+    },
+    {
+      "source": "IMF WoRLD / IRFCL / IL",
+      "catalog": "Previously downloaded official IMF dataflow catalog",
+      "flows": [
+        {
+          "agency": "IMF.FAD",
+          "id": "WORLD",
+          "version": "3.0.1"
+        },
+        {
+          "agency": "IMF.STA",
+          "id": "IRFCL",
+          "version": "12.0.0"
+        },
+        {
+          "agency": "IMF.STA",
+          "id": "IL",
+          "version": "13.0.1"
+        }
+      ],
+      "status": "flow references verified; fetch DSD before selecting keys"
+    },
+    {
+      "source": "ECB securities holdings",
+      "catalog": "Previously downloaded official ECB dataflow catalog",
+      "agency": "ECB",
+      "id": "SHS",
+      "version": "1.0",
+      "status": "flow reference verified; discover DSD and actual public dimensions before querying"
+    },
+    {
+      "source": "IMF fiscal rules / councils",
+      "url": "https://www.imf.org/external/datamapper/datasets/FR_FC",
+      "status": "source verified; direct workbook URLs and actual country coverage unresolved",
+      "note": "Official summaries disagree on exact country counts; do not report these as integrated coverage."
+    }
+  ],
+  "rights_note": "Respect provider-specific terms and source attribution; catalog discovery is not permission to scrape restricted content. IMF published statistical Data have special usage terms separate from general website content: https://www.imf.org/en/About/copyright-and-terms"
+}
