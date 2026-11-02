@@ -81,6 +81,7 @@ IMF_LARGE = {"QGFS", "GFS_BS", "GFS_SOEF", "GFS_COFOG", "GFS_SFCP", "GFS_SSUC",
 def metadata(lake: Lake, dl: Downloader, source: str, dataset: str, url: str, allow_html=False):
     job = Job(source, dataset, "raw", url, {"allow_html": allow_html})
     raw = dl.fetch(job)
+    lake.record_archived_request(job)
     return lake.root / raw["path"]
 
 

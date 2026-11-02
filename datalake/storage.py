@@ -81,6 +81,13 @@ class Lake:
             db.executemany("UPDATE jobs SET priority=MIN(priority,?) WHERE id=?",[(j.priority,j.id) for j in jobs])
             return inserted
 
+    def record_archived_request(self, job: Job):
+        """Retain metadata provenance without admitting a duplicate pending job."""
+        self.atomic_json(f"metadata/jobs/{job.id}.json", asdict(job))
+        with self.db() as db:
+            db.execute("INSERT OR IGNORE INTO jobs(id,spec,source,dataset,priority,state,updated_at) VALUES(?,?,?,?,?,'archived',?)",
+                       (job.id, compact(asdict(job)), job.source, job.dataset, job.priority, utcnow()))
+
     def claim(self, sources: list[str] | None = None, retry: bool = False) -> Job | None:
         with self.db() as db:
             db.execute("BEGIN IMMEDIATE")

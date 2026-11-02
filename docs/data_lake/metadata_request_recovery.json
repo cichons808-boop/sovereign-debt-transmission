@@ -1,0 +1,7 @@
+{
+  "recovered_metadata_requests": 52,
+  "identity_validation": "Every reconstructed source/dataset/adapter/url/options tuple hashes to the exact existing job ID",
+  "unresolved": [],
+  "new_downloads": 0,
+  "new_financial_observations": 0
+}

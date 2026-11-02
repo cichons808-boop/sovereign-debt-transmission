@@ -131,6 +131,19 @@ class CheckpointTests(unittest.TestCase):
         finally:
             lake.release()
 
+    def test_metadata_registration_never_resets_existing_running_request(self):
+        from datalake.identity import Job
+        from datalake.storage import Lake
+        lake = Lake(self.work / "metadata-queue")
+        job = Job("WB_META", "catalog", "raw", "https://example.org/catalog")
+        lake.record_archived_request(job)
+        self.assertIsNone(lake.claim())
+        with lake.db() as db:
+            db.execute("UPDATE jobs SET state='running' WHERE id=?", (job.id,))
+        lake.record_archived_request(job)
+        with lake.db() as db:
+            self.assertEqual(db.execute("SELECT state FROM jobs WHERE id=?", (job.id,)).fetchone()[0], "running")
+
 
 if __name__ == "__main__":
     unittest.main()
