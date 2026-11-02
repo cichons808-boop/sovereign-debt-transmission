@@ -207,9 +207,8 @@ No name-based mapping of historic entities or multilateral agencies is made.
 The parser preserves the creditor in series identity, unknown dimensions,
 zeros and missing values. USD reporting units do not establish debt currency
 denomination. World-total rows can overlap ordinary IDS totals and are useful
-for reconciliation, not independent economic observations. The new parser has
-offline tests; live API-to-Parquet validation is still pending because public
-provider access and dataframe dependency installation timed out.
+for reconciliation, not independent economic observations. Live API-to-Parquet validation passed on 2026-11-02 after provider and package
+access resumed; bounded subsequent acquisition remains incomplete.
 
 `plan --providers CATALOG_EXTENSIONS` queues the reviewed official links in
 `source_extensions_20261102.json`: six IDS releases and five DG ECFIN fiscal
@@ -276,3 +275,23 @@ are inferred from overlapping aggregate categories. See
 If the standard Polars runtime cannot load on the host, install the matching
 `polars-runtime-compat==2.1.0` in the separate data environment and verify its
 import before claiming queue jobs. The frozen article environment is untouched.
+
+### Bounded full reporting and historical NBP records
+
+`report` now reads Parquet in 8,192-row batches and resolves series identities
+on disk with SQLite. It preserves the existing latest-successful-request
+selection and report filenames. It does not deduplicate economic observations
+across overlapping requests. The complete 49,652,747-row physical lake report
+passed in 72.42 seconds with 524,044 KiB maximum process RSS on the measured
+host. It contains 47,047,605 nonmissing provider values, 48 datasets, 219
+countries/territories and 1,214,189 dictionary series, without the optional
+original-project bridge. These are actual measurements for 2026-11-02.
+
+Historical NBP B responses can repeat a currency for several countries, with
+the same symbol. `CURRENCY_COUNTRY_NATIVE` and `CURRENCY_SYMBOL_NATIVE` retain
+these independent native fields when present. The reporting reference area
+remains Poland. Three previously rejected requests were recovered without
+collapsing the source rows; no continuity of the incomplete date windows is
+assumed. All 45 tests pass. New EDP tables cover 27 countries, 1995–2025, and
+monthly unemployment covers 36, 1983–September 2026. See
+`live_acquisition_20261102T0700.json` for the complete current coverage and checks.

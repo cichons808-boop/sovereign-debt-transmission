@@ -69,3 +69,20 @@ coverage report and source dictionary are the deciding evidence.
 
 These are research opportunities and pending acquisitions, not new causal
 findings or an increase in measured country coverage.
+
+## Coverage-backed continuation, 2026-11-02
+
+The newly acquired Eurostat EDP tables 2 and 3 supply 27-country coverage for
+1995–2025. They support investigating the distinction between reported fiscal
+balances, debt changes and their reconciliation, once the native accounting
+codes and sector selections are fixed from the provider metadata. Monthly
+unemployment now covers 36 countries over the union of available periods
+1983–September 2026, adding a possible real-activity response alongside the
+existing industrial production. This is an exploratory design opportunity,
+not evidence of a causal relationship or a balanced common sample. Join only
+observed native periods and compatible institutional definitions.
+
+NBP historical currency-country rows preserve currency-union membership as
+reported, potentially useful for auditing historical FX controls. Their sparse
+windows and source-country labels do not establish a complete historical
+regime panel; no membership dates or ISO crosswalks are inferred.

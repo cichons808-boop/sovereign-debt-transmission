@@ -35,51 +35,8 @@ def scan(lake: Lake, *, source=None, dataset=None, deduplicate=False) -> pl.Lazy
 
 
 def report(lake: Lake) -> dict:
-    data = scan(lake)
-    summary = (data.group_by("source", "dataset").agg(
-        pl.len().alias("rows"), pl.col("value").is_not_null().sum().alias("nonmissing_observations"),
-        pl.col("country_iso3").filter(pl.col("value").is_not_null()).drop_nulls().n_unique().alias("countries"),
-        pl.col("series_id").n_unique().alias("series"),
-        pl.col("period_start").filter(pl.col("value").is_not_null()).min().alias("first_period"),
-        pl.col("period_end").filter(pl.col("value").is_not_null()).max().alias("last_period"),
-        pl.col("is_aggregate").fill_null(False).sum().alias("aggregate_rows"),
-        pl.col("country_iso3").is_null().sum().alias("unmapped_or_aggregate_rows"),
-        pl.col("unit").is_null().sum().alias("missing_unit_rows"),
-        pl.col("is_estimate").fill_null(False).sum().alias("estimated_rows"),
-    ).sort("source", "dataset").collect(engine="streaming"))
-    summary.write_csv(lake.root / "reports/source_coverage.csv")
-    coverage = (data.filter(pl.col("country_iso3").is_not_null()).group_by("source", "dataset", "country_iso3", "frequency")
-                .agg(pl.len().alias("rows"), pl.col("value").is_not_null().sum().alias("nonmissing_observations"),
-                     pl.col("series_id").n_unique().alias("series"),
-                     pl.col("period_start").filter(pl.col("value").is_not_null()).min().alias("first_observed_period"),
-                     pl.col("period_end").filter(pl.col("value").is_not_null()).max().alias("last_observed_period"))
-                .sort("source", "dataset", "country_iso3", "frequency").collect(engine="streaming"))
-    coverage.write_csv(lake.root / "reports/country_coverage.csv")
-    dimensions = (data.select("source", "dataset", "series_id", "ref_area", "country_iso3", "indicator", "label",
-                              "frequency", "unit", "unit_multiplier", "currency", "dimensions")
-                  .unique(subset=["source","dataset","series_id"],keep="last"))
-    dimensions.sink_parquet(lake.root / "metadata/series_dictionary.parquet", compression="zstd")
-    with lake.db() as db:
-        downloads = [dict(r) for r in db.execute("SELECT * FROM downloads ORDER BY retrieved_at,snapshot_id")]
-        failures = [dict(r) for r in db.execute("SELECT id,source,dataset,error,spec FROM jobs WHERE state='failed'")]
-        pending = [dict(r) for r in db.execute("SELECT source,dataset,state,COUNT(*) jobs FROM jobs GROUP BY source,dataset,state")]
-    lake.atomic_json("reports/download_manifest.json", downloads)
-    lake.atomic_json("reports/failures.json", failures)
-    lake.atomic_json("reports/queue.json", pending)
-    countries = sorted(coverage.filter(pl.col("nonmissing_observations") > 0)["country_iso3"].unique().to_list())
-    result = {"generated_at": utcnow(), "current_dataset_count": summary.height,
-              "current_rows": int(summary["rows"].sum() or 0),
-              "current_nonmissing_observations": int(summary["nonmissing_observations"].sum() or 0),
-              "country_count_with_data": len(countries), "country_iso3_with_data": countries,
-              "immutable_downloads": len(downloads), "bytes_on_disk": lake.usage(),
-              "failed_jobs": len(failures),
-              "notes": ["Counts exclude historical retrievals of the same request.",
-                        "A country is counted only when at least one value is observed.",
-                        "Series from different providers retain distinct identities and may overlap.",
-                        "Retrieval time is not a historical publication date.",
-                        "Missing units and unknown release dates require resolution before research use."]}
-    lake.atomic_json("reports/coverage_summary.json", result)
-    return result
+    from .bounded_report import report as bounded_report
+    return bounded_report(lake)
 
 
 WDI_ANNUAL = {

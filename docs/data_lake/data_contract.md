@@ -92,3 +92,9 @@ period to retrieval year; it is neither a forecast classification nor proof of
 actual realization. Native `is_forecast`/`is_estimate` fields are preserved.
 Only WLD is identified as the world total by its native code; no other creditor
 aggregate is guessed or summed. Missing cells remain available in silver.
+
+Historical NBP currency-country labels and symbols enter series identity when
+the provider supplies them. Currency unions may repeat a currency code and
+symbol across countries. These source rows are retained separately; their
+native country labels are not automatically ISO-mapped and do not change the
+Polish reporting reference area or inflate country coverage.

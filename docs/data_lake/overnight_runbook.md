@@ -48,3 +48,11 @@ restarting the entire acquisition.
 8. Report material errors or required access promptly. Otherwise minimize
    notifications during the night and give a concrete final summary of actual
    sources, countries, observed values, files and remaining work.
+
+The full `report` command now uses bounded Parquet batches and a temporary
+disk-backed series index. Allow space for that index and retain the 8 GiB
+reserve. It regenerates source/country coverage and the series dictionary
+without a whole-lake in-memory unique. Run it after the bounded acquisition
+finishes for a stable selected-partition report. Historical NBP B responses
+require native currency-country and symbol fields; never resolve their repeated
+currency codes by discarding rows. The incomplete NBP windows remain pending.

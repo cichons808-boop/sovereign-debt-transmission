@@ -99,10 +99,18 @@ def nbp_json(job,raw,path,lake):
             for field in ["mid","bid","ask"]:
                 if field not in rate:continue
                 dims={"REF_AREA":"PL","CURRENCY":rate["code"],"QUOTE_CURRENCY":"PLN","TABLE":table["table"],"RATE_TYPE":field,"FREQ":"D"}
+                # Historical B tables repeat currency-union quotes by native
+                # country; neither currency code nor symbol identifies the row.
+                if rate.get("country") is not None:
+                    dims["CURRENCY_COUNTRY_NATIVE"] = rate["country"]
+                if rate.get("symbol") is not None:
+                    dims["CURRENCY_SYMBOL_NATIVE"] = rate["symbol"]
                 rows.append(observation(job,raw,period=table["effectiveDate"],value=rate[field],dims=dims,
                     indicator=rate["code"]+"_"+field,label=rate.get("currency",""),ref_area="PL",unit="PLN per foreign-currency unit",
                     currency=rate["code"],multiplier=0,publication_date=table.get("tradingDate",table["effectiveDate"]),
-                    attrs={"table_number":table.get("no"),"trading_date":table.get("tradingDate"),"quote_convention":"Original NBP convention; inspect historical redenominations and currency code changes"}))
+                    attrs={"table_number":table.get("no"),"trading_date":table.get("tradingDate"),
+                           "native_rate_fields":{k:v for k,v in rate.items() if k not in {"mid","bid","ask"}},
+                           "quote_convention":"Original NBP convention; inspect historical redenominations and currency code changes; native currency-country labels do not change the Polish reporting geography"}))
     yield frame(rows)
 
 
