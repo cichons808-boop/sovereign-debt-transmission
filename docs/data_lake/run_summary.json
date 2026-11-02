@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-01T23:51:56+00:00",
-  "current_dataset_count": 35,
-  "current_rows": 43811953,
-  "current_nonmissing_observations": 42855146,
-  "country_count_with_data": 217,
-  "immutable_downloads": 546,
-  "bytes_on_disk": 1416883721,
-  "failed_jobs": 1,
+  "generated_at": "2026-11-02T00:20:28+00:00",
+  "current_dataset_count": 48,
+  "current_rows": 47929747,
+  "current_nonmissing_observations": 45939971,
+  "country_count_with_data": 219,
+  "immutable_downloads": 624,
+  "bytes_on_disk": 2020983419,
+  "failed_jobs": 10,
   "notes": [
     "Counts exclude historical retrievals of the same request.",
     "A country is counted only when at least one value is observed.",
@@ -18,9 +18,9 @@
   "frozen_article_checksum_mismatches": 0,
   "offline_tests_passed": 20,
   "verification": {
-    "verified_at": "2026-11-01T23:51:47+00:00",
-    "checked_files": 634,
-    "checked_partitions": 88,
+    "verified_at": "2026-11-02T00:20:36+00:00",
+    "checked_files": 779,
+    "checked_partitions": 155,
     "raw_hashes_recomputed": true,
     "catalog_integrity": "ok",
     "errors": []
@@ -60,5 +60,33 @@
       "countries": 37,
       "candidate_countries": 45
     }
+  },
+  "annual_panel": {
+    "wdi_annual_rows": 14256,
+    "countries": 216,
+    "variables": 13,
+    "nonmissing_by_variable": {
+      "central_government_debt_pct_gdp": 1649,
+      "real_gdp_growth_pct": 11394,
+      "real_interest_rate_pct": 4781,
+      "private_credit_pct_gdp": 7674,
+      "current_account_pct_gdp": 7773,
+      "government_expense_pct_gdp": 4452,
+      "cpi_index_2010": 9284,
+      "lending_interest_rate_pct": 4806,
+      "interest_pct_expense": 4288,
+      "cpi_inflation_pct": 9151,
+      "gdp_current_usd": 11739,
+      "trade_pct_gdp": 9029,
+      "interest_pct_revenue": 4505
+    }
+  },
+  "portable_checkpoint": {
+    "bytes": 347119973,
+    "sha256": "a835debcb80f617561e31720004c0746f4f78ccc71809583891567d54ac2c717",
+    "download_count": 212,
+    "partition_count": 147,
+    "observation_rows": 47822217,
+    "filename": "monetary_fiscal_lake_checkpoint_20261102.tar.gz"
   }
 }
