@@ -232,5 +232,14 @@ def usmpd_xlsx(job,raw,path,lake):
         workbook.close()
 
 
-PLANNERS={"OECD":plan_oecd,"US_TREASURY":plan_treasury,"NBP":plan_nbp,"FRBSF":plan_events,"ECB_EVENTS":plan_ecb_events,"BDY_AUTHOR":plan_bdy}
+def plan_catalog_extensions(lake, dl, profile="broad"):
+    """Reviewed official links; raw archival jobs never count as silver coverage."""
+    path = Path(__file__).resolve().parents[1] / "docs/data_lake/source_extensions_20261102.json"
+    catalog = json.loads(path.read_text())
+    lake.atomic_json("metadata/source_extensions_20261102.json", catalog)
+    entries = catalog["entries"][:1] if profile == "smoke" else catalog["entries"]
+    return [Job(**entry["job"]) for entry in entries]
+
+
+PLANNERS={"OECD":plan_oecd,"US_TREASURY":plan_treasury,"NBP":plan_nbp,"FRBSF":plan_events,"ECB_EVENTS":plan_ecb_events,"BDY_AUTHOR":plan_bdy,"CATALOG_EXTENSIONS":plan_catalog_extensions}
 ADAPTERS={"treasury_json":treasury_json,"nbp_json":nbp_json,"usmpd_xlsx":usmpd_xlsx,"ea_mpd_xlsx":ea_mpd_xlsx,"bdy_xlsx":bdy_xlsx}

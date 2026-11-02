@@ -47,9 +47,25 @@
     "finding": "The newly named author workbook does not extend the dates in the frozen project; retain actual file coverage."
   },
   "remote_storage": {
-    "google_drive_uploaded": false,
-    "reason": "Google Drive not connected; rclone remote not authorized",
-    "prepared": "Verified cloud-copy command and portable data checkpoints"
+    "google_drive_uploaded": true,
+    "verified_base_bytes": 347119973,
+    "base_parts": 4,
+    "base_parts_sha256_roundtrip": "all matched",
+    "quota": "not independently measured; user reports at least 1.7 TB free",
+    "retention": "append only; no deletion, pruning or sharing changes",
+    "new_increment": {
+      "bytes": 1861145,
+      "sha256": "af14eefd4f92d2be2cc189a7aec619911c1d366d5557f4975e637842351d6229",
+      "kind": "incremental",
+      "parent_archive_sha256": "a835debcb80f617561e31720004c0746f4f78ccc71809583891567d54ac2c717",
+      "included_files": 2288,
+      "inherited_files": 359,
+      "download_count": 212,
+      "partition_count": 147,
+      "observation_rows": 47822217,
+      "drive_upload": "completed and SHA256 verified after authenticated readback",
+      "roundtrip_verified": true
+    }
   },
   "research_readiness": {
     "event_series_with_data": 157,
@@ -82,12 +98,18 @@
     }
   },
   "portable_checkpoint": {
-    "bytes": 347119973,
-    "sha256": "a835debcb80f617561e31720004c0746f4f78ccc71809583891567d54ac2c717",
+    "bytes": 347352912,
+    "sha256": "8dddbbe3acfb3039b789ed2537c6b7316895f2c35e8f598b8e3f8993ac89a688",
+    "kind": "full",
+    "parent_archive_sha256": null,
+    "included_files": 2647,
+    "inherited_files": 0,
     "download_count": 212,
     "partition_count": 147,
     "observation_rows": 47822217,
-    "filename": "monetary_fiscal_lake_checkpoint_20261102.tar.gz"
+    "filename": "monetary_fiscal_lake_checkpoint_20261102.tar.gz",
+    "library_version": 2,
+    "library_identity_preserved": true
   },
   "runtime_policy": {
     "default_workers": 1,
@@ -95,5 +117,87 @@
     "initial_memory_limit_gib": 8,
     "recommended_continuation": "bounded batches with durable checkpoints",
     "valid_empty_sdmx_and_http204": "explicit empty state"
+  },
+  "latest_continuation": {
+    "generated_at": "2026-11-02T02:17:46+00:00",
+    "state": "acquisition_network_blocked_storage_improved",
+    "checkpoint_catalog": {
+      "partitions": 147,
+      "rows": 47822217,
+      "missing": 1979388,
+      "nonmissing_rows": 45842829,
+      "datasets": 41,
+      "downloads": 212,
+      "pending_jobs": 1650
+    },
+    "verification": {
+      "checked_files": 359,
+      "catalog_integrity": "ok",
+      "errors": [],
+      "scope": "File SHA256 and SQLite integrity; not Parquet schema or economic comparability"
+    },
+    "new_data_rows": 0,
+    "network_preflight": {
+      "worldbank": "6-second urllib timeout",
+      "pypi": "6-second urllib timeout"
+    },
+    "missing_dependencies": [
+      "polars",
+      "requests",
+      "pyarrow",
+      "pycountry",
+      "pytest"
+    ],
+    "tests": {
+      "checkpoint_stdlib": 8,
+      "checkpoint_stdlib_result": "passed",
+      "existing_21_tests": "not run; dependencies unavailable"
+    },
+    "free_disk_bytes": 58315448320,
+    "notes": [
+      "Counts cover this restored checkpoint, excluding the optional Git-backed legacy bridge.",
+      "No global country count was recomputed without the dataframe environment.",
+      "Live job states and runner lock were not reset.",
+      "No Drive deletion, pruning or sharing changes."
+    ],
+    "new_catalog_requests": 11,
+    "request_identities_preserved": 1827,
+    "original_sources_verification": {
+      "checked_at": "2026-11-02T02:16:32.423192+00:00",
+      "checked_original_sources": 404,
+      "errors": []
+    },
+    "prototype_restore_validation": {
+      "archives": 2,
+      "verified_files": 2634,
+      "catalog_integrity": "ok",
+      "errors": []
+    },
+    "restore_verification": {
+      "increment_chain": {
+        "archives": 2,
+        "latest_archive_sha256": "af14eefd4f92d2be2cc189a7aec619911c1d366d5557f4975e637842351d6229",
+        "checked_files": 2647,
+        "catalog_integrity": "ok",
+        "errors": [],
+        "scope": "File SHA256 and SQLite integrity; not Parquet schema or economic comparability"
+      },
+      "full_checkpoint": {
+        "archives": 1,
+        "latest_archive_sha256": "8dddbbe3acfb3039b789ed2537c6b7316895f2c35e8f598b8e3f8993ac89a688",
+        "checked_files": 2647,
+        "catalog_integrity": "ok",
+        "errors": [],
+        "scope": "File SHA256 and SQLite integrity; not Parquet schema or economic comparability"
+      }
+    }
+  },
+  "baseline_portable_checkpoint": {
+    "bytes": 347119973,
+    "sha256": "a835debcb80f617561e31720004c0746f4f78ccc71809583891567d54ac2c717",
+    "download_count": 212,
+    "partition_count": 147,
+    "observation_rows": 47822217,
+    "filename": "monetary_fiscal_lake_checkpoint_20261102.tar.gz"
   }
 }

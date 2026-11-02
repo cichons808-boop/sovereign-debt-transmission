@@ -14,7 +14,7 @@ from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .model import Job, compact
+from .identity import Job, compact
 
 _DB_GUARD = threading.RLock()
 

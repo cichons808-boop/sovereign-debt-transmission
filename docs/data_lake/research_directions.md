@@ -40,3 +40,32 @@ genuine archived releases add useful dimensions as storage grows.
 Downloaded event windows or newer filenames alone do not establish an extended
 identification sample. A release can revise values without adding dates; the
 coverage report and source dictionary are the deciding evidence.
+
+## Sources verified on 2026-11-02, acquisition still pending
+
+- The [World Bank creditor API guide](https://worldbank.github.io/debt-data/creditor-composition/creditor-data-python.html)
+  confirms four IDS dimensions, including `counterpart-area`. Ordinary indicator
+  queries default to world creditors. A dedicated adapter can support bilateral
+  creditor concentration and common-lender exposure; preserve the external PPG
+  portfolio and lender codes rather than equating them with debt currency.
+- The [IDS archive table](https://www.worldbank.org/en/programs/debt-statistics/idr/products)
+  links the 2022–2025 releases recorded in the extension catalog. They can support
+  debt-revision sensitivity tests after workbook contents and availability are
+  verified. The catalog often provides only a month; that is not an exact release
+  date. A generic filename alone does not prove an immutable historical vintage.
+- The [DG ECFIN fiscal governance database](https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en)
+  supplies rule, medium-term framework and fiscal-institution indices plus survey
+  answers. These could describe heterogeneity in fiscal responses. Legal scope,
+  methodology changes and actual overlap must be checked before estimation.
+- The downloaded IMF catalog identifies `IMF.FAD/WORLD/3.0.1`,
+  `IMF.STA/IRFCL/12.0.0` and `IMF.STA/IL/13.0.1`. WoRLD can add revenue composition;
+  reserves/liquidity can distinguish gross debt exposure from liquidity buffers.
+  Fetch each DSD before choosing keys. The ECB catalog identifies `ECB/SHS/1.0`
+  for securities holdings; actual publicly available holder/issuer cells need
+  inspection before asserting joint coverage.
+- [IMF fiscal rules/councils](https://www.imf.org/external/datamapper/datasets/FR_FC)
+  offers another institutional extension. Direct file URLs, workbook definitions
+  and the exact country count remain unresolved; this is not integrated data.
+
+These are research opportunities and pending acquisitions, not new causal
+findings or an increase in measured country coverage.

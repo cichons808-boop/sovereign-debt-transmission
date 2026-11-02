@@ -160,6 +160,47 @@ checkpoint. Reattach those sources with `import-existing` if wanted. Transfer
 the archive only after generation completes and retain its SHA256. Restoring
 an externally supplied archive requires the usual path/symlink inspection.
 
+### Incremental recovery without dataframe dependencies
+
+`datalake.checkpoint` uses only the Python standard library. It can preserve
+and restore a lake when Polars or network package installation is unavailable.
+Full v2 archives also include completed reports, dictionaries and gold views;
+the original v1 full archive remains readable. Observation schema stays 1.0.
+
+```bash
+# Choose new output names: existing archives are never overwritten.
+python3 -m datalake.checkpoint create --root /data/monetary-fiscal \
+  --base /backups/base.tar.gz --output /backups/increment-001.tar.gz
+python3 -m datalake.checkpoint restore --destination /data/restored-empty \
+  /backups/base.tar.gz /backups/increment-001.tar.gz
+python3 -m unittest discover -s tests/data_lake -p test_checkpoint_stdlib.py -v
+```
+
+A delta inherits unchanged files by SHA256, records the exact parent archive
+SHA256, and carries a fresh SQLite backup. Chain subsequent deltas from the
+immediately previous archive, or restore a base-relative delta directly after
+that base. Restore rejects the wrong parent, unsafe paths, links, duplicate
+members, nonempty destinations and mismatched file hashes. It checks SQLite
+integrity; it does not replace Parquet schema or scientific validation.
+Only the latest catalog and manifest define the active data selection.
+Backups do not delete lake or cloud objects or change live runner states.
+
+The connected Drive route was observed to limit transfers to 100 MiB each.
+Larger archives can be split into 96 MiB byte segments with an ordered checksum
+manifest; reconstruct and hash the whole archive before restoring. Upload the
+full base once and subsequent verified increments separately. Store permanent
+Drive IDs in private lake metadata, never credentials or temporary signed URLs.
+Readback byte hashes are required if the connector omits provider checksums.
+
+### Additional catalogued sources
+
+`plan --providers CATALOG_EXTENSIONS` queues the reviewed official links in
+`source_extensions_20261102.json`: six IDS releases and five DG ECFIN fiscal
+governance files. These are raw archival requests, not normalized coverage.
+The catalog records publication-label precision and unresolved release
+contents. Recheck the source catalog before treating a workbook as a verified
+point-in-time vintage.
+
 ## Research interfaces
 
 ```python

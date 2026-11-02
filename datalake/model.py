@@ -2,15 +2,14 @@
 from __future__ import annotations
 
 import calendar
-import hashlib
-import json
 import math
 import re
 from datetime import date
-from dataclasses import asdict, dataclass, field
 
 import polars as pl
 import pycountry
+
+from .identity import Job, compact, digest
 
 SCHEMA_VERSION = "1.0"
 SCHEMA = {
@@ -29,29 +28,6 @@ ALIASES = {"EL": "GR", "UK": "GB", "XK": "XKX", "XKX": "XKX"}
 # Unknown geography is not automatically asserted to be an aggregate.
 KNOWN_AGGREGATES = {"XW", "XM", "U2", "I8", "I9", "EA", "EU", "EA19", "EA20", "EA21",
                     "EU27_2020", "EU28", "WLD", "OECD", "G20", "G7", "_T", "ALL", "TOTAL"}
-
-
-def compact(obj: object) -> str:
-    return json.dumps(obj, sort_keys=True, ensure_ascii=False, separators=(",", ":"), default=str)
-
-
-def digest(obj: object) -> str:
-    return hashlib.sha256(compact(obj).encode()).hexdigest()
-
-
-@dataclass(frozen=True)
-class Job:
-    source: str
-    dataset: str
-    adapter: str
-    url: str
-    options: dict = field(default_factory=dict)
-    priority: int = 100
-
-    @property
-    def id(self) -> str:
-        # Cosmetic priority changes do not redownload identical requests.
-        return digest({k: v for k, v in asdict(self).items() if k != "priority"})[:32]
 
 
 def geography(code: str | None, countries: dict | None = None) -> tuple[str | None, bool | None]:
