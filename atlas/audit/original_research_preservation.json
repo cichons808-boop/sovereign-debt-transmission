@@ -1,0 +1,8 @@
+{
+  "verified": true,
+  "baseline_commit": "c884bf6a613221137d85cc6d6a9827fcb4c97ffc",
+  "baseline_root_tree": "0424258386714670c7bab51a1321b902273aa5b6",
+  "comparison_atlas_commit": "a3584d1ba8da83cb194d84c3af61aa68bf081d11",
+  "all_preexisting_root_tree_entries_unchanged": true,
+  "changes_confined_to": "atlas/"
+}

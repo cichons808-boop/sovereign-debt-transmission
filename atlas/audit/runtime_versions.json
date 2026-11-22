@@ -1,0 +1,9 @@
+{
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "statsmodels": "0.15.0",
+  "matplotlib": "3.10.8",
+  "requests": "2.34.2",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+}

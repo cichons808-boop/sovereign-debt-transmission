@@ -125,6 +125,24 @@ def effective_coverage():
     return out
 
 
+def shock_magnitude_audit():
+    rows=[]
+    for path in sorted(PROCESSED.glob('*.csv.gz')):
+        if not path.name.startswith(('W_','H_','T_')):continue
+        d=pd.read_csv(path,low_memory=False)
+        for country,g in d[d.shock.notna()].groupby('country'):
+            extreme=g.loc[g.shock.abs().idxmax()]
+            rows.append(dict(universe=g.universe.iloc[0],country=country,
+                n_source_periods=len(g),n_nonzero=int(g.shock.abs().gt(1e-12).sum()),
+                first=g.period.min(),last=g.period.max(),shock_unit=g.shock_unit.dropna().iloc[0],
+                shock_SD=float(g.shock.std()),shock_mean=float(g.shock.mean()),
+                largest_absolute_shock_period=extreme.period,largest_signed_shock=float(extreme.shock),
+                issuer_at_largest=extreme.issuer,
+                raw_source_unit_SD=float(g.shock_raw.std()) if 'shock_raw'in g else None,
+                note='recipient_time_series_diagnostics;shared_policy_realizations_not_independent_across_recipients'))
+    save_csv(pd.DataFrame(rows),AUDIT/'all_universe_shock_magnitude_audit.csv')
+
+
 def marginal_responses():
     rows=[]
     grids={'F01':[25,50,75,100,150],'F04':[0,10,25,50,75],
@@ -346,7 +364,7 @@ Unstarted: the rest of the structural-variable registry and the portion of the u
 def run():
     checkpoint('report','running')
     registry();baseline,chunks=coefficient_frames();main=country_summaries(baseline)
-    coverage=effective_coverage();plot_coverage(coverage);plot_chunks(chunks)
+    coverage=effective_coverage();shock_magnitude_audit();plot_coverage(coverage);plot_chunks(chunks)
     marginal=marginal_responses();dispersion=dispersion_bootstrap()
     pages=plot_country_book(main)
     compact_exports()
