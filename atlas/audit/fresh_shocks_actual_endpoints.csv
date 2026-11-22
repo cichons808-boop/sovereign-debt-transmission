@@ -1,0 +1,4 @@
+issuer,first_event,last_event,observations,nonmissing,source_frequency,current_relative_to_2026_11_22
+ECB,1999-01-07 00:00:00,2026-06-11 00:00:00,317,317,event,True
+USA,1994-02-04 00:00:00,2026-10-28 00:00:00,280,249,event,True
+GBR,1997-06-06 00:00:00,2026-04-30 00:00:00,421,421,event,True

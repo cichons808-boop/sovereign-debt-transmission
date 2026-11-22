@@ -1,0 +1,5 @@
+universe,countries_with_shock,independent_issuers,shock_first,shock_last,countries_with_gdp,countries_with_cpi,identification
+W_external_USA_annual,216,1,1998,2025,212,191,external_spillover_not_domestic_response
+W_external_USA_quarterly,189,1,1997Q4,2026Q3,106,188,external_spillover_not_domestic_response
+W_external_ECB_annual,206,1,2000,2025,202,181,external_spillover_not_domestic_response
+W_external_ECB_quarterly,179,1,1999Q2,2026Q2,96,178,external_spillover_not_domestic_response

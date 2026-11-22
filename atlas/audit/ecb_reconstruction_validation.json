@@ -1,0 +1,25 @@
+{
+  "angle": 0.7051099539973874,
+  "loading_matrix": [
+    [
+      1.0,
+      -15.64716022290113
+    ],
+    [
+      1.0,
+      15.647160222901121
+    ]
+  ],
+  "uncentered_cross_product": -4.1974217115013944e-17,
+  "n": 312,
+  "legacy_monthly_max_absolute_error": 8.561830928260905e-09,
+  "legacy_months_compared": 277,
+  "current_last_event": "2026-06-11",
+  "current_events": 317,
+  "common_events": 312,
+  "overlap_mp_correlation": 0.959762886755765,
+  "newly_available_events": 5,
+  "not_official_JK_release": true,
+  "full_history_reestimated": true,
+  "speeches_excluded_to_preserve_event_definition": true
+}

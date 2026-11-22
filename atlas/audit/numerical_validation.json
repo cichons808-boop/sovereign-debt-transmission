@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "actual_observations_only": true,
+  "tests": [
+    {
+      "test": "country_OLS_and_HAC_vs_statsmodels_on_actual_POL",
+      "n": 72,
+      "max_coefficient_error": 2.2690183065776637e-15,
+      "max_covariance_error": 5.967448757360216e-16,
+      "status": "passed"
+    },
+    {
+      "test": "absorbed_panel_vs_full_dummy_design_and_dense_calendar_HAC",
+      "n": 383,
+      "fe_rank": 106,
+      "max_coefficient_error": 4.440892098500626e-15,
+      "max_covariance_error": 5.585809592645319e-16,
+      "status": "passed"
+    },
+    {
+      "test": "source_methodology_replication_US_and_ECB",
+      "status": "passed",
+      "ECB_max_error": 8.561830928260905e-09,
+      "USA_max_error": 1.5265566588595902e-16
+    },
+    {
+      "test": "native_quarterly_calendar_and_three_observed_CPI_months",
+      "status": "passed"
+    },
+    {
+      "test": "calendar_leads_vs_exact_time_key_join_on_all_H_panels",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+__pycache__/
+raw/*.html
+raw/*.xlsx
+raw/*.zip
+raw/*.json
+raw/*.csv
+raw/*.pdf
+raw/*.R
+raw/*.m
+raw/*.py
+raw/*.xml
+results/**/specifications.jsonl.gz
+figures/countries/*.png

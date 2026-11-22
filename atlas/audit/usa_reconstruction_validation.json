@@ -1,0 +1,27 @@
+{
+  "normalization_slope": -0.02137121906949607,
+  "normalization_n": 277,
+  "event_n": 280,
+  "normalization_yields_last": "2026-10-23",
+  "official_factor_max_abs_error": 1.5265566588595902e-16,
+  "official_factor_correlation": 0.9999999999999997,
+  "exact_factor_replication": true,
+  "median_official_to_rebuilt_scale": 0.9999999999999981,
+  "angle": 0.5444853773342511,
+  "loading_matrix": [
+    [
+      1.0,
+      -22.29503590075424
+    ],
+    [
+      1.0,
+      22.295035900754247
+    ]
+  ],
+  "uncentered_cross_product": -3.5001746797347005e-18,
+  "n": 249,
+  "latest_event": "2026-10-28",
+  "equity_instrument": "SPFUT",
+  "not_official_pure_MP_release": true,
+  "raw_factor_source": "author_provided_mps.csv"
+}
