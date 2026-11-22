@@ -1,0 +1,16 @@
+[
+  {
+    "file": "imf_qnea_real_gdp_all.xml",
+    "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,QNEA,7.0.0/.B1GQ.Q...Q?format=csvfile",
+    "status": 200,
+    "size": 3315065,
+    "preview": "<?xml version='1.0' encoding='UTF-8'?><message:StructureSpecificData xmlns:ss=\"h"
+  },
+  {
+    "file": "imf_cpi_flow.json",
+    "url": "https://api.imf.org/external/sdmx/3.0/structure/dataflow/IMF.STA/CPI/latest?references=all",
+    "status": 200,
+    "size": 2550302,
+    "preview": "{\"data\":{\"categorisations\":[{\"annotations\":[{\"id\":\"order\",\"value\":\"1\"},{\"id\":\"or"
+  }
+]

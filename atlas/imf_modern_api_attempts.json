@@ -1,0 +1,23 @@
+[
+  {
+    "file": "mfs_ir_primary_structure.xml",
+    "url": "https://api.imf.org/external/sdmx/3.0/structure/dataflow/IMF.STA/MFS_IR/8.0.1?references=all",
+    "status": 200,
+    "size": 7289469,
+    "preview": "{\"data\":{\"codelists\":[{\"annotations\":[{\"id\":\"origin\",\"value\":\"INTEGRATION\"},{\"id"
+  },
+  {
+    "file": "mfs_ir_primary_rates.csv",
+    "url": "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.STA/MFS_IR/8.0.1/USA.DISR_RT_PT_A_PT.M",
+    "status": 200,
+    "size": 76556,
+    "preview": "STRUCTURE[;],STRUCTURE_ID,ACTION,COUNTRY,INDICATOR,FREQUENCY,TIME_PERIOD,OBS_VAL"
+  },
+  {
+    "file": "mfs_ir_primary_bulk.csv",
+    "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_IR,8.0.1/.DISR_RT_PT_A_PT.M?format=csvfile",
+    "status": 200,
+    "size": 6222684,
+    "preview": "DATAFLOW,COUNTRY,INDICATOR,FREQUENCY,TIME_PERIOD,OBS_VALUE,SCALE,PRECISION,DECIM"
+  }
+]

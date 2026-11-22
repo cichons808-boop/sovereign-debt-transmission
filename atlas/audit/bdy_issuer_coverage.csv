@@ -1,0 +1,21 @@
+issuer,first_event,last_event,first_complete_quarter,last_complete_quarter,n_events,empty_interior_quarters_left_missing,boundary_rule
+AUS,2001-09-05 00:00:00,2022-12-06 00:00:00,2001Q4,2022Q3,230,1,drop_both_boundary_quarters
+BRA,2009-04-30 00:00:00,2022-12-08 00:00:00,2009Q3,2022Q3,110,0,drop_both_boundary_quarters
+CAN,2001-08-28 00:00:00,2022-12-07 00:00:00,2001Q4,2022Q3,175,0,drop_both_boundary_quarters
+CHE,2008-11-20 00:00:00,2022-12-15 00:00:00,2009Q1,2022Q3,48,13,drop_both_boundary_quarters
+CHL,2009-12-16 00:00:00,2022-12-07 00:00:00,2010Q1,2022Q3,136,0,drop_both_boundary_quarters
+CHN,2006-08-21 00:00:00,2020-05-11 00:00:00,2006Q4,2020Q1,166,0,drop_both_boundary_quarters
+ECB,2000-01-05 00:00:00,2022-12-15 00:00:00,2000Q2,2022Q3,267,0,drop_both_boundary_quarters
+GBR,2000-01-13 00:00:00,2022-12-15 00:00:00,2000Q2,2022Q3,253,0,drop_both_boundary_quarters
+HUN,2004-01-19 00:00:00,2022-12-20 00:00:00,2004Q2,2022Q3,237,0,drop_both_boundary_quarters
+IND,2000-05-03 00:00:00,2022-12-07 00:00:00,2000Q3,2022Q3,125,11,drop_both_boundary_quarters
+ISR,2006-06-26 00:00:00,2022-11-21 00:00:00,2006Q3,2022Q3,177,0,drop_both_boundary_quarters
+JPN,2009-12-18 00:00:00,2022-12-20 00:00:00,2010Q1,2022Q3,142,0,drop_both_boundary_quarters
+KOR,2000-01-06 00:00:00,2022-11-24 00:00:00,2000Q2,2022Q3,253,0,drop_both_boundary_quarters
+MEX,2003-07-25 00:00:00,2022-12-15 00:00:00,2003Q4,2022Q3,189,0,drop_both_boundary_quarters
+NOR,2000-01-19 00:00:00,2022-12-15 00:00:00,2000Q2,2022Q3,183,0,drop_both_boundary_quarters
+NZL,2000-01-19 00:00:00,2022-11-23 00:00:00,2000Q2,2022Q3,179,0,drop_both_boundary_quarters
+POL,2004-07-28 00:00:00,2022-12-07 00:00:00,2004Q4,2022Q3,209,0,drop_both_boundary_quarters
+SWE,2002-11-15 00:00:00,2022-12-15 00:00:00,2003Q1,2022Q3,135,0,drop_both_boundary_quarters
+THA,2000-01-06 00:00:00,2022-11-30 00:00:00,2000Q2,2022Q3,157,9,drop_both_boundary_quarters
+USA,2001-08-21 00:00:00,2022-05-04 00:00:00,2001Q4,2022Q1,174,1,drop_both_boundary_quarters

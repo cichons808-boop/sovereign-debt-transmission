@@ -1,0 +1,26 @@
+[
+  {
+    "file": "usmpd_source.html",
+    "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/",
+    "status": 200,
+    "size": 119059
+  },
+  {
+    "file": "usmpd_latest.xlsx",
+    "url": "https://www.frbsf.org/wp-content/uploads/USMPD.xlsx?2026-11-20",
+    "status": 200,
+    "size": 199373
+  },
+  {
+    "file": "usmpd_surprises.zip",
+    "url": "https://www.frbsf.org/wp-content/uploads/monetary-policy-surprises.zip?2026-11-20",
+    "status": 200,
+    "size": 78948
+  },
+  {
+    "file": "bis_policy_fresh.zip",
+    "url": "https://data.bis.org/static/bulk/WS_CBPOL_csv_flat.zip",
+    "status": 200,
+    "size": 4146603
+  }
+]

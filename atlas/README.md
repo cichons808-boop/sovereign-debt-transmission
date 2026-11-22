@@ -21,19 +21,20 @@ From the repository root, use Python 3.12 with the original `requirements.txt` a
 
 ```bash
 python -m pip install -r requirements.txt -r atlas/requirements.txt
+python -m atlas.snapshot restore
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m atlas.run baseline
 python -m atlas.run chunk --moderator F01
 python -m atlas.run report
 python -m atlas.run validate
 ```
 
-The saved processed panels reproduce the regression inputs. Raw re-acquisition / construction modules are explicit:
+The checksummed snapshot parts restore the saved processed panels, all permanent model records, current aggregate coefficient tables, archived attempts and figures. They only restore paths inside `atlas/`. Coefficients include null results; covariance matrices are retained in permanent model records. The source and notebook files are directly reviewable in GitHub. The saved processed panels reproduce the regression inputs. Raw re-acquisition / construction modules are explicit; these contact live sources and may require the public-browser download for UKMPD:
 
 ```bash
-python -m atlas.macro_expansion
+python -m atlas.run macro
 python -m atlas.run audit
 python -m atlas.run fresh
-python -m atlas.external
+python -m atlas.run external
 python -m atlas.run reconstruct
 ```
 
@@ -54,5 +55,7 @@ Public APIs and source websites may revise files or deny direct downloads. The U
 Baseline horizons are 0–5 years or 0–12 quarters. Outcomes are cumulative log-level changes relative to the pre-shock period. Headline CPI is a price-level response, not a change in the inflation rate. Quarterly CPI averages require all three actually observed months. Annual moderators retain annual observation dates and enter as prior-calendar-year exposure states; no annual outcome is interpolated into quarters.
 
 Inference uses calendar-aggregated Bartlett HAC scores, so common currency-union shocks, global dependence and overlapping LP outcomes are retained. Time fixed effects explicitly absorb common shock main effects. Restricted calendar-block wild p-values and BH adjustments supplement the raw HAC p-values. Small samples, generated Taylor innovations, source heterogeneity and multiple exploratory comparisons limit interpretation. A positive interaction or country point estimate is not proof of expansionary monetary policy.
+
+Completed in this snapshot: 102,914 attempted LP/association specifications, 66,680 estimated, four one-characteristic chunks, and 203 country/territory IRF pages. These counts include dependent horizons and sensitivity runs, not independent discoveries. Native annual domestic/inherited CWY country LP eligibility is 159 real-GDP and 145 CPI economies. The separate external-Fed annual experiment supports 197 GDP and 172 CPI economies.
 
 This is an evolving empirical atlas, not a finished paper or a completed test of the entire structural-variable catalogue. See the generated notebook and chunk status files for exactly what ran.

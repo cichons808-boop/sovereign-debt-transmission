@@ -1,0 +1,32 @@
+[
+  {
+    "file": "mfs_ir_policy_monthly.csv",
+    "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_IR,8.0.1/.MFS166_RT_PT_A_PT.M?format=csvfile",
+    "status": 200,
+    "size": 1727714
+  },
+  {
+    "file": "mfs_ir_refinance_monthly.csv",
+    "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_IR,8.0.1/.MFS171_RT_PT_A_PT.M?format=csvfile",
+    "status": 200,
+    "size": 156325
+  },
+  {
+    "file": "mfs_ir_repo_monthly.csv",
+    "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_IR,8.0.1/.MFS161_RT_PT_A_PT.M?format=csvfile",
+    "status": 200,
+    "size": 23305
+  },
+  {
+    "file": "ifs_fx_monthly.json",
+    "url": "https://api.db.nomics.world/v22/series/IMF/IFS?dimensions=%7B%22INDICATOR%22%3A%5B%22ENDA_XDC_USD_RATE%22%5D%2C%22FREQ%22%3A%5B%22M%22%5D%7D&limit=1000&observations=1",
+    "status": 200,
+    "size": 6031947
+  },
+  {
+    "file": "ifs_cpi_monthly.json",
+    "url": "https://api.db.nomics.world/v22/series/IMF/IFS?dimensions=%7B%22INDICATOR%22%3A%5B%22PCPI_IX%22%5D%2C%22FREQ%22%3A%5B%22M%22%5D%7D&limit=1000&observations=1",
+    "status": 200,
+    "size": 4763603
+  }
+]

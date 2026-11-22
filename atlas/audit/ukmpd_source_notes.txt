@@ -1,0 +1,18 @@
+This spreadsheet presents the UK Monetary Policy Event-Study Database (UKMPD) as outlined in Braun, Miranda-Agrippino and Saha. 
+It captures high-frequency monetary policy surprises and monetary policy factors for the United Kingdom. Both the 'surprises' and 'factors' tab has an 'isMPC' identifier that takes the value TRUE for MPC announcements, and FALSE for press conferences. All datetimes are reported in GMT. 
+The 'Summary of Asset Prices' tab provides a description of the various asset prices feeding into the dataset. 
+If using the data, please cite as: Braun, Miranda-Agrippino and Saha, "Measuring Monetary Policy in the UK: the UK Monetary Policy Event-Study Database", Journal of Monetary Economics (2024)
+
+Underlying data source: LSEG (formerly Refinitiv) Tick History and author calculations.
+LSEG Tick History link
+
+Notes:
+10 July 2024: The database was revised for publication in the Journal of Monetary Economics. We now include two types of events: MPC announcements (which will capture Inflation Report (IR) / Monetary Policy Report (MPR) announcements in the post-2015 sample) and press conferences (which will capture IR/MPR announcements in the pre-2015 sample).
+8 February 2024: We have revised the dataset to remove 3 observations in 2020, for the May, August and November MPC announcements and MPR publications which occured at 7am local time. These had previously been recorded as a 12pm local time publication. As 7am falls outside of UK financial market trading hours, data is not available at that time. There are also underlying data availability issues for MPC events on 9th July 1998, 8th March 2001, 10th April 2003 and 11th March 2020, which result in missing observations on those dates. The dataset is currently being revised for publication and may evolve.
+
+Disclaimers
+All material included herein is intended for general informational purposes only. No user should act or refrain from acting on this information without first verifying the information and obtaining professional advice.
+The Bank of England does not accept any responsibility or liability for loss or damage, whether direct, indirect or consequential, resulting from the use of, or the inability to use, this information whether as a result of inaccuracies, defects, errors (typographical or otherwise), omissions, out of date information or otherwise, or from any reliance on information contained herein.
+The Bank of England makes no representations or warranties as to the accuracy or completeness of the information contained herein. Some data series may be subject to revisions.
+The user agrees that any such material downloaded is obtained entirely at the user's own risk and that the user will be entirely responsible for any resulting damage to software or computer systems and/or any resulting loss of data even if the Bank of England has been advised of the possibility of such damage
+Any dispute arising out of use of this information database or the Terms and Conditions found on the Bank of England’s website shall be governed by the laws of England and the user and the Bank submit to the exclusive jurisdiction of the English courts. The Bank’s omission to exercise any right under these Terms and Conditions shall not constitute a waiver of such right.

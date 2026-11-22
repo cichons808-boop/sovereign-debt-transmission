@@ -1,0 +1,31 @@
+{
+  "snapshot_date": "2026-11-22",
+  "completed_chunks": [
+    "F01",
+    "F04",
+    "R01",
+    "E01"
+  ],
+  "partial": [
+    "domestic_shock_coverage_all_states",
+    "exhaustive_national_archives",
+    "common_authority_rules_outside_ECB",
+    "native_quarterly_CPI_history_AUS_NZ",
+    "all_regime_and_institution_comparisons",
+    "generated_shock_first_stage_uncertainty"
+  ],
+  "unstarted": [
+    "F02",
+    "F03",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "P01",
+    "C01"
+  ],
+  "background_work_running": false,
+  "user_catalogue_truncated_at": "F10"
+}

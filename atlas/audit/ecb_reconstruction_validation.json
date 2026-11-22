@@ -1,17 +1,34 @@
 {
-  "angle": 0.7051099539973874,
+  "angle": 0.6973771499918225,
   "loading_matrix": [
     [
       1.0,
-      -15.64716022290113
+      -16.22961630188031
     ],
     [
       1.0,
-      15.647160222901121
+      16.229616301880306
     ]
   ],
-  "uncentered_cross_product": -4.1974217115013944e-17,
-  "n": 312,
+  "uncentered_cross_product": 3.056621976160946e-17,
+  "n": 317,
+  "legacy_method_diagnostics": {
+    "angle": 0.7051099539973874,
+    "loading_matrix": [
+      [
+        1.0,
+        -15.64716022290113
+      ],
+      [
+        1.0,
+        15.647160222901121
+      ]
+    ],
+    "uncentered_cross_product": -4.1974217115013944e-17,
+    "n": 312,
+    "legacy_monthly_max_absolute_error": 8.561830928260905e-09,
+    "legacy_months_compared": 277
+  },
   "legacy_monthly_max_absolute_error": 8.561830928260905e-09,
   "legacy_months_compared": 277,
   "current_last_event": "2026-06-11",

@@ -99,7 +99,9 @@ def ecb_reconstruct():
     # Same-date comparison is diagnostic only: the current quote methodology
     # and the PCA/rotation estimation sample differ, so don't splice vintages.
     overlap=rebuilt.merge(jk_pc(old)[0],on='date',suffixes=('_current','_old'))
-    diagnostics.update(old_diag)
+    diagnostics['legacy_method_diagnostics']=old_diag
+    diagnostics['legacy_monthly_max_absolute_error']=error
+    diagnostics['legacy_months_compared']=len(comparison)
     diagnostics.update(current_last_event=str(rebuilt.date.max().date()),current_events=len(rebuilt),
         common_events=len(overlap),overlap_mp_correlation=float(overlap.mp_median_current.corr(overlap.mp_median_old)),
         newly_available_events=int((rebuilt.date>old.date.max()).sum()),

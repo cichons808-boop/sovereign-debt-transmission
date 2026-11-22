@@ -1,0 +1,14 @@
+[
+  {
+    "file": "wb_energy_imports.json",
+    "url": "https://api.worldbank.org/v2/country/all/indicator/EG.IMP.CONS.ZS?format=json&date=1960:2025&per_page=20000",
+    "status": 200,
+    "size": 3949664
+  },
+  {
+    "file": "wb_central_government_debt.json",
+    "url": "https://api.worldbank.org/v2/country/all/indicator/GC.DOD.TOTL.GD.ZS?format=json&date=1960:2025&per_page=20000",
+    "status": 200,
+    "size": 4018111
+  }
+]

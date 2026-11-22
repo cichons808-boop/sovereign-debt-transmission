@@ -1,0 +1,74 @@
+[
+  {
+    "name": "imf_2026.zip",
+    "url": "https://www.imf.org/-/media/files/publications/wp/2026/datasets/wp2618.zip",
+    "http_status": 404,
+    "size": 48,
+    "sha256": "e5b09412cd805f1a41a70e81599f3387dd00eb2857e76475676df5552dadf021",
+    "accessed_utc": "2026-11-22T18:50:29.500755+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "name": "imf_debt.json",
+    "url": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP",
+    "http_status": 200,
+    "size": 97769,
+    "sha256": "bacd0d83be00b655c74c0953f1e72c4cbd7fcd24a9625d03993786b660bdf6a0",
+    "accessed_utc": "2026-11-22T18:50:29.470041+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "name": "bolhuis_drive.html",
+    "url": "https://drive.google.com/drive/folders/1wrQ1O5XsPQDGSCKa058lOym-H_DYR0a9",
+    "http_status": 200,
+    "size": 334697,
+    "sha256": "ac7b8393a745b7a43f0d64fb2f0e68b76f008e01dc80459b7513024cf11d7f44",
+    "accessed_utc": "2026-11-22T18:50:28.878606+00:00",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "name": "cwy_official.xlsx",
+    "url": "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/revisiting-the-monetary-transmission-mechanism-through-an-industry-level-differential-approach.xlsx?la=en",
+    "http_status": 403,
+    "size": 598,
+    "sha256": "670fc15aca522749b91778a26f2f4d54ba91b08b08c4dcdf659595e0a5607415",
+    "accessed_utc": "2026-11-22T18:50:29.404393+00:00",
+    "content_type": "text/html"
+  },
+  {
+    "name": "jk_ecb_monthly.csv",
+    "url": "https://raw.githubusercontent.com/marekjarocinski/jkshocks_update_ecb/main/shocks_ecb_mpd_me_m.csv",
+    "http_status": 200,
+    "size": 21768,
+    "sha256": "89c5b2ec39509057b3c71f44218424fc8d15d4041b16f31c96613f8fe0965534",
+    "accessed_utc": "2026-11-22T18:50:28.558077+00:00",
+    "content_type": "text/plain; charset=utf-8"
+  },
+  {
+    "name": "wb_countries.json",
+    "url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "http_status": 200,
+    "size": 113954,
+    "sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce",
+    "accessed_utc": "2026-11-22T18:50:28.451006+00:00",
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "name": "wb_gdp.json",
+    "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.KD?format=json&date=1960:2025&per_page=20000",
+    "http_status": 200,
+    "size": 3800408,
+    "sha256": "a6406661e5352298b183335bee9fa8cb71405d78e3aac748845ad1879265e9c2",
+    "accessed_utc": "2026-11-22T18:50:32.590498+00:00",
+    "content_type": "application/json;charset=utf-8"
+  },
+  {
+    "name": "wb_cpi.json",
+    "url": "https://api.worldbank.org/v2/country/all/indicator/FP.CPI.TOTL?format=json&date=1960:2025&per_page=20000",
+    "http_status": 200,
+    "size": 3861404,
+    "sha256": "b60aaeaa676724ba65805de96f9b85fff40ced92339e9e8fa069fa0cebdaf8b8",
+    "accessed_utc": "2026-11-22T18:50:33.290089+00:00",
+    "content_type": "application/json;charset=utf-8"
+  }
+]

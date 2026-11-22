@@ -1,0 +1,23 @@
+[
+  {
+    "file": "imf_nea_flow.json",
+    "url": "https://api.imf.org/external/sdmx/3.0/structure/dataflow/IMF.STA/NEA/latest?references=all",
+    "status": 204,
+    "size": 0,
+    "preview": ""
+  },
+  {
+    "file": "imf_qnea_flow.json",
+    "url": "https://api.imf.org/external/sdmx/3.0/structure/dataflow/IMF.STA/QNEA/latest?references=all",
+    "status": 200,
+    "size": 3213256,
+    "preview": "{\"data\":{\"categorisations\":[{\"annotations\":[{\"id\":\"order\",\"value\":\"8\"},{\"id\":\"origin\",\"val"
+  },
+  {
+    "file": "ifs_gdp_quarterly.json",
+    "url": "https://api.db.nomics.world/v22/series/IMF/IFS?dimensions=%7B%22INDICATOR%22%3A%5B%22NGDP_R_SA_XDC%22%5D%2C%22FREQ%22%3A%5B%22Q%22%5D%7D&limit=1000&observations=1",
+    "status": 200,
+    "size": 583467,
+    "preview": "{\"_meta\":{\"args\":{\"align_periods\":false,\"dataset_code\":\"IFS\",\"dimensions\":{\"FREQ\":[\"Q\"],\"I"
+  }
+]

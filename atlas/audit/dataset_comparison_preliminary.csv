@@ -1,0 +1,9 @@
+dataset,downloaded_countries,countries_with_nonzero_shock_variance,independent_policy_issuers,native_frequency,first,last,countries_gdp_h0,countries_cpi_h0,countries_eligible_gdp_h0,countries_eligible_cpi_h0,inherited_countries,download_status,identification,published_policy_economies
+W_CWY_annual,176,175,89,A,1973,2019,174,170,160,146,150,downloaded,heterogeneous_6_classes,
+H_BDY_daily,38,38,20,Q,2000Q2,2022Q3,38,36,35,34,0,downloaded,daily_swap_orthogonalized_poor_man_MP_split,
+H_JK_ECB_intraday,20,20,1,Q,1999Q1,2025Q3,20,20,18,19,0,downloaded,intraday_OIS_equity_sign_decomposition_median_rotation,
+Emeksiz_Kamber_Otten_Pasricha_2026,,,,event_30minute,,published_2025_not_file_verified,,,,,,author_link_HTTP404_no_observations_downloaded,intraday_target_and_path_separate_no_MP_CBI_split,16
+CWY_monthly,,,,M,,,,,,,,downloaded_not_estimated,annual_Taylor_residuals_not_available_monthly;see_coverage_file,
+Bauer_Swanson_US,,,,event,,,,,,,,primary_source_located_not_downloaded_not_estimated,intraday_orthogonalized_surprise,1
+UKMPD,,,,event,,,,,,,,primary_source_located_not_downloaded_not_estimated,UK_event_study_target_path_QE,1
+EA_EMPD_and_EA_CED,,,,event,,,,,,,,primary_source_located_not_downloaded_not_estimated,ECB_decisions_and_speeches_different_event_universe,1

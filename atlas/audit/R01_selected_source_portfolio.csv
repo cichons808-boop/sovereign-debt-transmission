@@ -1,0 +1,47 @@
+country,source_key,n,last,priority
+ARG,BIS_NA_SEC_S13_N|S13|debt securities|N,10,2025,50
+AUS,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+AUT,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+BEL,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+BGR,EurostatRMD|S13|Maastricht gross debt|nominal,31,2025,15
+BRA,BR_Tesouro_DPMFi|S1311|federal domestic marketable debt|source debt-accounting value,54,2025,10
+CAN,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+CHE,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+CHL,CL_Hacienda_schedule|S1311|central-government scheduled principal excluding Treasury bonds held by Corfo; older reports also exclude fiscal promissory notes to the central bank|principal repayment schedule,20,2025,10
+CHN,QPSD_CG|S1311|all reported debt instruments|nominal,32,2025,30
+CYP,EurostatRMD|S13|Maastricht gross debt|nominal,4,2025,15
+CZE,EurostatRMD|S13|Maastricht gross debt|nominal,6,2025,15
+DEU,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+DNK,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+ESP,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+EST,"EE_MF_GG_accounts|S13|consolidated general-government bonds, loans and finance leases|financial-statement carrying value",18,2025,10
+FIN,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+FRA,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+GBR,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+GRC,EurostatRMD|S13|Maastricht gross debt|nominal,6,2025,15
+HKG,BIS_NA_SEC_S13_N|S13|debt securities|N,44,2025,50
+HRV,EurostatRMD|S13|Maastricht gross debt|nominal,6,2025,15
+HUN,HU_AKK_CG|S1311|Central-government HUF and FX debt; excludes separately listed other obligations|scheduled principal at reported exchange rates,39,2025,10
+IDN,BIS_NA_SEC_S13_N|S13|debt securities|N,16,2025,50
+IRL,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+ISR,QPSD_CG|S1311|all reported debt instruments|nominal,56,2025,30
+ITA,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+JPN,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+KOR,QPSD_GG|S13|all reported debt instruments|nominal,14,2024,20
+LTU,EurostatRMD|S13|Maastricht gross debt|nominal,4,2025,15
+LUX,"LU_IGF_classical_bonds|S1311|classical central-government bullet bonds, including private placement; excludes bank loans and SUKUK|nominal",10,2024,10
+LVA,"LV_Treasury_CG|S1311|central-government debt portfolio, residual maturity|source central-government debt stock",23,2025,10
+MEX,QPSD_GG|S13|all reported debt instruments|nominal,36,2025,20
+MLT,EurostatRMD|S13|Maastricht gross debt|nominal,4,2025,15
+NLD,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+NOR,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+NZL,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+POL,PL_MF_all|S1311|State Treasury gross debt|nominal,32,2025,10
+PRT,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+ROU,EurostatRMD|S13|Maastricht gross debt|nominal,6,2025,15
+SVK,EurostatRMD|S13|Maastricht gross debt|nominal,4,2025,15
+SVN,SI_MF_budget_debt|S1311|state-budget debt; actual remaining time to maturity|reported principal stock,24,2023,10
+SWE,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10
+THA,QPSD_GG|S13|all reported debt instruments|nominal,6,2025,20
+TUR,BIS_NA_SEC_S13_N|S13|debt securities|N,12,2025,50
+USA,DeGraeveMazzolini|source government portfolio|source marketable government debt|face,52,2020,10

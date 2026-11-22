@@ -1,0 +1,108 @@
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:07:09.556703+00:00", "universe": "H_BDY_daily", "countries": 38}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:08:13.557212+00:00", "universe": "H_BDY_daily", "countries": 38}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:08:35.623990+00:00", "universe": "H_BDY_daily", "specifications": 2184, "ok": 2054, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:08:35.625054+00:00", "universe": "H_ECB_reconstructed_2026", "countries": 21}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:08:45.138951+00:00", "universe": "H_ECB_reconstructed_2026", "specifications": 1274, "ok": 936, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:08:45.139750+00:00", "universe": "H_GBR_Path_2026", "countries": 1}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:08:45.987521+00:00", "universe": "H_GBR_Path_2026", "specifications": 208, "ok": 52, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:08:45.987976+00:00", "universe": "H_GBR_Target_2026", "countries": 1}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:08:46.840022+00:00", "universe": "H_GBR_Target_2026", "specifications": 208, "ok": 52, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:08:46.840653+00:00", "universe": "H_JK_ECB_intraday", "countries": 20}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:08:55.979012+00:00", "universe": "H_JK_ECB_intraday", "specifications": 1222, "ok": 936, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:08:55.980456+00:00", "universe": "H_USA_reconstructed_2026", "countries": 1}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:08:56.790716+00:00", "universe": "H_USA_reconstructed_2026", "specifications": 208, "ok": 52, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:08:56.791386+00:00", "universe": "W_CWY_annual", "countries": 175}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:09:49.423196+00:00", "universe": "W_CWY_annual", "specifications": 4356, "ok": 3749, "failed": 0}
+{"stage": "baseline", "status": "completed", "utc": "2026-11-22T19:09:56.620587+00:00", "specifications": 9660, "successful": 7831}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:23:32.251141+00:00", "universe": "H_BDY_daily", "path": "results/baseline_archive/H_BDY_daily/initial_unfingerprin"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:23:32.253013+00:00", "universe": "H_BDY_daily", "countries": 38}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:24:38.309391+00:00", "universe": "H_BDY_daily", "specifications": 2184, "ok": 1976, "failed": 0}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:24:38.310072+00:00", "universe": "H_ECB_reconstructed_2026", "path": "results/baseline_archive/H_ECB_reconstructed_2026/initial_unfingerprin"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:24:38.310791+00:00", "universe": "H_ECB_reconstructed_2026", "countries": 21}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:24:48.184801+00:00", "universe": "H_ECB_reconstructed_2026", "specifications": 1274, "ok": 921, "failed": 0}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:24:48.185478+00:00", "universe": "H_GBR_Path_2026", "path": "results/baseline_archive/H_GBR_Path_2026/initial_unfingerprin"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:24:48.186065+00:00", "universe": "H_GBR_Path_2026", "countries": 1}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:24:49.110101+00:00", "universe": "H_GBR_Path_2026", "specifications": 208, "ok": 52, "failed": 0}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:24:49.110704+00:00", "universe": "H_GBR_Target_2026", "path": "results/baseline_archive/H_GBR_Target_2026/initial_unfingerprin"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:24:49.111257+00:00", "universe": "H_GBR_Target_2026", "countries": 1}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:24:50.046469+00:00", "universe": "H_GBR_Target_2026", "specifications": 208, "ok": 52, "failed": 0}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:24:50.047803+00:00", "universe": "H_JK_ECB_intraday", "path": "results/baseline_archive/H_JK_ECB_intraday/initial_unfingerprin"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:24:50.048683+00:00", "universe": "H_JK_ECB_intraday", "countries": 20}
+{"stage": "baseline", "status": "checkpointed_interruption", "reason": "performance_optimization_preserves_complete_country_calendars; completed_universes_retained; remaining_models_restarted", "utc": "2026-11-22T19:25:26.405600+00:00"}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:25:27.418149+00:00", "universe": "H_BDY_daily", "path": "results/baseline_archive/H_BDY_daily/4d023556b0cd9c08579f"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:25:27.419117+00:00", "universe": "H_BDY_daily", "countries": 38}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:25:58.441371+00:00", "universe": "H_BDY_daily", "specifications": 2184, "ok": 1976, "failed": 0}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:25:58.442187+00:00", "universe": "H_ECB_reconstructed_2026", "path": "results/baseline_archive/H_ECB_reconstructed_2026/70c7092d331fc746cccd"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:25:58.443039+00:00", "universe": "H_ECB_reconstructed_2026", "countries": 21}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:26:06.377348+00:00", "universe": "H_ECB_reconstructed_2026", "specifications": 1274, "ok": 921, "failed": 0}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:26:06.378323+00:00", "universe": "H_GBR_Path_2026", "path": "results/baseline_archive/H_GBR_Path_2026/28920810071c22312297"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:26:06.378990+00:00", "universe": "H_GBR_Path_2026", "countries": 1}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:26:07.302102+00:00", "universe": "H_GBR_Path_2026", "specifications": 208, "ok": 52, "failed": 0}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:26:07.303136+00:00", "universe": "H_GBR_Target_2026", "path": "results/baseline_archive/H_GBR_Target_2026/9cd58af057ad726f3ef5"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:26:07.303698+00:00", "universe": "H_GBR_Target_2026", "countries": 1}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:26:08.237608+00:00", "universe": "H_GBR_Target_2026", "specifications": 208, "ok": 52, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:26:08.238518+00:00", "universe": "H_JK_ECB_intraday", "countries": 20}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:26:15.976609+00:00", "universe": "H_JK_ECB_intraday", "specifications": 1222, "ok": 921, "failed": 0}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:26:15.977379+00:00", "universe": "H_USA_reconstructed_2026", "path": "results/baseline_archive/H_USA_reconstructed_2026/initial_unfingerprin"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:26:15.978146+00:00", "universe": "H_USA_reconstructed_2026", "countries": 1}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:26:16.822623+00:00", "universe": "H_USA_reconstructed_2026", "specifications": 208, "ok": 52, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:26:16.824615+00:00", "universe": "T_reconstructed_annual", "countries": 71}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:26:31.366235+00:00", "universe": "T_reconstructed_annual", "specifications": 1836, "ok": 1670, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:26:31.368770+00:00", "universe": "T_reconstructed_annual_1L", "countries": 85}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:26:48.445533+00:00", "universe": "T_reconstructed_annual_1L", "specifications": 2172, "ok": 1964, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:26:48.449472+00:00", "universe": "T_reconstructed_quarterly", "countries": 50}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:27:34.359746+00:00", "universe": "T_reconstructed_quarterly", "specifications": 2860, "ok": 2832, "failed": 0}
+{"stage": "baseline", "status": "archived_prior_run", "utc": "2026-11-22T19:27:34.361464+00:00", "universe": "W_CWY_annual", "path": "results/baseline_archive/W_CWY_annual/initial_unfingerprin"}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:27:34.362680+00:00", "universe": "W_CWY_annual", "countries": 175}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:28:04.588724+00:00", "universe": "W_CWY_annual", "specifications": 4356, "ok": 3749, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:28:04.590773+00:00", "universe": "W_external_ECB_annual", "countries": 206}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:28:39.025494+00:00", "universe": "W_external_ECB_annual", "specifications": 5076, "ok": 3796, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:28:39.030438+00:00", "universe": "W_external_ECB_quarterly", "countries": 179}
+{"stage": "chunk", "status": "running", "utc": "2026-11-22T19:29:23.818578+00:00", "moderator": "F01"}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:30:23.526532+00:00", "moderator": "F01", "universe": "H_BDY_daily", "supported_countries": 38, "specifications_so_far": 5902}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:30:38.381967+00:00", "moderator": "F01", "universe": "H_ECB_reconstructed_2026", "supported_countries": 21, "specifications_so_far": 7202}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:30:38.491083+00:00", "universe": "W_external_ECB_quarterly", "specifications": 9594, "ok": 6156, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:30:38.493291+00:00", "universe": "W_external_USA_annual", "countries": 216}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:30:40.211049+00:00", "moderator": "F01", "universe": "H_USA_reconstructed_2026", "supported_countries": 1, "specifications_so_far": 7384}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:30:49.079784+00:00", "moderator": "F01", "universe": "T_reconstructed_annual_1L", "supported_countries": 85, "specifications_so_far": 8536}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:31:17.593986+00:00", "universe": "W_external_USA_annual", "specifications": 5316, "ok": 4253, "failed": 0}
+{"stage": "baseline", "status": "running", "utc": "2026-11-22T19:31:17.598051+00:00", "universe": "W_external_USA_quarterly", "countries": 189}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:31:23.213815+00:00", "moderator": "F01", "universe": "T_reconstructed_quarterly", "supported_countries": 50, "specifications_so_far": 10096}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:31:52.019662+00:00", "moderator": "F01", "universe": "W_CWY_annual", "supported_countries": 172, "specifications_so_far": 14596}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:32:09.172417+00:00", "moderator": "F01", "universe": "W_external_USA_annual", "supported_countries": 190, "specifications_so_far": 17008}
+{"stage": "baseline", "status": "estimated", "utc": "2026-11-22T19:33:24.225481+00:00", "universe": "W_external_USA_quarterly", "specifications": 10114, "ok": 6936, "failed": 0}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:33:24.937667+00:00", "moderator": "F01", "universe": "W_external_USA_quarterly", "supported_countries": 179, "specifications_so_far": 21948}
+{"stage": "baseline", "status": "completed", "utc": "2026-11-22T19:33:50.508647+00:00", "specifications": 46628, "successful": 35330}
+{"stage": "chunk", "status": "completed", "utc": "2026-11-22T19:33:57.076444+00:00", "moderator": "F01", "specifications": 21948, "estimated": 10987}
+{"stage": "chunk", "status": "running", "utc": "2026-11-22T19:36:41.951807+00:00", "moderator": "F04"}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:37:13.937634+00:00", "moderator": "F04", "universe": "H_BDY_daily", "supported_countries": 29, "specifications_so_far": 1742}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:37:23.909986+00:00", "moderator": "F04", "universe": "H_ECB_reconstructed_2026", "supported_countries": 21, "specifications_so_far": 2912}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:37:25.220742+00:00", "moderator": "F04", "universe": "H_USA_reconstructed_2026", "supported_countries": 1, "specifications_so_far": 3094}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:37:30.406771+00:00", "moderator": "F04", "universe": "T_reconstructed_annual_1L", "supported_countries": 45, "specifications_so_far": 3766}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:37:55.007443+00:00", "moderator": "F04", "universe": "T_reconstructed_quarterly", "supported_countries": 33, "specifications_so_far": 4884}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:38:08.691933+00:00", "moderator": "F04", "universe": "W_CWY_annual", "supported_countries": 78, "specifications_so_far": 7044}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:38:17.829475+00:00", "moderator": "F04", "universe": "W_external_USA_annual", "supported_countries": 94, "specifications_so_far": 8304}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:39:06.243756+00:00", "moderator": "F04", "universe": "W_external_USA_quarterly", "supported_countries": 100, "specifications_so_far": 11190}
+{"stage": "chunk", "status": "completed", "utc": "2026-11-22T19:39:19.605226+00:00", "moderator": "F04", "specifications": 11190, "estimated": 5102}
+{"stage": "chunk", "status": "running", "utc": "2026-11-22T19:39:20.616677+00:00", "moderator": "R01"}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:39:51.601532+00:00", "moderator": "R01", "universe": "H_BDY_daily", "supported_countries": 32, "specifications_so_far": 1898}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:40:03.770271+00:00", "moderator": "R01", "universe": "H_ECB_reconstructed_2026", "supported_countries": 21, "specifications_so_far": 3094}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:40:05.366091+00:00", "moderator": "R01", "universe": "H_USA_reconstructed_2026", "supported_countries": 1, "specifications_so_far": 3276}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:40:09.686949+00:00", "moderator": "R01", "universe": "T_reconstructed_annual_1L", "supported_countries": 31, "specifications_so_far": 3780}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:40:30.093747+00:00", "moderator": "R01", "universe": "T_reconstructed_quarterly", "supported_countries": 23, "specifications_so_far": 4638}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:40:38.191988+00:00", "moderator": "R01", "universe": "W_CWY_annual", "supported_countries": 35, "specifications_so_far": 5718}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:40:43.326599+00:00", "moderator": "R01", "universe": "W_external_USA_annual", "supported_countries": 45, "specifications_so_far": 6390}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:41:12.225211+00:00", "moderator": "R01", "universe": "W_external_USA_quarterly", "supported_countries": 45, "specifications_so_far": 7846}
+{"stage": "chunk", "status": "completed", "utc": "2026-11-22T19:41:21.284378+00:00", "moderator": "R01", "specifications": 7846, "estimated": 4432}
+{"stage": "chunk", "status": "running", "utc": "2026-11-22T19:41:22.300050+00:00", "moderator": "E01"}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:42:08.212453+00:00", "moderator": "E01", "universe": "H_BDY_daily", "supported_countries": 38, "specifications_so_far": 2210}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:42:24.086577+00:00", "moderator": "E01", "universe": "H_ECB_reconstructed_2026", "supported_countries": 20, "specifications_so_far": 3484}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:42:26.166895+00:00", "moderator": "E01", "universe": "H_USA_reconstructed_2026", "supported_countries": 1, "specifications_so_far": 3666}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:42:34.402639+00:00", "moderator": "E01", "universe": "T_reconstructed_annual_1L", "supported_countries": 71, "specifications_so_far": 4650}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:43:06.970946+00:00", "moderator": "E01", "universe": "T_reconstructed_quarterly", "supported_countries": 47, "specifications_so_far": 6132}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:43:35.905600+00:00", "moderator": "E01", "universe": "W_CWY_annual", "supported_countries": 135, "specifications_so_far": 9516}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:43:54.641941+00:00", "moderator": "E01", "universe": "W_external_USA_annual", "supported_countries": 144, "specifications_so_far": 11376}
+{"stage": "chunk_universe", "status": "estimated", "utc": "2026-11-22T19:45:04.684631+00:00", "moderator": "E01", "universe": "W_external_USA_quarterly", "supported_countries": 140, "specifications_so_far": 15302}
+{"stage": "chunk", "status": "completed", "utc": "2026-11-22T19:45:37.276114+00:00", "moderator": "E01", "specifications": 15302, "estimated": 10829}
+{"stage": "report", "status": "running", "utc": "2026-11-22T19:50:50.027396+00:00"}
+{"stage": "report", "status": "completed", "utc": "2026-11-22T19:52:38.316244+00:00", "baseline_attempted": 46628, "baseline_estimated": 35330, "chunk_attempted": 56286, "chunk_estimated": 31350, "chunks": ["E01", "F01", "F04", "R01"], "country_IRF_pages": 203, "observed_rate_economies": 149, "unresolved_national_source_searches": true, "full_catalogue_complete": false}

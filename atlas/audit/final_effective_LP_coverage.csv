@@ -1,0 +1,15 @@
+universe,attempted,estimated,gdp_eligible,cpi_eligible,raw_shock_countries,issuers,first,last,frequency,shock_unit
+H_BDY_daily,2184,1976,35,34,38,20,2000Q2,2022Q3,Q,10bp_daily_swap_monetary_component_not_policy_rate_change
+H_ECB_reconstructed_2026,1274,921,18,19,21,1,1999Q2,2026Q2,Q,10bp_OIS1Y_scaled_MP_factor
+H_GBR_Path_2026,208,52,1,1,1,1,1997Q3,2026Q1,Q,UKMPD_Path_source_unit
+H_GBR_Target_2026,208,52,1,1,1,1,1997Q3,2026Q1,Q,UKMPD_Target_source_unit
+H_JK_ECB_intraday,1222,921,18,19,20,1,1999Q1,2025Q3,Q,10bp_OIS1Y_scaled_intraday_MP_factor
+H_USA_reconstructed_2026,208,52,1,1,1,1,1997Q4,2026Q3,Q,10bp_GSW1Y_scaled_intraday_MP_component
+T_reconstructed_annual,1836,1670,71,71,71,71,1964,2025,A,one_full_source_country_SD_reconstructed_Taylor_innovation_not_10bp
+T_reconstructed_annual_1L,2172,1964,85,85,85,85,1962,2025,A,one_full_source_country_SD_reconstructed_Taylor_innovation_not_10bp
+T_reconstructed_quarterly,2860,2832,50,50,50,50,1961Q2,2026Q3,Q,one_full_source_country_SD_reconstructed_Taylor_innovation_not_10bp
+W_CWY_annual,4356,3749,159,145,175,89,1973,2019,A,one_full_source_recipient_series_SD_not_10bp
+W_external_ECB_annual,5076,3796,178,154,206,1,2000,2025,A,10bp_ECB_factor_cumulative_annual_not_domestic_policy
+W_external_ECB_quarterly,9594,6156,78,166,179,1,1999Q2,2026Q2,Q,10bp_ECB_factor_cumulative_quarterly_not_domestic_policy
+W_external_USA_annual,5316,4253,197,172,216,1,1998,2025,A,10bp_USA_factor_cumulative_annual_not_domestic_policy
+W_external_USA_quarterly,10114,6936,93,181,189,1,1997Q4,2026Q3,Q,10bp_USA_factor_cumulative_quarterly_not_domestic_policy

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "imf_cpi_headline_srp_monthly.xml",
+    "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,CPI,5.0.0/.CPI._T.SRP_IX.M?format=csvfile",
+    "status": 200,
+    "size": 8495296,
+    "preview": "<?xml version='1.0' encoding='UTF-8'?><message:StructureSpecificData xmlns:ss=\"h"
+  },
+  {
+    "file": "imf_cpi_headline_ix_monthly.xml",
+    "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,CPI,5.0.0/.CPI._T.IX.M?format=csvfile",
+    "status": 200,
+    "size": 16201542,
+    "preview": "<?xml version='1.0' encoding='UTF-8'?><message:StructureSpecificData xmlns:ss=\"h"
+  }
+]

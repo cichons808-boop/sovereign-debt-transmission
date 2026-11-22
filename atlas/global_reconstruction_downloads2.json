@@ -1,0 +1,26 @@
+[
+  {
+    "file": "ifs_discount_metadata.json",
+    "url": "https://api.db.nomics.world/v22/series/IMF/IFS?dimensions=%7B%22INDICATOR%22%3A%5B%22FIDR_PA%22%5D%7D&limit=1000&observations=1",
+    "status": 200,
+    "size": 3114053
+  },
+  {
+    "file": "bis_usd_fx_fresh.zip",
+    "url": "https://data.bis.org/static/bulk/WS_XRU_csv_flat.zip",
+    "status": 200,
+    "size": 10354405
+  },
+  {
+    "file": "wb_annual_gdp_growth.json",
+    "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.KD.ZG?date=1960:2025&format=json&per_page=20000",
+    "status": 200,
+    "size": 3820100
+  },
+  {
+    "file": "wb_annual_inflation.json",
+    "url": "https://api.worldbank.org/v2/country/all/indicator/FP.CPI.TOTL.ZG?date=1960:2025&format=json&per_page=20000",
+    "status": 200,
+    "size": 4012597
+  }
+]

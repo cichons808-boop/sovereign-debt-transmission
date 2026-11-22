@@ -237,6 +237,8 @@ def quarterly_reconstruction(monthly,countries):
 
 def country_inventory(countries,monthly,annual,quarterly):
     universe=pd.DataFrame([dict(country=c.alpha_3,iso_country_name=c.name) for c in pycountry.countries])
+    additional=countries.loc[~countries.country.isin(universe.country),['country','country_name']].rename(columns={'country_name':'iso_country_name'})
+    universe=pd.concat([universe,additional],ignore_index=True)
     universe=universe.merge(countries,on='country',how='left',validate='one_to_one')
     rate=monthly.groupby('country').agg(rate_first=('month','min'),rate_last=('month','max'),
         rate_observations=('rate','size'),rate_source=('source','first'),rate_kind=('kind','first')).reset_index()
@@ -258,6 +260,19 @@ def country_inventory(countries,monthly,annual,quarterly):
         'audit_new_country_specific_HF_or_narrative_sources_and_recent_endpoints'))
     # This is an inventory, not a claim that every national website was searched.
     universe['individual_national_source_search']='not_yet_completed'
+    for filename,label in [('T_reconstructed_annual_1L.csv.gz','annual_1L'),
+        ('H_BDY_daily.csv.gz','BDY'),('H_ECB_reconstructed_2026.csv.gz','ECB_2026'),
+        ('W_external_USA_annual.csv.gz','external_Fed_annual')]:
+        path=PROCESSED/filename
+        if not path.exists():continue
+        p=pd.read_csv(path,low_memory=False)
+        observed=p[p.shock.notna()].groupby('country').agg(**{
+            label+'_shock_n':('shock','size'),label+'_shock_last':('period','max')}).reset_index()
+        universe=universe.merge(observed,on='country',how='left',validate='one_to_one')
+    universe['latest_domestic_reconstruction_class']='not_reconstructed'
+    if 'annual_1L_shock_n' in universe:
+        universe.loc[universe.annual_1L_shock_n.fillna(0).gt(0),'latest_domestic_reconstruction_class']='annual_Taylor_1L_weaker_identification'
+    universe.loc[universe.quarterly_shock_n.fillna(0).gt(0),'latest_domestic_reconstruction_class']='quarterly_Taylor_1L_weaker_identification'
     save_csv(universe,AUDIT/'worldwide_country_gap_inventory.csv')
 
 

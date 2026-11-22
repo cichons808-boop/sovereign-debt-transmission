@@ -1,0 +1,20 @@
+[
+  {
+    "file": "ifs_policy_metadata.json",
+    "url": "https://api.db.nomics.world/v22/series/IMF/IFS?dimensions=%7B%22INDICATOR%22%3A%5B%22FPOLM_PA%22%5D%7D&limit=1000&observations=1",
+    "status": 200,
+    "size": 1398087
+  },
+  {
+    "file": "imf_dataflows.xml",
+    "url": "https://api.imf.org/external/sdmx/2.1/dataflow/IMF.STA/all/latest?references=none",
+    "status": 503,
+    "size": 91
+  },
+  {
+    "file": "wb_fx.json",
+    "url": "https://api.worldbank.org/v2/country/all/indicator/PA.NUS.FCRF?date=1960:2025&format=json&per_page=20000",
+    "status": 200,
+    "size": 4197331
+  }
+]

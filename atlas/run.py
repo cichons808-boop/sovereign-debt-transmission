@@ -92,14 +92,20 @@ def baseline(force=False):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('stage',choices=['audit','fresh','reconstruct','baseline','chunk','report','validate','all'])
+    parser.add_argument('stage',choices=['macro','audit','fresh','external','reconstruct','baseline','chunk','report','validate','all'])
     parser.add_argument('--moderator',default='F01')
     parser.add_argument('--force',action='store_true')
     args=parser.parse_args()
+    if args.stage in ['macro','all']:
+        from .macro_expansion import run
+        run();checkpoint('native_macro_expansion','completed')
     if args.stage in ['audit','all']:build_audit();checkpoint('audit','completed')
     if args.stage in ['fresh','all']:
         from .fresh_shocks import run
         run();checkpoint('fresh_shocks','completed')
+    if args.stage in ['external','all']:
+        from .external import run
+        run();checkpoint('external_spillover_panels','completed')
     if args.stage in ['reconstruct','all']:
         from .reconstruct import run
         run();checkpoint('global_reconstruction','completed')

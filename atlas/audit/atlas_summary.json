@@ -1,0 +1,16 @@
+{
+  "baseline_attempted": 46628,
+  "baseline_estimated": 35330,
+  "chunk_attempted": 56286,
+  "chunk_estimated": 31350,
+  "chunks": [
+    "E01",
+    "F01",
+    "F04",
+    "R01"
+  ],
+  "country_IRF_pages": 203,
+  "observed_rate_economies": 149,
+  "unresolved_national_source_searches": true,
+  "full_catalogue_complete": false
+}

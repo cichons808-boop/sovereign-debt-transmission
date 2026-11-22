@@ -9,5 +9,6 @@ raw/*.R
 raw/*.m
 raw/*.py
 raw/*.xml
+raw/methods_*.md
 results/**/specifications.jsonl.gz
 figures/countries/*.png

@@ -1,0 +1,891 @@
+{
+  "annotations": [
+    {
+      "id": "origin",
+      "value": "INTEGRATION"
+    },
+    {
+      "id": "isFinal"
+    },
+    {
+      "id": "lastUpdatedAt",
+      "value": "2025-09-20T00:44:59.332982Z"
+    }
+  ],
+  "id": "CL_MFS_IR_INDICATOR",
+  "name": "Monetary and Financial Statistics (MFS_IR) Indicator",
+  "names": {
+    "en": "Monetary and Financial Statistics (MFS_IR) Indicator"
+  },
+  "descriptions": {},
+  "version": "2.1.0",
+  "agencyID": "IMF.STA",
+  "isPartial": false,
+  "codes": [
+    {
+      "annotations": [],
+      "id": "MFS147_RT_PT_A_PT",
+      "name": "Government securities: Treasury bills, bond equivalent, Rate, Percent per annum",
+      "names": {
+        "en": "Government securities: Treasury bills, bond equivalent, Rate, Percent per annum"
+      },
+      "description": "Treasury bills expressed as an equivalent bond yield. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Treasury bills expressed as an equivalent bond yield. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS171_RT_PT_A_PT",
+      "name": "Refinancing Rate, Percent per annum",
+      "names": {
+        "en": "Refinancing Rate, Percent per annum"
+      },
+      "description": "The interest rate at which existing debt can be replaced with new debt. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate at which existing debt can be replaced with new debt. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "FISDR_RT_PT_A_PT",
+      "name": "SDR interest Rate, Percent per annum",
+      "names": {
+        "en": "SDR interest Rate, Percent per annum"
+      },
+      "description": "The interest rate applicable to Special Drawing Rights (SDRs), an international type of monetary reserve currency created by the International Monetary Fund (IMF). A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate applicable to Special Drawing Rights (SDRs), an international type of monetary reserve currency created by the International Monetary Fund (IMF). A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBL_NB_S11_FC_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Loans, New Business, Non-financial corporations, Foreign Currency, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Loans, New Business, Non-financial corporations, Foreign Currency, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new loans to households in the Euro area. New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new loans to households in the Euro area. New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBD_NB_S11_FC_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Deposits, New Business, Non-financial corporations, Foreign Currency, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Deposits, New Business, Non-financial corporations, Foreign Currency, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new deposit accounts for households in the Euro area. New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new deposit accounts for households in the Euro area. New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "LIBOR_OVNGT_RT_PT_A_PT",
+      "name": "London interbank offered rate (LIBOR), Overnight Rate, Percent per annum",
+      "names": {
+        "en": "London interbank offered rate (LIBOR), Overnight Rate, Percent per annum"
+      },
+      "description": "The interest rate at which major global banks lend to one another for a period of 3 months. Overnight A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate at which major global banks lend to one another for a period of 3 months. Overnight A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBL_NB_S14_FC_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Loans, New Business, Households, Foreign Currency, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Loans, New Business, Households, Foreign Currency, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new loans to households in the Euro area. New Business Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new loans to households in the Euro area. New Business Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS130_RT_PT_A_PT",
+      "name": "Average cost of funds, Rate, Percent per annum",
+      "names": {
+        "en": "Average cost of funds, Rate, Percent per annum"
+      },
+      "description": "The average interest rate that financial institutions pay to borrow money. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The average interest rate that financial institutions pay to borrow money. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBD_NB_S14_FC_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Deposits, New Business, Households, Foreign Currency, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Deposits, New Business, Households, Foreign Currency, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new deposit accounts for households in the Euro area. New Business Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new deposit accounts for households in the Euro area. New Business Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBL_NB_S11_XDC_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Loans, New Business, Non-financial corporations, Domestic currency, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Loans, New Business, Non-financial corporations, Domestic currency, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new loans to households in the Euro area. New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. Currency issued by the country of origin, used internally. Used to specify what Unit of Measure the country used to provide data to the IMF.\u00a0 A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new loans to households in the Euro area. New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. Currency issued by the country of origin, used internally. Used to specify what Unit of Measure the country used to provide data to the IMF.\u00a0 A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "FIRR_RT_PT_A_PT",
+      "name": "Rate of renumeration, Rate, Percent per annum",
+      "names": {
+        "en": "Rate of renumeration, Rate, Percent per annum"
+      },
+      "description": "Rate of renumeration. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Rate of renumeration. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HEOADR_OA_S11_RT_PT_A_PT",
+      "name": "Harmonized Euro Area Rates: Deposits, Repos, Outstanding Amounts, Non-financial corporations, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro Area Rates: Deposits, Repos, Outstanding Amounts, Non-financial corporations, Rate, Percent per annum"
+      },
+      "description": "Harmonized Euro Area Rates, Outstanding Amounts, Deposits, Non-Financial Corporations, Repos Outstanding Amounts Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Harmonized Euro Area Rates, Outstanding Amounts, Deposits, Non-Financial Corporations, Repos Outstanding Amounts Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBD_NB_S11_XDC_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Deposits, New Business, Non-financial corporations, Domestic currency, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Deposits, New Business, Non-financial corporations, Domestic currency, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new deposit accounts for households in the Euro area. New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. Currency issued by the country of origin, used internally. Used to specify what Unit of Measure the country used to provide data to the IMF.\u00a0 A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new deposit accounts for households in the Euro area. New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. Currency issued by the country of origin, used internally. Used to specify what Unit of Measure the country used to provide data to the IMF.\u00a0 A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HRNBLNFCOBO_STO1_NB_S11_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Loans other than bank overdrafts, Over EUR 1 Million, Floating rate, Up to 1 year New Business, Non-financial corporations, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Loans other than bank overdrafts, Over EUR 1 Million, Floating rate, Up to 1 year New Business, Non-financial corporations, Rate, Percent per annum"
+      },
+      "description": "Harmonized Euro Area Rates, New Business, Loans, Non-financial Corporations, Other Than Bank Overdrafts, Over EUR 1 Million, Floating Rate and up to 1 Year Original contract stipulates that payment is falling due in up to 1 year New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Harmonized Euro Area Rates, New Business, Loans, Non-financial Corporations, Other Than Bank Overdrafts, Over EUR 1 Million, Floating Rate and up to 1 Year Original contract stipulates that payment is falling due in up to 1 year New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBL_NB_S14_XDC_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Loans, New Business, Households, Domestic currency, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Loans, New Business, Households, Domestic currency, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new loans to households in the Euro area. New Business Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. Currency issued by the country of origin, used internally. Used to specify what Unit of Measure the country used to provide data to the IMF.\u00a0 A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new loans to households in the Euro area. New Business Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. Currency issued by the country of origin, used internally. Used to specify what Unit of Measure the country used to provide data to the IMF.\u00a0 A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "IRTBILL_FC_RT_PT_A_PT",
+      "name": "Treasury bills, Foreign Currency, Rate, Percent per annum",
+      "names": {
+        "en": "Treasury bills, Foreign Currency, Rate, Percent per annum"
+      },
+      "description": "The return on investment for  U.S. government debt securities with a maturity of three months. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The return on investment for  U.S. government debt securities with a maturity of three months. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "S13BONDS_S_RT_PT_A_PT",
+      "name": "Government bonds yields, Short-term Rate, Percent per annum",
+      "names": {
+        "en": "Government bonds yields, Short-term Rate, Percent per annum"
+      },
+      "description": "The yield or return on investment for long-term debt securities issued by a government. Original contract stipulates that payment is due in one year or less or payable on demand (referred to as short-term maturity).   A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The yield or return on investment for long-term debt securities issued by a government. Original contract stipulates that payment is due in one year or less or payable on demand (referred to as short-term maturity).   A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "S13BONDSML_RT_PT_A_PT",
+      "name": "Government bonds yields medium and long term, Rate, Percent per annum",
+      "names": {
+        "en": "Government bonds yields medium and long term, Rate, Percent per annum"
+      },
+      "description": "The yield or return on investment for long-term debt securities issued by a government. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The yield or return on investment for long-term debt securities issued by a government. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBD_LT2_OA_S11_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Deposits, Up to 2 years Outstanding Amounts, Non-financial corporations, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Deposits, Up to 2 years Outstanding Amounts, Non-financial corporations, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new deposit accounts for households in the Euro area. Up to 2 years Outstanding Amounts Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new deposit accounts for households in the Euro area. Up to 2 years Outstanding Amounts Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBD_NB_S14_XDC_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Deposits, New Business, Households, Domestic currency, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Deposits, New Business, Households, Domestic currency, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new deposit accounts for households in the Euro area. New Business Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. Currency issued by the country of origin, used internally. Used to specify what Unit of Measure the country used to provide data to the IMF.\u00a0 A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new deposit accounts for households in the Euro area. New Business Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. Currency issued by the country of origin, used internally. Used to specify what Unit of Measure the country used to provide data to the IMF.\u00a0 A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HERLOBO1EUR_S3TO1_NB_S11_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Loans other than bank overdrafts, Over EUR 1 Million, Over 3 months and up to 1 Year New Business, Non-financial corporations, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Loans other than bank overdrafts, Over EUR 1 Million, Over 3 months and up to 1 Year New Business, Non-financial corporations, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new loans (excluding bank overdrafts) over EUR 1 million, with maturities over 3 months and up to 1 year in the Euro area. Original contract stipulates that payment is falling due in more than 3 months and up to 1 year New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new loans (excluding bank overdrafts) over EUR 1 million, with maturities over 3 months and up to 1 year in the Euro area. Original contract stipulates that payment is falling due in more than 3 months and up to 1 year New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBD_STO1_NB_S11_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Deposits, Up to 1 year New Business, Non-financial corporations, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Deposits, Up to 1 year New Business, Non-financial corporations, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new deposit accounts for households in the Euro area. Original contract stipulates that payment is falling due in up to 1 year New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new deposit accounts for households in the Euro area. Original contract stipulates that payment is falling due in up to 1 year New Business Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS151_STO1_NB_S14_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates, New business: Deposits agreed maturity, Up to 1 year New Business, Households, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates, New business: Deposits agreed maturity, Up to 1 year New Business, Households, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new deposits with agreed maturities up to 1 year in the Euro area. Original contract stipulates that payment is falling due in up to 1 year New Business Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new deposits with agreed maturities up to 1 year in the Euro area. Original contract stipulates that payment is falling due in up to 1 year New Business Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS162_USD_RT_PT_A_PT",
+      "name": "Lending rate, US dollar, Rate, Percent per annum",
+      "names": {
+        "en": "Lending rate, US dollar, Rate, Percent per annum"
+      },
+      "description": "The interest rate charged by banks on loans to borrowers. US dollar A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate charged by banks on loans to borrowers. US dollar A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "GSTBILY_L_RT_PT_A_PT",
+      "name": "Government securities: Treasury bills yields, Long-term Rate, Percent per annum",
+      "names": {
+        "en": "Government securities: Treasury bills yields, Long-term Rate, Percent per annum"
+      },
+      "description": "Short-term debt securities issued by a government Original contract stipulates that payment is due in more than one year, or has no stated maturity (referred to as long-term maturity) A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Short-term debt securities issued by a government Original contract stipulates that payment is due in more than one year, or has no stated maturity (referred to as long-term maturity) A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "LIBOR_S1_RT_PT_A_PT",
+      "name": "London interbank offered rate (LIBOR), 1 Year Rate, Percent per annum",
+      "names": {
+        "en": "London interbank offered rate (LIBOR), 1 Year Rate, Percent per annum"
+      },
+      "description": "The interest rate at which major global banks lend to one another for a period of 3 months. One year A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate at which major global banks lend to one another for a period of 3 months. One year A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS135_USD_RT_PT_A_PT",
+      "name": "Deposit rate, US dollar, Rate, Percent per annum",
+      "names": {
+        "en": "Deposit rate, US dollar, Rate, Percent per annum"
+      },
+      "description": "The interest rate paid by banks on funds deposited by account holders. This rate determines how much interest a depositor earns on their savings or deposit accounts. US dollar A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate paid by banks on funds deposited by account holders. This rate determines how much interest a depositor earns on their savings or deposit accounts. US dollar A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "LIBOR_S1M_RT_PT_A_PT",
+      "name": "London interbank offered rate (LIBOR), 1 Month Rate, Percent per annum",
+      "names": {
+        "en": "London interbank offered rate (LIBOR), 1 Month Rate, Percent per annum"
+      },
+      "description": "The interest rate at which major global banks lend to one another for a period of 3 months. One month A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate at which major global banks lend to one another for a period of 3 months. One month A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "S13BONDS_RT_PT_A_PT",
+      "name": "Government bonds yields, Rate, Percent per annum",
+      "names": {
+        "en": "Government bonds yields, Rate, Percent per annum"
+      },
+      "description": "The yield or return on investment for long-term debt securities issued by a government. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The yield or return on investment for long-term debt securities issued by a government. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "LIBOR_S6M_RT_PT_A_PT",
+      "name": "London interbank offered rate (LIBOR), 6 Months Rate, Percent per annum",
+      "names": {
+        "en": "London interbank offered rate (LIBOR), 6 Months Rate, Percent per annum"
+      },
+      "description": "The interest rate at which major global banks lend to one another for a period of 3 months. Six months A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate at which major global banks lend to one another for a period of 3 months. Six months A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS162_EUR_RT_PT_A_PT",
+      "name": "Lending rate, Euro, Rate, Percent per annum",
+      "names": {
+        "en": "Lending rate, Euro, Rate, Percent per annum"
+      },
+      "description": "The interest rate charged by banks on loans to borrowers. Euro A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate charged by banks on loans to borrowers. Euro A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS141_RT_PT_A_PT",
+      "name": "Eurosystem deposit facility Rate, Percent per annum",
+      "names": {
+        "en": "Eurosystem deposit facility Rate, Percent per annum"
+      },
+      "description": "The interest rate paid on deposits held at the central bank of the Eurozone by commercial banks. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate paid on deposits held at the central bank of the Eurozone by commercial banks. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS173_RT_PT_A_PT",
+      "name": "Reverse repurchase agreement Rate, Percent per annum",
+      "names": {
+        "en": "Reverse repurchase agreement Rate, Percent per annum"
+      },
+      "description": "The interest rate charged on reverse repurchase agreements. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate charged on reverse repurchase agreements. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBL_STO1_OA_S11_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Loans, Up to 1 year Outstanding Amounts, Non-financial corporations, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Loans, Up to 1 year Outstanding Amounts, Non-financial corporations, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new loans to households in the Euro area. Original contract stipulates that payment is falling due in up to 1 year Outstanding Amounts Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new loans to households in the Euro area. Original contract stipulates that payment is falling due in up to 1 year Outstanding Amounts Non-financial corporations are institutional units whose principal activity is the production of market goods or non-financial services. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS135_EUR_RT_PT_A_PT",
+      "name": "Deposit rate, Euro, Rate, Percent per annum",
+      "names": {
+        "en": "Deposit rate, Euro, Rate, Percent per annum"
+      },
+      "description": "The interest rate paid by banks on funds deposited by account holders. This rate determines how much interest a depositor earns on their savings or deposit accounts. Euro A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate paid by banks on funds deposited by account holders. This rate determines how much interest a depositor earns on their savings or deposit accounts. Euro A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "S13BONDS_SMT_RT_PT_A_PT",
+      "name": "Government bonds yields, Short to medium term Rate, Percent per annum",
+      "names": {
+        "en": "Government bonds yields, Short to medium term Rate, Percent per annum"
+      },
+      "description": "The yield or return on investment for long-term debt securities issued by a government. Refers to instruments with a maturity period that spans from short-term to medium-term duration. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The yield or return on investment for long-term debt securities issued by a government. Refers to instruments with a maturity period that spans from short-term to medium-term duration. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS1903_RT_PT_A_PT",
+      "name": "Central bank borrowing facility, Rate, Percent per annum",
+      "names": {
+        "en": "Central bank borrowing facility, Rate, Percent per annum"
+      },
+      "description": "A mechanism by which central banks lend funds to financial institutions. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "A mechanism by which central banks lend funds to financial institutions. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS2123_OY5_NB_HP_S14_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates, New Business: Loans, House Purchase, households, Over 5 years New Business, House purchase, Households, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates, New Business: Loans, House Purchase, households, Over 5 years New Business, House purchase, Households, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new loans to households for house purchases in the Euro area. Indicates a financial instrument with an original or remaining maturity exceeding 5 years. New Business House purchase Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new loans to households for house purchases in the Euro area. Indicates a financial instrument with an original or remaining maturity exceeding 5 years. New Business House purchase Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBL_NB_CFR_S14_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Loans, New Business, Consumption floating rate, Households, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Loans, New Business, Consumption floating rate, Households, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new loans to households in the Euro area. New Business Consumption floating rate Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new loans to households in the Euro area. New Business Consumption floating rate Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "GSTBILY_S3M_RT_PT_A_PT",
+      "name": "Government securities: Treasury bills yields, 3 Months Rate, Percent per annum",
+      "names": {
+        "en": "Government securities: Treasury bills yields, 3 Months Rate, Percent per annum"
+      },
+      "description": "Short-term debt securities issued by a government Three months A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Short-term debt securities issued by a government Three months A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS161_RT_PT_A_PT",
+      "name": "Key repurchase agreement Rate, Percent per annum",
+      "names": {
+        "en": "Key repurchase agreement Rate, Percent per annum"
+      },
+      "description": "An agreement where a central bank purchases securities from a financial institution with an agreement to sell them back at a later date, often used to control money supply. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "An agreement where a central bank purchases securities from a financial institution with an agreement to sell them back at a later date, often used to control money supply. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS174_FC_RT_PT_A_PT",
+      "name": "Savings rate, Foreign Currency, Rate, Percent per annum",
+      "names": {
+        "en": "Savings rate, Foreign Currency, Rate, Percent per annum"
+      },
+      "description": "The interest rate paid by banks on savings accounts. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate paid by banks on savings accounts. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "LEDR_S3M_RT_PT_A_PT",
+      "name": "London Eurodollar deposit rate, 3 Months Rate, Percent per annum",
+      "names": {
+        "en": "London Eurodollar deposit rate, 3 Months Rate, Percent per annum"
+      },
+      "description": "The London Eurodollar Deposit Rate is the interest rate at which banks offer to lend Eurodollars to other banks. It is a benchmark rate used in financial markets to gauge short-term interest rates and liquidity condition. Three months A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The London Eurodollar Deposit Rate is the interest rate at which banks offer to lend Eurodollars to other banks. It is a benchmark rate used in financial markets to gauge short-term interest rates and liquidity condition. Three months A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS162_FC_RT_PT_A_PT",
+      "name": "Lending rate, Foreign Currency, Rate, Percent per annum",
+      "names": {
+        "en": "Lending rate, Foreign Currency, Rate, Percent per annum"
+      },
+      "description": "The interest rate charged by banks on loans to borrowers. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate charged by banks on loans to borrowers. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HEOADAM_LT2_OA_S14_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Deposits agreed maturity, Up to 2 years Outstanding Amounts, Households, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Deposits agreed maturity, Up to 2 years Outstanding Amounts, Households, Rate, Percent per annum"
+      },
+      "description": "Interest rates on outstanding deposits with agreed maturities up to 2 years in the Euro area. Up to 2 years Outstanding Amounts Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on outstanding deposits with agreed maturities up to 2 years in the Euro area. Up to 2 years Outstanding Amounts Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "GSTBILY_RT_PT_A_PT",
+      "name": "Government securities: Treasury bills yields, Rate, Percent per annum",
+      "names": {
+        "en": "Government securities: Treasury bills yields, Rate, Percent per annum"
+      },
+      "description": "Short-term debt securities issued by a government A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Short-term debt securities issued by a government A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS172_RT_PT_A_PT",
+      "name": "Repurchase agreement Rate, Percent per annum",
+      "names": {
+        "en": "Repurchase agreement Rate, Percent per annum"
+      },
+      "description": "The interest rate charged on repurchase agreements. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate charged on repurchase agreements. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MMRT_FC_RT_PT_A_PT",
+      "name": "Money market rate, Foreign Currency, Rate, Percent per annum",
+      "names": {
+        "en": "Money market rate, Foreign Currency, Rate, Percent per annum"
+      },
+      "description": "The market for short-term debt securities and financial instruments, typically with maturities of less than one year. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The market for short-term debt securities and financial instruments, typically with maturities of less than one year. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "GBYMIN_RT_PT_A_PT",
+      "name": "Government bond yields, minimum, Rate, Percent per annum",
+      "names": {
+        "en": "Government bond yields, minimum, Rate, Percent per annum"
+      },
+      "description": "This index measures the minimum yield on government bonds, reflecting the lowest interest rate that the government pays to borrow money through bond issuance. It is a key indicator of the cost of government borrowing and overall economic stability. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "This index measures the minimum yield on government bonds, reflecting the lowest interest rate that the government pays to borrow money through bond issuance. It is a key indicator of the cost of government borrowing and overall economic stability. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "DISR_FC_RT_PT_A_PT",
+      "name": "Discount rate, Foreign Currency, Rate, Percent per annum",
+      "names": {
+        "en": "Discount rate, Foreign Currency, Rate, Percent per annum"
+      },
+      "description": "The interest rate charged by central banks on loans to commercial banks. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate charged by central banks on loans to commercial banks. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HENBL_OY5_NB_HP_S14_RT_PT_A_PT",
+      "name": "Harmonized Euro area rates: Loans, Over 5 years New Business, House purchase, Households, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro area rates: Loans, Over 5 years New Business, House purchase, Households, Rate, Percent per annum"
+      },
+      "description": "Interest rates on new loans to households in the Euro area. Indicates a financial instrument with an original or remaining maturity exceeding 5 years. New Business House purchase Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interest rates on new loans to households in the Euro area. Indicates a financial instrument with an original or remaining maturity exceeding 5 years. New Business House purchase Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS135_FC_RT_PT_A_PT",
+      "name": "Deposit rate, Foreign Currency, Rate, Percent per annum",
+      "names": {
+        "en": "Deposit rate, Foreign Currency, Rate, Percent per annum"
+      },
+      "description": "The interest rate paid by banks on funds deposited by account holders. This rate determines how much interest a depositor earns on their savings or deposit accounts. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate paid by banks on funds deposited by account holders. This rate determines how much interest a depositor earns on their savings or deposit accounts. Currency used in a country other than one's own. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS166_RT_PT_A_PT",
+      "name": "Monetary policy-related, Rate, Percent per annum",
+      "names": {
+        "en": "Monetary policy-related, Rate, Percent per annum"
+      },
+      "description": "Pertaining to the actions and policies implemented by a central bank to control the money supply and interest rates in an economy. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Pertaining to the actions and policies implemented by a central bank to control the money supply and interest rates in an economy. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS1905_RT_PT_A_PT",
+      "name": "Certificates of deposit, Rate, Percent per annum",
+      "names": {
+        "en": "Certificates of deposit, Rate, Percent per annum"
+      },
+      "description": "Savings certificates with a fixed maturity date and specified interest rate, issued by banks. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Savings certificates with a fixed maturity date and specified interest rate, issued by banks. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS1904_RT_PT_A_PT",
+      "name": "Central bank certificates, Rate, Percent per annum",
+      "names": {
+        "en": "Central bank certificates, Rate, Percent per annum"
+      },
+      "description": "Debt securities issued by central banks. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Debt securities issued by central banks. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS162_OVNGT_RT_PT_A_PT",
+      "name": "Lending rate, Overnight Rate, Percent per annum",
+      "names": {
+        "en": "Lending rate, Overnight Rate, Percent per annum"
+      },
+      "description": "The interest rate charged by banks on loans to borrowers. Overnight A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate charged by banks on loans to borrowers. Overnight A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS134_RT_PT_A_PT",
+      "name": "Corporate paper Rate, Percent per annum",
+      "names": {
+        "en": "Corporate paper Rate, Percent per annum"
+      },
+      "description": "The interest rate on corporate paper. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate on corporate paper. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "HEANBLCCO_STO1_OA_S14_RT_PT_A_PT",
+      "name": "Harmonized Euro Area rates: Loans, consumer credit and other, Up to 1 year Outstanding Amounts, Households, Rate, Percent per annum",
+      "names": {
+        "en": "Harmonized Euro Area rates: Loans, consumer credit and other, Up to 1 year Outstanding Amounts, Households, Rate, Percent per annum"
+      },
+      "description": "This index tracks the interest rates on new loans provided to households in the euro area for consumer credit and other purposes. It provides insights into borrowing costs for households and is used to assess monetary policy effectiveness and consumer financial conditions. Original contract stipulates that payment is falling due in up to 1 year Outstanding Amounts Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "This index tracks the interest rates on new loans provided to households in the euro area for consumer credit and other purposes. It provides insights into borrowing costs for households and is used to assess monetary policy effectiveness and consumer financial conditions. Original contract stipulates that payment is falling due in up to 1 year Outstanding Amounts Households are a person or a group of persons who share the same living accommodation, who pool some, or all, of their income and wealth and who consume certain types of goods and services collectively, mainly housing and food. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MMRT_RT_PT_A_PT",
+      "name": "Money market Rate, Percent per annum",
+      "names": {
+        "en": "Money market Rate, Percent per annum"
+      },
+      "description": "The market for short-term debt securities and financial instruments, typically with maturities of less than one year. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The market for short-term debt securities and financial instruments, typically with maturities of less than one year. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "S13BOND_RT_PT_A_PT",
+      "name": "Government bonds, Rate, Percent per annum",
+      "names": {
+        "en": "Government bonds, Rate, Percent per annum"
+      },
+      "description": "Government bonds A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Government bonds A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS135_OVNGT_RT_PT_A_PT",
+      "name": "Deposit rate, Overnight Rate, Percent per annum",
+      "names": {
+        "en": "Deposit rate, Overnight Rate, Percent per annum"
+      },
+      "description": "The interest rate paid by banks on funds deposited by account holders. This rate determines how much interest a depositor earns on their savings or deposit accounts. Overnight A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate paid by banks on funds deposited by account holders. This rate determines how much interest a depositor earns on their savings or deposit accounts. Overnight A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS1934_RT_PT_A_PT",
+      "name": "Money market rate, maximum, Rate, Percent per annum",
+      "names": {
+        "en": "Money market rate, maximum, Rate, Percent per annum"
+      },
+      "description": "The highest interest rate offered in the money market for short-term debt instruments. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The highest interest rate offered in the money market for short-term debt instruments. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS1935_RT_PT_A_PT",
+      "name": "Money market rate, minimum, Rate, Percent per annum",
+      "names": {
+        "en": "Money market rate, minimum, Rate, Percent per annum"
+      },
+      "description": "The lowest interest rate offered in the money market for short-term debt instruments. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The lowest interest rate offered in the money market for short-term debt instruments. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "IRTBILL_RT_PT_A_PT",
+      "name": "Treasury bills, Rate, Percent per annum",
+      "names": {
+        "en": "Treasury bills, Rate, Percent per annum"
+      },
+      "description": "The return on investment for  U.S. government debt securities with a maturity of three months. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The return on investment for  U.S. government debt securities with a maturity of three months. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS162_RT_PT_A_PT",
+      "name": "Lending Rate, Percent per annum",
+      "names": {
+        "en": "Lending Rate, Percent per annum"
+      },
+      "description": "The interest rate charged by banks on loans to borrowers. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate charged by banks on loans to borrowers. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS174_RT_PT_A_PT",
+      "name": "Savings Rate, Percent per annum",
+      "names": {
+        "en": "Savings Rate, Percent per annum"
+      },
+      "description": "The interest rate paid by banks on savings accounts. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate paid by banks on savings accounts. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "IBRT_S3M_RT_PT_A_PT",
+      "name": "Interbank rate, 3 Months Rate, Percent per annum",
+      "names": {
+        "en": "Interbank rate, 3 Months Rate, Percent per annum"
+      },
+      "description": "Interbank rate Three months A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Interbank rate Three months A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "DISR_RT_PT_A_PT",
+      "name": "Discount Rate, Percent per annum",
+      "names": {
+        "en": "Discount Rate, Percent per annum"
+      },
+      "description": "The interest rate charged by central banks on loans to commercial banks. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate charged by central banks on loans to commercial banks. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "MFS135_RT_PT_A_PT",
+      "name": "Deposit Rate, Percent per annum",
+      "names": {
+        "en": "Deposit Rate, Percent per annum"
+      },
+      "description": "The interest rate paid by banks on funds deposited by account holders. This rate determines how much interest a depositor earns on their savings or deposit accounts. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "The interest rate paid by banks on funds deposited by account holders. This rate determines how much interest a depositor earns on their savings or deposit accounts. A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "UKR_NBOURRN_RT_PT_A_PT",
+      "name": "Ukraine National Definition, Refinancing Rate, Rate, Percent per annum",
+      "names": {
+        "en": "Ukraine National Definition, Refinancing Rate, Rate, Percent per annum"
+      },
+      "description": "Ukraine National Definition, Refinancing Rate A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Ukraine National Definition, Refinancing Rate A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "UKR_ORTBILRN_RT_PT_A_PT",
+      "name": "Ukraine Other Rates, Treasury Bills, Rate, Percent per annum",
+      "names": {
+        "en": "Ukraine Other Rates, Treasury Bills, Rate, Percent per annum"
+      },
+      "description": "Ukraine Other Rates, Treasury Bills A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100.",
+      "descriptions": {
+        "en": "Ukraine Other Rates, Treasury Bills A measure that expresses the frequency of occurrence of an event or phenomenon in relation to another quantity. Expresses an annual rate or percentage, often used in financial contexts. A ratio expressed as a fraction of 100."
+      }
+    },
+    {
+      "annotations": [],
+      "id": "UKR_PIO1_1997E_IX_1997E_IX_IX",
+      "name": "Ukraine Pets Index Oct 1, 1997 Eom, Index",
+      "names": {
+        "en": "Ukraine Pets Index Oct 1, 1997 Eom, Index"
+      },
+      "description": "Ukraine Pets Index Oct 1, 1997 Eom A statistical measure that expresses the relative change in a variable in the current period compared to the index reference period.",
+      "descriptions": {
+        "en": "Ukraine Pets Index Oct 1, 1997 Eom A statistical measure that expresses the relative change in a variable in the current period compared to the index reference period."
+      }
+    }
+  ],
+  "codelistExtensions": []
+}

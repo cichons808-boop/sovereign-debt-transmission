@@ -1,0 +1,32 @@
+[
+  {
+    "file": "ea_mpd_latest.xlsx",
+    "url": "https://www.ecb.europa.eu/pub/pdf/annex/Dataset_EA-MPD.xlsx",
+    "status": 200,
+    "size": 377116
+  },
+  {
+    "file": "jk_main.m",
+    "url": "https://raw.githubusercontent.com/marekjarocinski/jkshocks_update_ecb/main/code/main.m",
+    "status": 200,
+    "size": 1915
+  },
+  {
+    "file": "jk_code_tree.json",
+    "url": "https://api.github.com/repos/marekjarocinski/jkshocks_update_ecb/git/trees/main?recursive=1",
+    "status": 200,
+    "size": 3081
+  },
+  {
+    "file": "frbsf_source.html",
+    "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/monetary-policy-surprises/",
+    "status": 200,
+    "size": 114098
+  },
+  {
+    "file": "ukmpd_source.html",
+    "url": "https://www.bankofengland.co.uk/working-paper/2023/measuring-monetary-policy-in-the-uk-ukmpd",
+    "status": 403,
+    "size": 477
+  }
+]

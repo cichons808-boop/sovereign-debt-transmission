@@ -1,0 +1,44 @@
+[
+  {
+    "file": "frbsf_fresh.xlsx",
+    "url": "https://www.frbsf.org/wp-content/uploads/monetary-policy-surprises-data.xlsx?2026-11-20",
+    "status": 200,
+    "size": 301655
+  },
+  {
+    "file": "ukmpd_latest.xlsx",
+    "url": "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/measuring-monetary-policy-in-the-uk-the-ukmpesd.xlsx",
+    "status": 403,
+    "size": 534
+  },
+  {
+    "file": "ea_mpd_refresh.xlsx",
+    "url": "https://www.ecb.europa.eu/pub/pdf/annex/Dataset_EA-MPD.xlsx?download=1",
+    "status": 200,
+    "size": 377116
+  },
+  {
+    "file": "ecb_author_profile.html",
+    "url": "https://www.ecb.europa.eu/pub/research/authors/profiles/luca-brugnolini.en.html",
+    "status": 200,
+    "size": 103248
+  },
+  {
+    "file": "jk_mypc.m",
+    "url": "https://raw.githubusercontent.com/marekjarocinski/jkshocks_update_ecb/main/code/mypc.m",
+    "status": 200,
+    "size": 758
+  },
+  {
+    "file": "jk_signrestr_median.m",
+    "url": "https://raw.githubusercontent.com/marekjarocinski/jkshocks_update_ecb/main/code/signrestr_median.m",
+    "status": 200,
+    "size": 1536
+  },
+  {
+    "file": "jk_d2m2q.m",
+    "url": "https://raw.githubusercontent.com/marekjarocinski/jkshocks_update_ecb/main/code/d2m2q.m",
+    "status": 200,
+    "size": 2192
+  }
+]

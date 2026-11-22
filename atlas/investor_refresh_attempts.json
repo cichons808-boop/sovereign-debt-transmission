@@ -1,0 +1,16 @@
+[
+  {
+    "file": "imf_investors_current_AM.xlsx",
+    "url": "https://www.imf.org/-/media/Websites/IMF/imported-datasets/external/pubs/ft/wp/2012/Data/_wp12284.ashx",
+    "status": 404,
+    "size": 48,
+    "first_bytes": "7b0a2020"
+  },
+  {
+    "file": "imf_investors_current_EM.xlsx",
+    "url": "https://www.imf.org/-/media/Websites/IMF/imported-datasets/external/pubs/ft/wp/2014/Data/wp1439.ashx",
+    "status": 404,
+    "size": 48,
+    "first_bytes": "7b0a2020"
+  }
+]

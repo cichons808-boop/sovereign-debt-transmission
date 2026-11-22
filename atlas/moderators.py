@@ -82,7 +82,23 @@ DEFINITIONS={
 def registry():
     records=[]
     for code,d in DEFINITIONS.items():
-        records.append(dict(id=code,**d,native_frequency='A' if code not in ['P01','C01'] else 'pending_audit',
+        path=PROCESSED/(code+'_observed_annual.csv.gz')
+        observed=pd.read_csv(path) if path.exists() else pd.DataFrame()
+        fhl_columns={'F03':'domestic_gdp','F05':'foreign_gdp','F07':'central_bank_gdp',
+            'F08':'domestic_bank_gdp','F09':'domestic_nonbank_gdp','F10':'foreign_official_gdp'}
+        if observed.empty and code in [*fhl_columns,'F06']:
+            source=pd.read_csv(ROOT/'data/processed/fhl_holdings.csv')
+            values=source.foreign_gdp/source.total_gdp if code=='F06' else source[fhl_columns[code]]
+            observed=pd.DataFrame(dict(country=source.Country_Code,year=source.Year,value=values)).dropna()
+        observed_info=dict(available_countries=None,first_observed_year=None,last_observed_year=None,
+            countries_with_eight_distinct_values=None,data_quality='source_audit_pending')
+        if not observed.empty:
+            varying=observed.groupby('country').value.nunique()
+            observed_info=dict(available_countries=int(observed.country.nunique()),
+                first_observed_year=int(observed.year.min()),last_observed_year=int(observed.year.max()),
+                countries_with_eight_distinct_values=int(varying.ge(8).sum()),
+                data_quality='documented_actual_observations;provider_definition_and_portfolio_caveats_apply')
+        records.append(dict(id=code,**d,**observed_info,native_frequency='A' if code not in ['P01','C01'] else 'pending_audit',
             planned_outcomes='real_GDP_level|headline_CPI_level',
             novelty='exploratory_extension_no_claim_of_first_discovery',
             source_verification='verified_identifier' if d.get('verified') else 'candidate_only_not_tested',
@@ -92,7 +108,10 @@ def registry():
     return records
 
 
-def annual_characteristic(code):
+def annual_characteristic(code,refresh=False):
+    preserved=PROCESSED/(code+'_observed_annual.csv.gz')
+    if preserved.exists() and not refresh:
+        return pd.read_csv(preserved)
     if code=='F01':
         raw=json.loads(fetch('imf_debt.json').read_text())['values']['GGXWDG_NGDP']
         rows=[dict(country=c,year=int(y),value=v,source='IMF_WEO_October_2026_GGXWDG_NGDP')

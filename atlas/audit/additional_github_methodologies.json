@@ -1,0 +1,33 @@
+[
+  {
+    "candidate": "Burri_Kaufmann_2026_heteroskedasticity_IV",
+    "url": "https://raw.githubusercontent.com/dankaufmann/bk_2026_eclet_replication/main/Readme.md",
+    "http_status": 200,
+    "bytes": 9588,
+    "status": "primary_methodology_or_source_directory_only_not_estimated"
+  },
+  {
+    "candidate": "Buegel_Hidalgo_Luetticke_unified_narrative",
+    "url": "https://raw.githubusercontent.com/ralphluet/unified_narrative_mp_shocks/main/README.md",
+    "http_status": 200,
+    "bytes": 1890,
+    "status": "primary_methodology_or_source_directory_only_not_estimated",
+    "sha256": "8f74832108e8d26679b30d60a503b2603432e809d04a1a0fec20314c34c375e9"
+  },
+  {
+    "candidate": "MPsurprise_primary_source_directory",
+    "url": "https://raw.githubusercontent.com/paulbousquet/MPsurprise/main/README.md",
+    "http_status": 200,
+    "bytes": 2015,
+    "status": "primary_methodology_or_source_directory_only_not_estimated",
+    "sha256": "aaa0199c31e41dbbeb90b386519d9d21f7c3346d801e5d3c04f1a8876e9a7499"
+  },
+  {
+    "candidate": "mpshock_2026_curated_collection",
+    "url": "https://raw.githubusercontent.com/charlescoverdale/mpshock/main/README.md",
+    "http_status": 200,
+    "bytes": 17743,
+    "status": "primary_methodology_or_source_directory_only_not_estimated",
+    "sha256": "d83d13f4b06b7dbdaae7a01eb34bd476b072dc68d6aadda9cb8f3c4ca15a4193"
+  }
+]

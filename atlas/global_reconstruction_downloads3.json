@@ -1,0 +1,44 @@
+[
+  {
+    "file": "ifs_central_discount.json",
+    "url": "https://api.db.nomics.world/v22/series/IMF/IFS?dimensions=%7B%22INDICATOR%22%3A%5B%22FID_PA%22%5D%7D&limit=1000&observations=1",
+    "status": 200,
+    "size": 1665639
+  },
+  {
+    "file": "mfs_ir_discount_ddf.csv",
+    "url": "https://raw.githubusercontent.com/open-numbers/ddf--imf--mfs_ir/master/ddf--datapoints--disr_rt_pt_a_pt--by--country--year.csv",
+    "status": 200,
+    "size": 34715
+  },
+  {
+    "file": "mfs_ir_discount_countries.csv",
+    "url": "https://raw.githubusercontent.com/open-numbers/ddf--imf--mfs_ir/master/ddf--entities--country.csv",
+    "status": 200,
+    "size": 1369
+  },
+  {
+    "file": "mfs_ir_etl.py",
+    "url": "https://raw.githubusercontent.com/open-numbers/ddf--imf--mfs_ir/master/etl/scripts/update_source.py",
+    "status": 200,
+    "size": 3418
+  },
+  {
+    "file": "readimf_request.R",
+    "url": "https://raw.githubusercontent.com/cran/readimf/master/R/request.R",
+    "status": 200,
+    "size": 4020
+  },
+  {
+    "file": "readimf_structure.R",
+    "url": "https://raw.githubusercontent.com/cran/readimf/master/R/structure.R",
+    "status": 200,
+    "size": 8558
+  },
+  {
+    "file": "readimf_ifs.R",
+    "url": "https://raw.githubusercontent.com/cran/readimf/master/R/ifs.R",
+    "status": 200,
+    "size": 4290
+  }
+]

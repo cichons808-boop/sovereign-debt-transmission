@@ -1,0 +1,204 @@
+country,country_name,annual_panel,quarterly_panel,pdf_page
+ABW,Aruba,W_CWY_annual,W_external_USA_quarterly,1
+AFG,Afghanistan,W_external_USA_annual,W_external_USA_quarterly,2
+AGO,Angola,W_external_USA_annual,W_external_USA_quarterly,3
+ALB,Albania,W_CWY_annual,T_reconstructed_quarterly,4
+AND,Andorra,W_external_USA_annual,,5
+ARE,United Arab Emirates,W_CWY_annual,W_external_USA_quarterly,6
+ARG,Argentina,W_CWY_annual,W_external_USA_quarterly,7
+ARM,Armenia,W_CWY_annual,T_reconstructed_quarterly,8
+ATG,Antigua and Barbuda,W_CWY_annual,W_external_USA_quarterly,9
+AUS,Australia,W_CWY_annual,H_BDY_daily,10
+AUT,Austria,W_CWY_annual,H_ECB_reconstructed_2026,11
+AZE,Azerbaijan,W_CWY_annual,W_external_USA_quarterly,12
+BDI,Burundi,W_CWY_annual,W_external_USA_quarterly,13
+BEL,Belgium,W_CWY_annual,H_ECB_reconstructed_2026,14
+BEN,Benin,W_CWY_annual,W_external_USA_quarterly,15
+BFA,Burkina Faso,W_CWY_annual,W_external_USA_quarterly,16
+BGD,Bangladesh,W_CWY_annual,W_external_USA_quarterly,17
+BGR,Bulgaria,W_CWY_annual,T_reconstructed_quarterly,18
+BHR,Bahrain,W_CWY_annual,W_external_USA_quarterly,19
+BHS,"Bahamas, The",W_CWY_annual,W_external_USA_quarterly,20
+BIH,Bosnia and Herzegovina,W_CWY_annual,W_external_USA_quarterly,21
+BLR,Belarus,W_CWY_annual,W_external_USA_quarterly,22
+BLZ,Belize,W_CWY_annual,W_external_USA_quarterly,23
+BMU,Bermuda,W_external_USA_annual,,24
+BOL,Bolivia,W_CWY_annual,W_external_USA_quarterly,25
+BRA,Brazil,W_CWY_annual,H_BDY_daily,26
+BRB,Barbados,W_CWY_annual,W_external_USA_quarterly,27
+BRN,Brunei Darussalam,W_external_USA_annual,W_external_USA_quarterly,28
+BTN,Bhutan,W_external_USA_annual,W_external_USA_quarterly,29
+BWA,Botswana,W_CWY_annual,T_reconstructed_quarterly,30
+CAF,Central African Republic,W_CWY_annual,W_external_USA_quarterly,31
+CAN,Canada,W_CWY_annual,H_BDY_daily,32
+CHE,Switzerland,W_CWY_annual,H_BDY_daily,33
+CHL,Chile,W_CWY_annual,H_BDY_daily,34
+CHN,China,W_CWY_annual,H_BDY_daily,35
+CIV,Cote d'Ivoire,W_CWY_annual,W_external_USA_quarterly,36
+CMR,Cameroon,W_CWY_annual,W_external_USA_quarterly,37
+COD,"Congo, Dem. Rep.",W_external_USA_annual,W_external_USA_quarterly,38
+COG,"Congo, Rep.",W_CWY_annual,W_external_USA_quarterly,39
+COL,Colombia,W_CWY_annual,T_reconstructed_quarterly,40
+COM,Comoros,W_CWY_annual,W_external_USA_quarterly,41
+CPV,Cabo Verde,W_CWY_annual,T_reconstructed_quarterly,42
+CRI,Costa Rica,W_CWY_annual,T_reconstructed_quarterly,43
+CUB,Cuba,W_external_USA_annual,,44
+CUW,Curacao,W_external_USA_annual,W_external_USA_quarterly,45
+CYP,Cyprus,W_CWY_annual,H_ECB_reconstructed_2026,46
+CZE,Czechia,W_CWY_annual,T_reconstructed_quarterly,47
+DEU,Germany,W_CWY_annual,H_ECB_reconstructed_2026,48
+DJI,Djibouti,W_CWY_annual,W_external_USA_quarterly,49
+DMA,Dominica,W_CWY_annual,W_external_USA_quarterly,50
+DNK,Denmark,W_CWY_annual,T_reconstructed_quarterly,51
+DOM,Dominican Republic,W_CWY_annual,T_reconstructed_quarterly,52
+DZA,Algeria,W_CWY_annual,W_external_USA_quarterly,53
+ECU,Ecuador,W_CWY_annual,W_external_USA_quarterly,54
+EGY,"Egypt, Arab Rep.",W_CWY_annual,W_external_USA_quarterly,55
+ESP,Spain,W_CWY_annual,H_ECB_reconstructed_2026,56
+EST,Estonia,W_CWY_annual,H_ECB_reconstructed_2026,57
+ETH,Ethiopia,W_CWY_annual,W_external_USA_quarterly,58
+FIN,Finland,W_CWY_annual,H_ECB_reconstructed_2026,59
+FJI,Fiji,W_external_USA_annual,W_external_USA_quarterly,60
+FRA,France,W_CWY_annual,H_ECB_reconstructed_2026,61
+FSM,"Micronesia, Fed. Sts.",W_CWY_annual,,62
+GAB,Gabon,W_CWY_annual,W_external_USA_quarterly,63
+GBR,United Kingdom,W_CWY_annual,H_GBR_Target_2026,64
+GEO,Georgia,W_CWY_annual,W_external_USA_quarterly,65
+GHA,Ghana,W_CWY_annual,W_external_USA_quarterly,66
+GIN,Guinea,W_CWY_annual,W_external_USA_quarterly,67
+GMB,"Gambia, The",W_CWY_annual,W_external_USA_quarterly,68
+GNB,Guinea-Bissau,W_CWY_annual,W_external_USA_quarterly,69
+GNQ,Equatorial Guinea,W_CWY_annual,W_external_USA_quarterly,70
+GRC,Greece,W_CWY_annual,H_ECB_reconstructed_2026,71
+GRD,Grenada,W_CWY_annual,W_external_USA_quarterly,72
+GRL,Greenland,W_external_USA_annual,,73
+GTM,Guatemala,W_CWY_annual,T_reconstructed_quarterly,74
+GUY,Guyana,W_CWY_annual,W_external_USA_quarterly,75
+HKG,"Hong Kong SAR, China",W_CWY_annual,W_external_USA_quarterly,76
+HND,Honduras,W_CWY_annual,T_reconstructed_quarterly,77
+HRV,Croatia,W_CWY_annual,T_reconstructed_quarterly,78
+HTI,Haiti,W_CWY_annual,W_external_USA_quarterly,79
+HUN,Hungary,W_CWY_annual,H_BDY_daily,80
+IDN,Indonesia,W_CWY_annual,T_reconstructed_quarterly,81
+IMN,Isle of Man,W_external_USA_annual,,82
+IND,India,W_CWY_annual,H_BDY_daily,83
+IRL,Ireland,W_CWY_annual,H_ECB_reconstructed_2026,84
+IRN,"Iran, Islamic Rep.",W_CWY_annual,W_external_USA_quarterly,85
+IRQ,Iraq,W_CWY_annual,W_external_USA_quarterly,86
+ISL,Iceland,W_CWY_annual,T_reconstructed_quarterly,87
+ISR,Israel,W_CWY_annual,H_BDY_daily,88
+ITA,Italy,W_CWY_annual,H_ECB_reconstructed_2026,89
+JAM,Jamaica,W_CWY_annual,T_reconstructed_quarterly,90
+JOR,Jordan,W_CWY_annual,W_external_USA_quarterly,91
+JPN,Japan,W_CWY_annual,H_BDY_daily,92
+KAZ,Kazakhstan,W_CWY_annual,T_reconstructed_quarterly,93
+KEN,Kenya,W_CWY_annual,T_reconstructed_quarterly,94
+KGZ,Kyrgyz Republic,W_CWY_annual,W_external_USA_quarterly,95
+KHM,Cambodia,W_CWY_annual,W_external_USA_quarterly,96
+KIR,Kiribati,W_external_USA_annual,W_external_USA_quarterly,97
+KNA,St. Kitts and Nevis,W_CWY_annual,W_external_USA_quarterly,98
+KOR,"Korea, Rep.",W_CWY_annual,H_BDY_daily,99
+KWT,Kuwait,W_CWY_annual,W_external_USA_quarterly,100
+LAO,Lao PDR,W_CWY_annual,W_external_USA_quarterly,101
+LBN,Lebanon,W_CWY_annual,W_external_USA_quarterly,102
+LBR,Liberia,W_CWY_annual,W_external_USA_quarterly,103
+LBY,Libya,W_CWY_annual,W_external_USA_quarterly,104
+LCA,St. Lucia,W_CWY_annual,W_external_USA_quarterly,105
+LKA,Sri Lanka,W_CWY_annual,W_external_USA_quarterly,106
+LSO,Lesotho,T_reconstructed_annual_1L,T_reconstructed_quarterly,107
+LTU,Lithuania,W_CWY_annual,H_ECB_reconstructed_2026,108
+LUX,Luxembourg,W_CWY_annual,H_ECB_reconstructed_2026,109
+LVA,Latvia,W_CWY_annual,H_ECB_reconstructed_2026,110
+MAC,"Macao SAR, China",W_CWY_annual,W_external_USA_quarterly,111
+MAR,Morocco,W_CWY_annual,W_external_USA_quarterly,112
+MCO,Monaco,W_external_USA_annual,,113
+MDA,Moldova,W_CWY_annual,W_external_USA_quarterly,114
+MDG,Madagascar,T_reconstructed_annual_1L,W_external_USA_quarterly,115
+MDV,Maldives,W_CWY_annual,T_reconstructed_quarterly,116
+MEX,Mexico,W_CWY_annual,H_BDY_daily,117
+MHL,Marshall Islands,W_external_USA_annual,,118
+MKD,North Macedonia,W_CWY_annual,T_reconstructed_quarterly,119
+MLI,Mali,W_CWY_annual,W_external_USA_quarterly,120
+MLT,Malta,W_CWY_annual,H_ECB_reconstructed_2026,121
+MMR,Myanmar,T_reconstructed_annual_1L,W_external_USA_quarterly,122
+MNE,Montenegro,W_external_USA_annual,W_external_USA_quarterly,123
+MNG,Mongolia,W_CWY_annual,W_external_USA_quarterly,124
+MOZ,Mozambique,W_CWY_annual,W_external_USA_quarterly,125
+MRT,Mauritania,W_CWY_annual,W_external_USA_quarterly,126
+MSR,MSR,,W_external_USA_quarterly,127
+MTQ,MTQ,,W_external_USA_quarterly,128
+MUS,Mauritius,W_CWY_annual,W_external_USA_quarterly,129
+MWI,Malawi,W_CWY_annual,W_external_USA_quarterly,130
+MYS,Malaysia,W_CWY_annual,W_external_USA_quarterly,131
+NAM,Namibia,W_external_USA_annual,W_external_USA_quarterly,132
+NER,Niger,W_CWY_annual,W_external_USA_quarterly,133
+NGA,Nigeria,W_CWY_annual,T_reconstructed_quarterly,134
+NIC,Nicaragua,W_CWY_annual,W_external_USA_quarterly,135
+NLD,Netherlands,W_CWY_annual,H_ECB_reconstructed_2026,136
+NOR,Norway,W_CWY_annual,H_BDY_daily,137
+NPL,Nepal,W_CWY_annual,W_external_USA_quarterly,138
+NRU,Naoero,W_external_USA_annual,,139
+NZL,New Zealand,W_CWY_annual,H_BDY_daily,140
+OMN,Oman,W_CWY_annual,W_external_USA_quarterly,141
+PAK,Pakistan,W_CWY_annual,W_external_USA_quarterly,142
+PAN,Panama,W_CWY_annual,W_external_USA_quarterly,143
+PER,Peru,W_CWY_annual,T_reconstructed_quarterly,144
+PHL,Philippines,W_CWY_annual,T_reconstructed_quarterly,145
+PLW,Palau,W_external_USA_annual,,146
+PNG,Papua New Guinea,W_CWY_annual,,147
+POL,Poland,W_CWY_annual,H_BDY_daily,148
+PRI,Puerto Rico (US),W_external_USA_annual,,149
+PRT,Portugal,W_CWY_annual,H_ECB_reconstructed_2026,150
+PRY,Paraguay,W_CWY_annual,W_external_USA_quarterly,151
+PSE,West Bank and Gaza,W_external_USA_annual,,152
+PYF,French Polynesia,W_external_USA_annual,,153
+QAT,Qatar,W_CWY_annual,W_external_USA_quarterly,154
+ROU,Romania,W_CWY_annual,T_reconstructed_quarterly,155
+RUS,Russian Federation,W_CWY_annual,T_reconstructed_quarterly,156
+RWA,Rwanda,W_CWY_annual,T_reconstructed_quarterly,157
+SAU,Saudi Arabia,W_CWY_annual,T_reconstructed_quarterly,158
+SDN,Sudan,W_CWY_annual,W_external_USA_quarterly,159
+SEN,Senegal,W_CWY_annual,W_external_USA_quarterly,160
+SGP,Singapore,W_CWY_annual,T_reconstructed_quarterly,161
+SLB,Solomon Islands,W_CWY_annual,W_external_USA_quarterly,162
+SLE,Sierra Leone,W_CWY_annual,W_external_USA_quarterly,163
+SLV,El Salvador,W_CWY_annual,W_external_USA_quarterly,164
+SMR,San Marino,W_CWY_annual,W_external_USA_quarterly,165
+SOM,"Somalia, Fed. Rep.",W_external_USA_annual,W_external_USA_quarterly,166
+SRB,Serbia,T_reconstructed_annual_1L,T_reconstructed_quarterly,167
+SSD,South Sudan,,W_external_USA_quarterly,168
+STP,Sao Tome and Principe,W_CWY_annual,W_external_USA_quarterly,169
+SUR,Suriname,W_CWY_annual,W_external_USA_quarterly,170
+SVK,Slovak Republic,W_CWY_annual,H_ECB_reconstructed_2026,171
+SVN,Slovenia,W_CWY_annual,H_ECB_reconstructed_2026,172
+SWE,Sweden,W_CWY_annual,H_BDY_daily,173
+SWZ,Eswatini,T_reconstructed_annual_1L,W_external_USA_quarterly,174
+SYC,Seychelles,W_CWY_annual,W_external_USA_quarterly,175
+SYR,Syrian Arab Republic,W_external_USA_annual,W_external_USA_quarterly,176
+TCD,Chad,W_CWY_annual,W_external_USA_quarterly,177
+TGO,Togo,W_CWY_annual,W_external_USA_quarterly,178
+THA,Thailand,W_CWY_annual,H_BDY_daily,179
+TJK,Tajikistan,W_CWY_annual,W_external_USA_quarterly,180
+TKM,Turkmenistan,W_CWY_annual,,181
+TLS,Timor-Leste,W_external_USA_annual,W_external_USA_quarterly,182
+TON,Tonga,W_external_USA_annual,W_external_USA_quarterly,183
+TTO,Trinidad and Tobago,W_CWY_annual,W_external_USA_quarterly,184
+TUN,Tunisia,W_external_USA_annual,W_external_USA_quarterly,185
+TUR,Turkiye,W_CWY_annual,T_reconstructed_quarterly,186
+TUV,Tuvalu,W_external_USA_annual,,187
+TZA,Tanzania,W_CWY_annual,W_external_USA_quarterly,188
+UGA,Uganda,W_CWY_annual,W_external_USA_quarterly,189
+UKR,Ukraine,W_CWY_annual,W_external_USA_quarterly,190
+URY,Uruguay,W_CWY_annual,W_external_USA_quarterly,191
+USA,United States,W_CWY_annual,H_USA_reconstructed_2026,192
+UZB,Uzbekistan,W_external_USA_annual,W_external_USA_quarterly,193
+VCT,St. Vincent and the Grenadines,W_CWY_annual,W_external_USA_quarterly,194
+VEN,"Venezuela, RB",W_external_USA_annual,W_external_USA_quarterly,195
+VNM,Viet Nam,W_CWY_annual,W_external_USA_quarterly,196
+VUT,Vanuatu,T_reconstructed_annual_1L,,197
+WSM,Samoa,W_external_USA_annual,W_external_USA_quarterly,198
+XKX,Kosovo,W_external_USA_annual,,199
+YEM,"Yemen, Rep.",W_CWY_annual,W_external_USA_quarterly,200
+ZAF,South Africa,W_CWY_annual,T_reconstructed_quarterly,201
+ZMB,Zambia,T_reconstructed_annual_1L,W_external_USA_quarterly,202
+ZWE,Zimbabwe,W_external_USA_annual,W_external_USA_quarterly,203

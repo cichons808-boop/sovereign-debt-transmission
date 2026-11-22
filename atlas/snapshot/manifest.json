@@ -1,0 +1,1071 @@
+{
+  "format": "concatenated_zip_v1",
+  "created_date": "2026-11-22",
+  "archive_sha256": "7a03c4bf06514ac2bea583eb70812f04652cc99529ff6c63673251efcee4ed10",
+  "archive_bytes": 98910771,
+  "parts": [
+    {
+      "file": "research_snapshot.zip.part000",
+      "bytes": 4194304,
+      "sha256": "b7dc12a6c85d6ecfee8403075a7de5aea09243dcf23547f6c813218b0eb364c3"
+    },
+    {
+      "file": "research_snapshot.zip.part001",
+      "bytes": 4194304,
+      "sha256": "e71fb23e5d9739bb1a0c1d01276f819c431d31b576bdba5337ddc80a2ffbc535"
+    },
+    {
+      "file": "research_snapshot.zip.part002",
+      "bytes": 4194304,
+      "sha256": "eaaf44bb2c8e84f159f4736f9288e85ae24b140c127e698c7dcb08b456b794b7"
+    },
+    {
+      "file": "research_snapshot.zip.part003",
+      "bytes": 4194304,
+      "sha256": "ed49b55b55fd7291c82906196c54424d9833f422f632311b6d4953418cc30e88"
+    },
+    {
+      "file": "research_snapshot.zip.part004",
+      "bytes": 4194304,
+      "sha256": "2b2781081bc3488e3082989ef6e8a0b224816ff35acc5a5db7e300cb6e3f8bf5"
+    },
+    {
+      "file": "research_snapshot.zip.part005",
+      "bytes": 4194304,
+      "sha256": "39529fe8327e9698d493c35e0d9af874d87e174083f055b6dd141cb43bc15e63"
+    },
+    {
+      "file": "research_snapshot.zip.part006",
+      "bytes": 4194304,
+      "sha256": "5a01dc5b7e82e721050b5f0e8f82305bb1af565d654b2ff9580569df2fa7b1a5"
+    },
+    {
+      "file": "research_snapshot.zip.part007",
+      "bytes": 4194304,
+      "sha256": "cbb6ba8e1ca8b74109d8772ab0c97edcb3791d3aa514afb42ce2e9d89cda83c8"
+    },
+    {
+      "file": "research_snapshot.zip.part008",
+      "bytes": 4194304,
+      "sha256": "160d17302380a779f63c2c59dcabb45ac37cc32df9eb904cca804c121359533a"
+    },
+    {
+      "file": "research_snapshot.zip.part009",
+      "bytes": 4194304,
+      "sha256": "648d3565952670911aa82ebe566c4028462dc7d5797967448af41a071bdcbf1c"
+    },
+    {
+      "file": "research_snapshot.zip.part010",
+      "bytes": 4194304,
+      "sha256": "f8d0e9339934cad858085cc6f4388505ac1977651fe5710d12f1a4eea1df3e21"
+    },
+    {
+      "file": "research_snapshot.zip.part011",
+      "bytes": 4194304,
+      "sha256": "657585584e57ebac0e0c75dc52b8ab43cdac569b7c06c88f76f65f1a15f61af7"
+    },
+    {
+      "file": "research_snapshot.zip.part012",
+      "bytes": 4194304,
+      "sha256": "bf2afe4371a9887f19214b768323b4dad81921d7fec11a89daa814532547a8c3"
+    },
+    {
+      "file": "research_snapshot.zip.part013",
+      "bytes": 4194304,
+      "sha256": "95d4c380b81fd9e425f62d9ca00f54246fc934cdf2a65c88fc11c71671cfd5e4"
+    },
+    {
+      "file": "research_snapshot.zip.part014",
+      "bytes": 4194304,
+      "sha256": "a21cc7665b64cf46e74e8400759171f7143e61e64c1efbaf1eb6bd270bebabd3"
+    },
+    {
+      "file": "research_snapshot.zip.part015",
+      "bytes": 4194304,
+      "sha256": "0dad24b9eadadec2d9b283e46d0f7f60da39b609ce072d91a8736109d87cf3fc"
+    },
+    {
+      "file": "research_snapshot.zip.part016",
+      "bytes": 4194304,
+      "sha256": "c2711828a31dfd805b060c94b14986899483eaa516c3309d864c5a20801c6866"
+    },
+    {
+      "file": "research_snapshot.zip.part017",
+      "bytes": 4194304,
+      "sha256": "35724e1c123225c179b0e3f9c186f0241abdbb0ddf16c57a3ee01fe14b93b7b5"
+    },
+    {
+      "file": "research_snapshot.zip.part018",
+      "bytes": 4194304,
+      "sha256": "8612172f5daec52295d32dd01fed71516d61326cc69111423e14b39d1e9da92c"
+    },
+    {
+      "file": "research_snapshot.zip.part019",
+      "bytes": 4194304,
+      "sha256": "3c934577fcdcef4334a8984c2ff8de11236cf49e94435df52aaafb7cd4bd0d33"
+    },
+    {
+      "file": "research_snapshot.zip.part020",
+      "bytes": 4194304,
+      "sha256": "34bde6a520622e890da30af4f1b8e9f79947ab2c311ea164129d6056da5d6e55"
+    },
+    {
+      "file": "research_snapshot.zip.part021",
+      "bytes": 4194304,
+      "sha256": "27840503aefad68eb2c4f9d10a49e8dc02dd1c5ec3c87ee99cb3d79302237fba"
+    },
+    {
+      "file": "research_snapshot.zip.part022",
+      "bytes": 4194304,
+      "sha256": "fa6e3df25694444bc2b29c21f01194f7ac8f5c5daf8c3cc17d51e366342a6c6b"
+    },
+    {
+      "file": "research_snapshot.zip.part023",
+      "bytes": 2441779,
+      "sha256": "555534df594a9152d320f431da9ee6f633d82fd47645f9717bb3ac494b1dd178"
+    }
+  ],
+  "members": [
+    {
+      "path": "atlas/data/E01_observed_annual.csv.gz",
+      "bytes": 73972,
+      "sha256": "f3f128e52a5d5e4fc4557b1edff90778d3710aaa35c41ec0e4754adb8f3f9ec8"
+    },
+    {
+      "path": "atlas/data/F01_observed_annual.csv.gz",
+      "bytes": 33213,
+      "sha256": "7605bf7a2c6952140fba387b4f52f2349a4425a57c95d9ed296a369b101ae87c"
+    },
+    {
+      "path": "atlas/data/F04_observed_annual.csv.gz",
+      "bytes": 21303,
+      "sha256": "c1e818940457497ec86ba003baa91ae663df1fcca6dce238b2e83b15c6275cef"
+    },
+    {
+      "path": "atlas/data/H_BDY_daily.csv.gz",
+      "bytes": 2003634,
+      "sha256": "cabece5942edaa094f46f0f46d4c85122acc1b44fcb4b33350263728dbc6177d"
+    },
+    {
+      "path": "atlas/data/H_ECB_reconstructed_2026.csv.gz",
+      "bytes": 147382,
+      "sha256": "4c1f76a9fedc80740b779bdc766817ff646aa90c696a4b89c4f954b16e37fa80"
+    },
+    {
+      "path": "atlas/data/H_GBR_Path_2026.csv.gz",
+      "bytes": 19980,
+      "sha256": "de591021b147d87d9797215886479bb36a249c988b5d2698f87f8917b5b5f666"
+    },
+    {
+      "path": "atlas/data/H_GBR_Target_2026.csv.gz",
+      "bytes": 20000,
+      "sha256": "cad74374a4fb7ea23f9285b5f0442c0af1713acddb7e69b32dc5a8cecc861b61"
+    },
+    {
+      "path": "atlas/data/H_JK_ECB_intraday.csv.gz",
+      "bytes": 147478,
+      "sha256": "06e5ae4795155485953cf7960e54797d82404f9404a73e00302fa62dac8f9429"
+    },
+    {
+      "path": "atlas/data/H_USA_reconstructed_2026.csv.gz",
+      "bytes": 20350,
+      "sha256": "65135c3d8e6eda27d7a79cbac6d64ac70beeef9c779bc7bd0d88e24ff5871d4e"
+    },
+    {
+      "path": "atlas/data/R01_observed_annual.csv.gz",
+      "bytes": 11800,
+      "sha256": "eb58d7a114718f6b7c7ef2d7009defc71eab0b7d072eb2def5e674d95fc586c1"
+    },
+    {
+      "path": "atlas/data/T_reconstructed_annual.csv.gz",
+      "bytes": 1409953,
+      "sha256": "342d620a649b5e85ad342a83158c94c2f2e3aa72afacbe36bcf93888d99ab2ca"
+    },
+    {
+      "path": "atlas/data/T_reconstructed_annual_1L.csv.gz",
+      "bytes": 1304334,
+      "sha256": "2936ed605b179fec54fb2834effccd2c4591e1e9bc53cc8370a867b6b749a8e6"
+    },
+    {
+      "path": "atlas/data/T_reconstructed_quarterly.csv.gz",
+      "bytes": 3154571,
+      "sha256": "6ae67875b253e448cf2d96e5866e8d661b98b24f95f4aba5531a2ae082958f6d"
+    },
+    {
+      "path": "atlas/data/W_CWY_annual.csv.gz",
+      "bytes": 836036,
+      "sha256": "8ea978a2bb05bf149c6474a835b9dd9bcfe5e4edef0655862e2e347809274391"
+    },
+    {
+      "path": "atlas/data/W_external_ECB_annual.csv.gz",
+      "bytes": 1131675,
+      "sha256": "783bd6e1e873a1e97a482ebb2b6841a461e1b63f3a1239f6f6d40bc59895b186"
+    },
+    {
+      "path": "atlas/data/W_external_ECB_quarterly.csv.gz",
+      "bytes": 2226886,
+      "sha256": "e4dec9764bf922e9e34049bfbcba40925b3b495e3201e0091b00361d5f4b64db"
+    },
+    {
+      "path": "atlas/data/W_external_USA_annual.csv.gz",
+      "bytes": 1129741,
+      "sha256": "6358ee1dc76ce287aa4cd8a5d3d9ba27142cc5e6ba572a5e1e7e6b80c2ccf897"
+    },
+    {
+      "path": "atlas/data/W_external_USA_quarterly.csv.gz",
+      "bytes": 2246899,
+      "sha256": "ef67939b853e747f60faef576e696738e3621f8c1460ce58a6036602a40c3ddf"
+    },
+    {
+      "path": "atlas/data/fresh_ECB_event_shocks.csv",
+      "bytes": 45867,
+      "sha256": "4f20e8f8275dd279327427697b5ba40245a4f89c92c3ae14d551cec3e412b6f3"
+    },
+    {
+      "path": "atlas/data/fresh_ECB_mp_median_complete_quarters.csv",
+      "bytes": 3899,
+      "sha256": "ae28e6a0956cd9119d35519a9e3bf8e927114db3a79076bafe5060ff9a1c4b92"
+    },
+    {
+      "path": "atlas/data/fresh_GBR_Path_complete_quarters.csv",
+      "bytes": 4138,
+      "sha256": "32f4c0392a78aacd602947e7251b420a6c8a14452d4c75ec454048bc95dee9ae"
+    },
+    {
+      "path": "atlas/data/fresh_GBR_Target_complete_quarters.csv",
+      "bytes": 4127,
+      "sha256": "ec5d987de683150a01e1f96a993bc3821365c25e5a37a4c14464d7953f21048c"
+    },
+    {
+      "path": "atlas/data/fresh_GBR_event_factors.csv",
+      "bytes": 58623,
+      "sha256": "5653e08b65b4ff8eb2574dd191cac93d24410c9bc95c13d7f58ae202c4d4b07b"
+    },
+    {
+      "path": "atlas/data/fresh_USA_event_shocks.csv",
+      "bytes": 53328,
+      "sha256": "e4a193d0122948df1d80dbbdc17e980055ac50c336044fa84ed2d1612c502651"
+    },
+    {
+      "path": "atlas/data/fresh_USA_mp_median_complete_quarters.csv",
+      "bytes": 4379,
+      "sha256": "b473090f00fde058ea87ef3c5feb70c00f4313a8653459003205fb477cb92873"
+    },
+    {
+      "path": "atlas/data/global_native_quarterly_macro.csv.gz",
+      "bytes": 1278005,
+      "sha256": "a40b33ee3c3ce0ba1e9f38a9c3569babe9238ce2830aa88418d07173253e3fba"
+    },
+    {
+      "path": "atlas/data/observed_policy_rates_monthly.csv.gz",
+      "bytes": 174654,
+      "sha256": "5b59a42c26c16355fbcab1d566154bb4128f046d8956d5b598c435ae2c6e49c8"
+    },
+    {
+      "path": "atlas/results/baseline/H_BDY_daily/attempt_records.jsonl.gz",
+      "bytes": 615578,
+      "sha256": "e9c274c12f79b22bfbae9f666914999f74cf36d54e2691871c83a451e2271b84"
+    },
+    {
+      "path": "atlas/results/baseline/H_BDY_daily/attempts.csv.gz",
+      "bytes": 240256,
+      "sha256": "b80267a8a07f73844159a54c851b3f5c3b8f77bff1f8ea987bb34c733ab6e73f"
+    },
+    {
+      "path": "atlas/results/baseline/H_BDY_daily/run_manifest.json",
+      "bytes": 215,
+      "sha256": "a64961456c11a73d5cea4cad3d0ca88ac7cc1c3542c9a04c2394b2186047c92c"
+    },
+    {
+      "path": "atlas/results/baseline/H_ECB_reconstructed_2026/attempt_records.jsonl.gz",
+      "bytes": 285413,
+      "sha256": "d913e2af4cf8e361f57e3d8096ea25efac6153dece0cc32a660d9abca2a00916"
+    },
+    {
+      "path": "atlas/results/baseline/H_ECB_reconstructed_2026/attempts.csv.gz",
+      "bytes": 107840,
+      "sha256": "ddaaf942d686ba839c4fa2681126b5186711839c2516e133431298ba73ff36fe"
+    },
+    {
+      "path": "atlas/results/baseline/H_ECB_reconstructed_2026/run_manifest.json",
+      "bytes": 241,
+      "sha256": "ad19f22b61f295aba43c3ba4943c46f865ea2bf8f34eaf5239d13a501452240c"
+    },
+    {
+      "path": "atlas/results/baseline/H_GBR_Path_2026/attempt_records.jsonl.gz",
+      "bytes": 19654,
+      "sha256": "89e9a323c80ece22c30b8f2a248baab788db590b010cb8d3fd05a5726865a3b3"
+    },
+    {
+      "path": "atlas/results/baseline/H_GBR_Path_2026/attempts.csv.gz",
+      "bytes": 8288,
+      "sha256": "b29ec06c3987c60ce237c5c2ffa5c45eb437bac65f12feeead2c2d9759d66b4d"
+    },
+    {
+      "path": "atlas/results/baseline/H_GBR_Path_2026/run_manifest.json",
+      "bytes": 223,
+      "sha256": "a2e2c3dde9587d8b4c67cb2b649a291e2c383beb3ba9f56f45156dbf6c4448ef"
+    },
+    {
+      "path": "atlas/results/baseline/H_GBR_Target_2026/attempt_records.jsonl.gz",
+      "bytes": 19642,
+      "sha256": "0fd711015a366563628e6a2e7181f2214cdb50fa0cb5438336fabdfdddd4e9d2"
+    },
+    {
+      "path": "atlas/results/baseline/H_GBR_Target_2026/attempts.csv.gz",
+      "bytes": 8318,
+      "sha256": "01bbd3972119c3c9b0758c04c9b8c57d74a0f612826d21db8256538414b7d9b5"
+    },
+    {
+      "path": "atlas/results/baseline/H_GBR_Target_2026/run_manifest.json",
+      "bytes": 227,
+      "sha256": "a415b07eca32854830df30b6853fac83acb0d553e21a1a9aa0bc0d971ae3c95b"
+    },
+    {
+      "path": "atlas/results/baseline/H_JK_ECB_intraday/attempt_records.jsonl.gz",
+      "bytes": 283565,
+      "sha256": "421454cc5a7c4c13d848430d57519a138d358c176abca8317326494e5f244c02"
+    },
+    {
+      "path": "atlas/results/baseline/H_JK_ECB_intraday/attempts.csv.gz",
+      "bytes": 98949,
+      "sha256": "b1bc46984ab5eac37ca1128fa147f5af8fdcf12a17b3858950d7ff028377870b"
+    },
+    {
+      "path": "atlas/results/baseline/H_JK_ECB_intraday/run_manifest.json",
+      "bytes": 227,
+      "sha256": "275db7f34eb193950d2c5b4cba907eeabb8efa69c781666011d96937c49a1cff"
+    },
+    {
+      "path": "atlas/results/baseline/H_USA_reconstructed_2026/attempt_records.jsonl.gz",
+      "bytes": 19990,
+      "sha256": "18891510b1e9705c651171e51a90ed86d94f8e48a2efded665cdb79a8f675dcf"
+    },
+    {
+      "path": "atlas/results/baseline/H_USA_reconstructed_2026/attempts.csv.gz",
+      "bytes": 9048,
+      "sha256": "38d74484177ccf75ba7c93fff50d6b97bec1a60c1be7678b707bdaa8f3d2c2b4"
+    },
+    {
+      "path": "atlas/results/baseline/H_USA_reconstructed_2026/run_manifest.json",
+      "bytes": 241,
+      "sha256": "b2b72dd4f0a5862829595c4e3af9ee53a9d9f57ff2dd366e8b38d2dd3f9d2144"
+    },
+    {
+      "path": "atlas/results/baseline/T_reconstructed_annual/attempt_records.jsonl.gz",
+      "bytes": 524840,
+      "sha256": "5dc7a80b2fa4d6c52e823eb6e6149883bcb6f5f25cc96e5f512e1aa1da984f80"
+    },
+    {
+      "path": "atlas/results/baseline/T_reconstructed_annual/attempts.csv.gz",
+      "bytes": 199927,
+      "sha256": "943f94b368e919ed1629500012967415b7d107c38835864dcc84c5fa2c7a687c"
+    },
+    {
+      "path": "atlas/results/baseline/T_reconstructed_annual/run_manifest.json",
+      "bytes": 237,
+      "sha256": "48c260c2dd4c7f8a003856c90b13afe1e74a11fc15e6e363759fd0d9099568c5"
+    },
+    {
+      "path": "atlas/results/baseline/T_reconstructed_annual_1L/attempt_records.jsonl.gz",
+      "bytes": 614774,
+      "sha256": "96eff720aa06d7e6ab6bb151d72fb0035473ff1076947766b8748887dc0d44d8"
+    },
+    {
+      "path": "atlas/results/baseline/T_reconstructed_annual_1L/attempts.csv.gz",
+      "bytes": 234456,
+      "sha256": "e8f19b54f8b7474903d8f8f6bc3c7ddf15c7b5915a1ea23feb6c271f1e0de7fc"
+    },
+    {
+      "path": "atlas/results/baseline/T_reconstructed_annual_1L/run_manifest.json",
+      "bytes": 243,
+      "sha256": "1b2cf233521621890ffc4dbd212e81cae4b56660fd13e22cedc2ce29422dce74"
+    },
+    {
+      "path": "atlas/results/baseline/T_reconstructed_quarterly/attempt_records.jsonl.gz",
+      "bytes": 901014,
+      "sha256": "59a2b69ece1f949bf2a97022b0c753614c7501e0309df8b61d5145b38e94f7e9"
+    },
+    {
+      "path": "atlas/results/baseline/T_reconstructed_quarterly/attempts.csv.gz",
+      "bytes": 354526,
+      "sha256": "0035c594a44cfd213bfef08e3e37737596bc6d3246dfc921e98d76ea6a22659e"
+    },
+    {
+      "path": "atlas/results/baseline/T_reconstructed_quarterly/run_manifest.json",
+      "bytes": 243,
+      "sha256": "14463ba455d100b2aba7258f7f7fbbc5a03e4977c6e3ba9fbee3529af60fc2d8"
+    },
+    {
+      "path": "atlas/results/baseline/W_CWY_annual/attempt_records.jsonl.gz",
+      "bytes": 1140370,
+      "sha256": "07cb05c24f08ba83b3e8c494ef83977facc95a463ecc563958999a6a3a9d70d4"
+    },
+    {
+      "path": "atlas/results/baseline/W_CWY_annual/attempts.csv.gz",
+      "bytes": 429763,
+      "sha256": "d8a242a1a8f3db359803a3cc210e697b03fcddf3bf5808524c24cc3578b40989"
+    },
+    {
+      "path": "atlas/results/baseline/W_CWY_annual/run_manifest.json",
+      "bytes": 217,
+      "sha256": "fec370ddce2765ab8993b34521039a85a44498b3792fb8ee2c4a48c1007ec65c"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_ECB_annual/attempt_records.jsonl.gz",
+      "bytes": 1110111,
+      "sha256": "1dbce21c1aa5c3ec6da2ed863e9427b733ae3444999e30c8fdc7ca4641b8fdf1"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_ECB_annual/attempts.csv.gz",
+      "bytes": 423507,
+      "sha256": "74d305b3ad2faa61cd41a8f2f7dd7a0d6cd90460aa5fa02389b8d7aa6c1f3b15"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_ECB_annual/run_manifest.json",
+      "bytes": 235,
+      "sha256": "d8f5309bb58bafc4f12ec1705167b29be1cd8a2c0061c5aacc25fbafa751bb46"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_ECB_quarterly/attempt_records.jsonl.gz",
+      "bytes": 1845873,
+      "sha256": "3f7f906598f9dcb9a67493ad925bfb4cda4aab8f154fde2a6b12133f2508ad62"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_ECB_quarterly/attempts.csv.gz",
+      "bytes": 748542,
+      "sha256": "937fcfa7ac6d84a36c5ddd91476983dc7cc12aa3da892bb81d01a2228223b9bf"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_ECB_quarterly/run_manifest.json",
+      "bytes": 241,
+      "sha256": "71671aa8534ce77d4177b688452860884dcca7144043a0c09c325242e389f039"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_USA_annual/attempt_records.jsonl.gz",
+      "bytes": 1235553,
+      "sha256": "bc1a6aa459c511c0abc0d4f3ef2550953a4bd6c4fab9d12f93ffc4b9d6616d59"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_USA_annual/attempts.csv.gz",
+      "bytes": 466195,
+      "sha256": "f7d50200b0a1f058adae6ddc3c226ef04908d0f2e364c0e58897687e151990d1"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_USA_annual/run_manifest.json",
+      "bytes": 235,
+      "sha256": "330e4597d2ce4031bac71e91c64b7f0983a0b665af7e887db63d7b57f94655c2"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_USA_quarterly/attempt_records.jsonl.gz",
+      "bytes": 1918525,
+      "sha256": "52199ad6b3dc3cc5c6724aa42a841a5d8f80a10ff472f5142bf9344cb99b454c"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_USA_quarterly/attempts.csv.gz",
+      "bytes": 770665,
+      "sha256": "4ee30c76d2a56a88064474c26919eff5e2c5ee8623cc7d977ed13817ddd97ace"
+    },
+    {
+      "path": "atlas/results/baseline/W_external_USA_quarterly/run_manifest.json",
+      "bytes": 241,
+      "sha256": "f58ea55d30770659a9557dc9d52315239574d9068a9c3d2b516f02857b0ec1e8"
+    },
+    {
+      "path": "atlas/results/baseline/attempts.csv.gz",
+      "bytes": 4092756,
+      "sha256": "cc7c3eca953823e1877b0ef8dccb9bf2c075d91693b37cebee9d6bc03acc7083"
+    },
+    {
+      "path": "atlas/results/baseline/coefficients.csv.gz",
+      "bytes": 8140224,
+      "sha256": "8c60474c1e127a1d5e37e0b2282686e748634692e9fb76cdc26debd27434f84c"
+    },
+    {
+      "path": "atlas/results/baseline/country_response_sensitivity.csv.gz",
+      "bytes": 3103751,
+      "sha256": "fcb7dcc0c5718e07ffc6388802c782269a58fe57f145874d2771c897a1401749"
+    },
+    {
+      "path": "atlas/results/baseline/country_response_timing.csv",
+      "bytes": 276082,
+      "sha256": "325ae5c214ec9f75b79c4554e4fa3de4a83ef8d9f82ce23b5aa77cc2b242951c"
+    },
+    {
+      "path": "atlas/results/baseline/dispersion_block_bootstrap.csv",
+      "bytes": 47678,
+      "sha256": "4268cd7bbb4185f5ed0a0e7b947002bb7bd4b69f314eb5fad80b42925c595aa3"
+    },
+    {
+      "path": "atlas/results/baseline/group_response_distribution.csv",
+      "bytes": 178135,
+      "sha256": "75e81e520f91c9790ff93b16eed2b7d5c8f35ce36b6586507411fa6dcb3bed2a"
+    },
+    {
+      "path": "atlas/results/baseline/response_distribution.csv",
+      "bytes": 56138,
+      "sha256": "27e3ad3819be8745adba4e5881def79f942153649e13e7ecef34deb8688e30ca"
+    },
+    {
+      "path": "atlas/results/baseline_archive/H_BDY_daily/4d023556b0cd9c08579f/attempt_records.jsonl.gz",
+      "bytes": 615443,
+      "sha256": "02d94911010e7294ee1388d59fe9888f70e0d7a9faf3d468389222edcb00e0e2"
+    },
+    {
+      "path": "atlas/results/baseline_archive/H_BDY_daily/initial_unfingerprin/attempt_records.jsonl.gz",
+      "bytes": 644065,
+      "sha256": "57494bf6ed91948c477fb9078b6c29a76efd11fbb2d841091718bb23587e853e"
+    },
+    {
+      "path": "atlas/results/baseline_archive/H_ECB_reconstructed_2026/70c7092d331fc746cccd/attempt_records.jsonl.gz",
+      "bytes": 284997,
+      "sha256": "c306b6f349aa0805edae96e08a90c19ab5178da290139254c4e0bf77a4051f32"
+    },
+    {
+      "path": "atlas/results/baseline_archive/H_ECB_reconstructed_2026/initial_unfingerprin/attempt_records.jsonl.gz",
+      "bytes": 289701,
+      "sha256": "d6bad50d57e9d7ece3720c7929ac6edc326b17ab1f3dbdea0df21f522c896a25"
+    },
+    {
+      "path": "atlas/results/baseline_archive/H_GBR_Path_2026/28920810071c22312297/attempt_records.jsonl.gz",
+      "bytes": 19654,
+      "sha256": "ae20f0d2519a8e0c3085b75e4a08caf47d0fe26d7f2b2eb633551ccf55a6fb2f"
+    },
+    {
+      "path": "atlas/results/baseline_archive/H_GBR_Path_2026/initial_unfingerprin/attempt_records.jsonl.gz",
+      "bytes": 19800,
+      "sha256": "d59a0b7fd605a706f3df00c127f4e1f566ee19796ba623d99b3016dbae79cfd5"
+    },
+    {
+      "path": "atlas/results/baseline_archive/H_GBR_Target_2026/9cd58af057ad726f3ef5/attempt_records.jsonl.gz",
+      "bytes": 19642,
+      "sha256": "d9a416d489f78de14b22d0a073d8b3e004a1a84196d828a234948746fdf914b7"
+    },
+    {
+      "path": "atlas/results/baseline_archive/H_GBR_Target_2026/initial_unfingerprin/attempt_records.jsonl.gz",
+      "bytes": 19831,
+      "sha256": "3e252f0ae470e1dfe0ea596391757d44e34c3e39abc41eb784024936e40e7b9d"
+    },
+    {
+      "path": "atlas/results/baseline_archive/H_JK_ECB_intraday/initial_unfingerprin/attempt_records.jsonl.gz",
+      "bytes": 287373,
+      "sha256": "7e95448c906ac0d42ff16f82ff3297ce6e863c5d5268b28756f082283a8df235"
+    },
+    {
+      "path": "atlas/results/baseline_archive/H_USA_reconstructed_2026/initial_unfingerprin/attempt_records.jsonl.gz",
+      "bytes": 19926,
+      "sha256": "8a8874fde1c6922513259892ff9b92c924a149f6fb9da11cbe0887344528465e"
+    },
+    {
+      "path": "atlas/results/baseline_archive/W_CWY_annual/initial_unfingerprin/attempt_records.jsonl.gz",
+      "bytes": 1137083,
+      "sha256": "82cee0f3d5266d5a8bd4b80be420ccf3d77e2b03a3359a5cbd7f99de8e8735cf"
+    },
+    {
+      "path": "atlas/results/chunks/E01/COMPLETED.json",
+      "bytes": 128,
+      "sha256": "487b234bc4faf35bd91c8fc94cf74e78f78294b4d260d5cfb31f6548fa2a61d9"
+    },
+    {
+      "path": "atlas/results/chunks/E01/H_BDY_daily/attempt_records.jsonl.gz",
+      "bytes": 860034,
+      "sha256": "47004725d1af27e0dfd192bb4ee9c624e1eced89a772f9c97f9e1e796c1fd04a"
+    },
+    {
+      "path": "atlas/results/chunks/E01/H_BDY_daily/attempts.csv.gz",
+      "bytes": 187460,
+      "sha256": "fe13299b7fcdc8e7927abbf79114909b77be9c936bf5cf6fd96652860b51039f"
+    },
+    {
+      "path": "atlas/results/chunks/E01/H_ECB_reconstructed_2026/attempt_records.jsonl.gz",
+      "bytes": 416604,
+      "sha256": "64347054b8b9b1af5fbebe050de5a1f28c02cd1468814d85089258140e2309a1"
+    },
+    {
+      "path": "atlas/results/chunks/E01/H_ECB_reconstructed_2026/attempts.csv.gz",
+      "bytes": 97351,
+      "sha256": "0f3eea8f0e70f742cc2fa644a907d9a4ca3d104a3bf68a1a622c1650edc1895d"
+    },
+    {
+      "path": "atlas/results/chunks/E01/H_USA_reconstructed_2026/attempt_records.jsonl.gz",
+      "bytes": 18131,
+      "sha256": "fc81d5c267204e86a847dde12c3c0cd81d816aa23737f3a309cf1e76b373c877"
+    },
+    {
+      "path": "atlas/results/chunks/E01/H_USA_reconstructed_2026/attempts.csv.gz",
+      "bytes": 6240,
+      "sha256": "b505a2ee7d46c1151a3271c93fc77ea8ab4bad3cd40037eb61bdf174378c8385"
+    },
+    {
+      "path": "atlas/results/chunks/E01/T_reconstructed_annual_1L/attempt_records.jsonl.gz",
+      "bytes": 278975,
+      "sha256": "619f7a2e475c4f38848264a262aa88cdda513712c413a3bdc2f15fa28c91930d"
+    },
+    {
+      "path": "atlas/results/chunks/E01/T_reconstructed_annual_1L/attempts.csv.gz",
+      "bytes": 65693,
+      "sha256": "2591645d7e8af0503f99399a2509c40644b01b9dbd8f88dcfdefa6c5a244e8e5"
+    },
+    {
+      "path": "atlas/results/chunks/E01/T_reconstructed_quarterly/attempt_records.jsonl.gz",
+      "bytes": 748736,
+      "sha256": "36e553ca298a77d6cc9e9310c33b2f6b71b4b5b2fd3db58a06be9d1385da17e8"
+    },
+    {
+      "path": "atlas/results/chunks/E01/T_reconstructed_quarterly/attempts.csv.gz",
+      "bytes": 147051,
+      "sha256": "746164d4e4c70d154d126e955edd85e67d57111eb91802816e79ba03d789d35d"
+    },
+    {
+      "path": "atlas/results/chunks/E01/W_CWY_annual/attempt_records.jsonl.gz",
+      "bytes": 1063499,
+      "sha256": "3b89d6aede072efac5720e4f73ca964d3f38c1e11e3970ce99656844da9cb77f"
+    },
+    {
+      "path": "atlas/results/chunks/E01/W_CWY_annual/attempts.csv.gz",
+      "bytes": 326888,
+      "sha256": "98bffe9f965535852118202a1b18eb647c03421fecfc192f438896600f140bdf"
+    },
+    {
+      "path": "atlas/results/chunks/E01/W_external_USA_annual/attempt_records.jsonl.gz",
+      "bytes": 402319,
+      "sha256": "775ce5a1bb176dcf398841cbf2657abc6698fac0b0accdc153436a4944866185"
+    },
+    {
+      "path": "atlas/results/chunks/E01/W_external_USA_annual/attempts.csv.gz",
+      "bytes": 107726,
+      "sha256": "412042e33ec11dd1eeac5e0611c01ff48e7de3d64d7c1676211dea47c6de5036"
+    },
+    {
+      "path": "atlas/results/chunks/E01/W_external_USA_quarterly/attempt_records.jsonl.gz",
+      "bytes": 1501317,
+      "sha256": "f1ff039a5c55a66ebac79943ad807d76c96ced02cf248b5c12dd7bf953a9c527"
+    },
+    {
+      "path": "atlas/results/chunks/E01/W_external_USA_quarterly/attempts.csv.gz",
+      "bytes": 361772,
+      "sha256": "d9273bd4504746c5eb79871763505e5b6058dcfa8c6878315e73e3f19070860e"
+    },
+    {
+      "path": "atlas/results/chunks/E01/attempts.csv.gz",
+      "bytes": 1295166,
+      "sha256": "a96666764f1a18735e711569b304b2abb0c5d8cdf558e372219781d8f6f4e0d4"
+    },
+    {
+      "path": "atlas/results/chunks/E01/coefficients.csv.gz",
+      "bytes": 3787822,
+      "sha256": "6a41631709a7eb0d79a3213e49aa13b9bf72aeadb1766427fafb1039a1aeed83"
+    },
+    {
+      "path": "atlas/results/chunks/E01/coverage.csv",
+      "bytes": 73284,
+      "sha256": "835a7c56bcf78702a6f53da29b666863d8fe40a9d751fa7918011aa08f191758"
+    },
+    {
+      "path": "atlas/results/chunks/F01/COMPLETED.json",
+      "bytes": 128,
+      "sha256": "a51f40f02c3a1df0b1bc08e39980358cdfd02ba0421a32ebf520f6b7472107d6"
+    },
+    {
+      "path": "atlas/results/chunks/F01/H_BDY_daily/attempt_records.jsonl.gz",
+      "bytes": 985233,
+      "sha256": "e1b97893befdc352ba541294aa8c1623a854f7233c2d45105520ba291a4eeb11"
+    },
+    {
+      "path": "atlas/results/chunks/F01/H_BDY_daily/attempts.csv.gz",
+      "bytes": 328635,
+      "sha256": "63e630092a027bd8b990d7da8ab5bcee34affdb1a8e89283da6452edaa9a9942"
+    },
+    {
+      "path": "atlas/results/chunks/F01/H_ECB_reconstructed_2026/attempt_records.jsonl.gz",
+      "bytes": 437591,
+      "sha256": "404dcacb049fbe378b0861389497faac842504daf1cd0e69cadc4deded009eb7"
+    },
+    {
+      "path": "atlas/results/chunks/F01/H_ECB_reconstructed_2026/attempts.csv.gz",
+      "bytes": 104439,
+      "sha256": "c58bffe53545fff0cdfc51294e7f44c6226386b12c97f130aa4a2f3aaee6c9c3"
+    },
+    {
+      "path": "atlas/results/chunks/F01/H_USA_reconstructed_2026/attempt_records.jsonl.gz",
+      "bytes": 18359,
+      "sha256": "eef51f53a510450ebb545a34a77e2482a72e14646889c913694f2f7dc4816f5f"
+    },
+    {
+      "path": "atlas/results/chunks/F01/H_USA_reconstructed_2026/attempts.csv.gz",
+      "bytes": 6467,
+      "sha256": "296ff1188bf2bea5e0a25c2a30565f2fc03ee3074a3903576b456c2858de6bbd"
+    },
+    {
+      "path": "atlas/results/chunks/F01/T_reconstructed_annual_1L/attempt_records.jsonl.gz",
+      "bytes": 287224,
+      "sha256": "ac992d14c98c11d5ab11baa31d77b0ebc6a2bd698533bed0fc57617f7d08830e"
+    },
+    {
+      "path": "atlas/results/chunks/F01/T_reconstructed_annual_1L/attempts.csv.gz",
+      "bytes": 73424,
+      "sha256": "992aaf1550b8a7e2f98c0212e36b0388c76c55f49f28a1bde76c0d554df0d16e"
+    },
+    {
+      "path": "atlas/results/chunks/F01/T_reconstructed_quarterly/attempt_records.jsonl.gz",
+      "bytes": 807463,
+      "sha256": "e9cc673c62360f638fd1ad46e3df5275b2f81103627ceac6c355d0ab9fb19617"
+    },
+    {
+      "path": "atlas/results/chunks/F01/T_reconstructed_quarterly/attempts.csv.gz",
+      "bytes": 164693,
+      "sha256": "e63d1746aee9579713a12db2aefb2e34125b0184649aff3b2540866c94afe277"
+    },
+    {
+      "path": "atlas/results/chunks/F01/W_CWY_annual/attempt_records.jsonl.gz",
+      "bytes": 810843,
+      "sha256": "5e1a357e3555045d1f71ab11d6c28a76f7239fb214eed6e2641719904b1858de"
+    },
+    {
+      "path": "atlas/results/chunks/F01/W_CWY_annual/attempts.csv.gz",
+      "bytes": 278826,
+      "sha256": "ea2740312f052c73cbd1b75a8429e87087cc9ce6143cb36340e0e8a7b98930d7"
+    },
+    {
+      "path": "atlas/results/chunks/F01/W_external_USA_annual/attempt_records.jsonl.gz",
+      "bytes": 439019,
+      "sha256": "c0122c2fb4297ed5d4b2f83500cf867df0a870bb41ada797846861c43374b0a4"
+    },
+    {
+      "path": "atlas/results/chunks/F01/W_external_USA_annual/attempts.csv.gz",
+      "bytes": 123500,
+      "sha256": "b16b20b3eb2166b661d0c60004f8e386e01ef0f20520179c29392036375b4b1f"
+    },
+    {
+      "path": "atlas/results/chunks/F01/W_external_USA_quarterly/attempt_records.jsonl.gz",
+      "bytes": 1859530,
+      "sha256": "70b0fb5f91148667ebe1a66e47ba5e3b3e8d0202a0e1b4e1e743e9e77b48d259"
+    },
+    {
+      "path": "atlas/results/chunks/F01/W_external_USA_quarterly/attempts.csv.gz",
+      "bytes": 447872,
+      "sha256": "7b91a5c29fafdab745761442db763b472351289c8f37246c926140f4dec9c816"
+    },
+    {
+      "path": "atlas/results/chunks/F01/attempts.csv.gz",
+      "bytes": 1525093,
+      "sha256": "835937340449a578c765bff5d31b9fc7eec926154b59398438ba5ae0bbf54852"
+    },
+    {
+      "path": "atlas/results/chunks/F01/coefficients.csv.gz",
+      "bytes": 3898731,
+      "sha256": "da60bb718e0b09858ad623103625f9d107aa1388d7c9895c385b406dbf67261c"
+    },
+    {
+      "path": "atlas/results/chunks/F01/coverage.csv",
+      "bytes": 75322,
+      "sha256": "bb1bb2e3c7beb1b974704d14f10ef9b7a628d675fa94c8b4be51548e322242e1"
+    },
+    {
+      "path": "atlas/results/chunks/F04/COMPLETED.json",
+      "bytes": 127,
+      "sha256": "0d87e8ae9b7046b101d12d78bada4e673a022252d031198116b5b931c98e4322"
+    },
+    {
+      "path": "atlas/results/chunks/F04/H_BDY_daily/attempt_records.jsonl.gz",
+      "bytes": 557188,
+      "sha256": "fd3b69f97e979c46f13cab0340ca2d8319b2ee90641e3ea77a94bcc052a140c0"
+    },
+    {
+      "path": "atlas/results/chunks/F04/H_BDY_daily/attempts.csv.gz",
+      "bytes": 73058,
+      "sha256": "1a09a38c76ca75dfee660050302412e4d50538dd0678316a119176ac0d883434"
+    },
+    {
+      "path": "atlas/results/chunks/F04/H_ECB_reconstructed_2026/attempt_records.jsonl.gz",
+      "bytes": 179939,
+      "sha256": "8065e6932bec037b899375efcc52b393301a540b35f0db073d9c7467d650b7ac"
+    },
+    {
+      "path": "atlas/results/chunks/F04/H_ECB_reconstructed_2026/attempts.csv.gz",
+      "bytes": 55952,
+      "sha256": "0534bea25503e7470703ed5bcfbce243e0060c3ce2903d2b12332efda06c7891"
+    },
+    {
+      "path": "atlas/results/chunks/F04/H_USA_reconstructed_2026/attempt_records.jsonl.gz",
+      "bytes": 18117,
+      "sha256": "0c08f010032ec6c4c9d7267d26cd50002fa623f42b372156ee94a1baac0a0e01"
+    },
+    {
+      "path": "atlas/results/chunks/F04/H_USA_reconstructed_2026/attempts.csv.gz",
+      "bytes": 6253,
+      "sha256": "136811707e3190aed42eb3df399a2827f38db679c7a4bb70ee65e74c52634936"
+    },
+    {
+      "path": "atlas/results/chunks/F04/T_reconstructed_annual_1L/attempt_records.jsonl.gz",
+      "bytes": 94356,
+      "sha256": "9285cc1707dda78f4c595b1f9b054a02a6df9905ecbdfb4ebf568bfbd150e432"
+    },
+    {
+      "path": "atlas/results/chunks/F04/T_reconstructed_annual_1L/attempts.csv.gz",
+      "bytes": 28625,
+      "sha256": "3eb6aeeab4f88431cc880a5c466ac24128456bf3f8d5d6283d8d0e0c8f4e0e24"
+    },
+    {
+      "path": "atlas/results/chunks/F04/T_reconstructed_quarterly/attempt_records.jsonl.gz",
+      "bytes": 527430,
+      "sha256": "3ea5a2896efe31bba175852d7490063636e70d0e70c419e32f9a779d4b952396"
+    },
+    {
+      "path": "atlas/results/chunks/F04/T_reconstructed_quarterly/attempts.csv.gz",
+      "bytes": 93636,
+      "sha256": "615f5b78b68334076500b554f510014df1b18309bab1bcd2440f714b5cfd7f0b"
+    },
+    {
+      "path": "atlas/results/chunks/F04/W_CWY_annual/attempt_records.jsonl.gz",
+      "bytes": 282024,
+      "sha256": "78832f64f81003945a4d52f594c4b265cd2e0dc6f097c47de0290fe48c2ce505"
+    },
+    {
+      "path": "atlas/results/chunks/F04/W_CWY_annual/attempts.csv.gz",
+      "bytes": 119116,
+      "sha256": "8370af34e122ca51c44622c4e449132dc3cc7097ab3ef0157fc0e2cefe1db14b"
+    },
+    {
+      "path": "atlas/results/chunks/F04/W_external_USA_annual/attempt_records.jsonl.gz",
+      "bytes": 110637,
+      "sha256": "abe1aef090fc01084707b7aa5e8f3b42a4b48b79dc4789d8f04456f6707af229"
+    },
+    {
+      "path": "atlas/results/chunks/F04/W_external_USA_annual/attempts.csv.gz",
+      "bytes": 41632,
+      "sha256": "2561ea5ff9da4f3e115c0c976376da55f7587e5aab0bbaaeee8c4315c7ea13cc"
+    },
+    {
+      "path": "atlas/results/chunks/F04/W_external_USA_quarterly/attempt_records.jsonl.gz",
+      "bytes": 870990,
+      "sha256": "e50496313f7f318fc5674ae36762e7896cb45e09695fcc69bbf80c36536cb9c9"
+    },
+    {
+      "path": "atlas/results/chunks/F04/W_external_USA_quarterly/attempts.csv.gz",
+      "bytes": 226027,
+      "sha256": "13b14e2af8511265aa1c0844e2c75445905710d91b1846ea34715548cc6b32cd"
+    },
+    {
+      "path": "atlas/results/chunks/F04/attempts.csv.gz",
+      "bytes": 639722,
+      "sha256": "3cc50be5540e75aa7027f62ba13956d119726b65a4bf70fa43c089e390d14cd1"
+    },
+    {
+      "path": "atlas/results/chunks/F04/coefficients.csv.gz",
+      "bytes": 1781821,
+      "sha256": "f23abbceec76b5e0a64f5c1f5f3d76efc4450fe8181c74d65fb09f418cd9544c"
+    },
+    {
+      "path": "atlas/results/chunks/F04/coverage.csv",
+      "bytes": 42332,
+      "sha256": "674c401d61df4a8ccb35b9ec336f9b6927602f0e342ddda275e79dccee4d1f87"
+    },
+    {
+      "path": "atlas/results/chunks/R01/COMPLETED.json",
+      "bytes": 126,
+      "sha256": "10659c70c17c8185c01e6feecc4d6605b24512fe0b44565151bb481eb6c9c713"
+    },
+    {
+      "path": "atlas/results/chunks/R01/H_BDY_daily/attempt_records.jsonl.gz",
+      "bytes": 651083,
+      "sha256": "0d076ba532849591b5b6ee1f1576f1f55c9ab795de100e6011df4541eb133e03"
+    },
+    {
+      "path": "atlas/results/chunks/R01/H_BDY_daily/attempts.csv.gz",
+      "bytes": 84475,
+      "sha256": "4852f9711f32598834f14b287fa17f5f94b6b450d97f79c177ad638a04ccc301"
+    },
+    {
+      "path": "atlas/results/chunks/R01/H_ECB_reconstructed_2026/attempt_records.jsonl.gz",
+      "bytes": 317525,
+      "sha256": "68f0d19189dd81018ec679cee4a52df72a4e34d9f32ba8099bf3b968341701c1"
+    },
+    {
+      "path": "atlas/results/chunks/R01/H_ECB_reconstructed_2026/attempts.csv.gz",
+      "bytes": 70848,
+      "sha256": "55fb4d991a081d6759591bc2716fe7b0ef9eff9ed94efa9399e771d6a5521ed8"
+    },
+    {
+      "path": "atlas/results/chunks/R01/H_USA_reconstructed_2026/attempt_records.jsonl.gz",
+      "bytes": 15666,
+      "sha256": "a1a78aef1bde937dc5b3c6f585a90afa428da7a791c4d4be1baf85954216b579"
+    },
+    {
+      "path": "atlas/results/chunks/R01/H_USA_reconstructed_2026/attempts.csv.gz",
+      "bytes": 4676,
+      "sha256": "7382b3361fa79f04027138f67cb42252ff9005dde55586ba7ed842689afbf733"
+    },
+    {
+      "path": "atlas/results/chunks/R01/T_reconstructed_annual_1L/attempt_records.jsonl.gz",
+      "bytes": 110730,
+      "sha256": "6416cee3718d8a515652e67b61e4c2d1c80e94e4b8269d61146e15ee49418ca0"
+    },
+    {
+      "path": "atlas/results/chunks/R01/T_reconstructed_annual_1L/attempts.csv.gz",
+      "bytes": 23824,
+      "sha256": "11659556793d576d6508bbe07b77b25e4fb767014dc7cb13f5d9a359f477fb0e"
+    },
+    {
+      "path": "atlas/results/chunks/R01/T_reconstructed_quarterly/attempt_records.jsonl.gz",
+      "bytes": 343734,
+      "sha256": "77c048abb9cf387338e9e09728e6b885f054a7f1e4d0882f973836acf71b5c12"
+    },
+    {
+      "path": "atlas/results/chunks/R01/T_reconstructed_quarterly/attempts.csv.gz",
+      "bytes": 65602,
+      "sha256": "7282c4bf86a1d491009351998c2e50c2430f130efb6e7c2a6e04593ade25d951"
+    },
+    {
+      "path": "atlas/results/chunks/R01/W_CWY_annual/attempt_records.jsonl.gz",
+      "bytes": 163490,
+      "sha256": "d0855a6876af06bdb06a9b1dc48461a439382add128e5fde2e24fcf22aa71a67"
+    },
+    {
+      "path": "atlas/results/chunks/R01/W_CWY_annual/attempts.csv.gz",
+      "bytes": 33209,
+      "sha256": "bc2e3542605118263d02b26254cd16bb5dae7610e5b8a3f4f2d8e61ed13ba212"
+    },
+    {
+      "path": "atlas/results/chunks/R01/W_external_USA_annual/attempt_records.jsonl.gz",
+      "bytes": 57281,
+      "sha256": "7ff2142164fb14bf4e11cd70ae3c9fba673f99b76b22071300f284640b51f897"
+    },
+    {
+      "path": "atlas/results/chunks/R01/W_external_USA_annual/attempts.csv.gz",
+      "bytes": 23402,
+      "sha256": "d73c6fb0c380bd4a3c6b8020b62a7f3530a8661836bfdddea7342ae6b9e66a37"
+    },
+    {
+      "path": "atlas/results/chunks/R01/W_external_USA_quarterly/attempt_records.jsonl.gz",
+      "bytes": 502783,
+      "sha256": "efd9e5db7a7964b93d92856c5e984b4dd9aa0abd2cdd9f9a0ac199dedcdf0739"
+    },
+    {
+      "path": "atlas/results/chunks/R01/W_external_USA_quarterly/attempts.csv.gz",
+      "bytes": 97028,
+      "sha256": "d2c2d2fd7d422c0e07949f93329ecec0a48cd5d64f5ebb95167a91b8e546719b"
+    },
+    {
+      "path": "atlas/results/chunks/R01/attempts.csv.gz",
+      "bytes": 397856,
+      "sha256": "8aedbc2183848b606933071a87b29d5093984174b9d1507457385af8ca0774cb"
+    },
+    {
+      "path": "atlas/results/chunks/R01/coefficients.csv.gz",
+      "bytes": 1498269,
+      "sha256": "e49d95ee88f1a1ebfa574f33afbb001f89d960efc48268e15d3593fed74dd66b"
+    },
+    {
+      "path": "atlas/results/chunks/R01/coverage.csv",
+      "bytes": 41012,
+      "sha256": "002f23e1993eb94ca761fdec78a1790570273d0d9409b23f2148f62206ef9886"
+    },
+    {
+      "path": "atlas/results/conditional_response_grid.csv",
+      "bytes": 415984,
+      "sha256": "2b1e6ce35042b197e75e911c3bc1119b92a8066aadf32a6f322b34a208c075b4"
+    },
+    {
+      "path": "atlas/figures/E01_global_interactions.png",
+      "bytes": 249128,
+      "sha256": "11c0201813f8bee0b29ca966adfd8ec1c67deaa4b4ba5916118778d966563c91"
+    },
+    {
+      "path": "atlas/figures/F01_global_interactions.png",
+      "bytes": 221901,
+      "sha256": "12ccab1fd5e33dd5599ff660e18bc59913da0ab129fececc2b89dafdc1578e40"
+    },
+    {
+      "path": "atlas/figures/F04_global_interactions.png",
+      "bytes": 242192,
+      "sha256": "43e68c1a36370b66a75e9012e27f0aa62b1db05c167c4869beab9689726aed93"
+    },
+    {
+      "path": "atlas/figures/R01_global_interactions.png",
+      "bytes": 224157,
+      "sha256": "1d5992d2879676eb88851be89babc677d400634c2762cc19d13d333f2720c9a6"
+    },
+    {
+      "path": "atlas/figures/country_IRF_index.csv",
+      "bytes": 11090,
+      "sha256": "9ef0e61b45f7ac32b93c9da38e916f223618650661e346787cdb42a723e5ded0"
+    },
+    {
+      "path": "atlas/figures/country_IRFs.pdf",
+      "bytes": 953657,
+      "sha256": "1e4db613e5b2f698686d5823019ed89b1f2fde49a73ed7cba096f9b293ac0b57"
+    },
+    {
+      "path": "atlas/figures/eligible_country_coverage.png",
+      "bytes": 91533,
+      "sha256": "e8d12752dcc01058507f09316e1d38c54d1531dccfe09bc10a3bf566685fe7b7"
+    },
+    {
+      "path": "atlas/raw/bolhuis_11172025.xlsx",
+      "bytes": 92957,
+      "sha256": "b3ad14062576d5b406423b7689e200d4219338cec28e42811c783aa0a4349aec"
+    },
+    {
+      "path": "atlas/raw/bolhuis_current.xlsx",
+      "bytes": 150133,
+      "sha256": "a5289805310578d07919f4cb176a54b82b23ae5528b6491389b6f043925baa1e"
+    },
+    {
+      "path": "atlas/raw/cwy_mirror.xlsx",
+      "bytes": 10456215,
+      "sha256": "6506325fbc8153eee851d62e6dc4028f32dd2e509495f8cd21001dec9f758719"
+    },
+    {
+      "path": "atlas/raw/ea_mpd_current_other.xlsx",
+      "bytes": 1863539,
+      "sha256": "548abe37c07b2f4535b6a5a480918df3226aea9b1d65d5a74580894c83b3713b"
+    },
+    {
+      "path": "atlas/raw/ea_mpd_latest.xlsx",
+      "bytes": 377116,
+      "sha256": "f417fb861a305e3cbb871a7571c4899ba6bca003d9e087024d2f3f0744426cef"
+    },
+    {
+      "path": "atlas/raw/jk_d2m2q.m",
+      "bytes": 2192,
+      "sha256": "d1918feec0cf41ea202117428fb3b3467989e5e22fd6b3aec1601bfed8e6e6c5"
+    },
+    {
+      "path": "atlas/raw/jk_ecb_monthly.csv",
+      "bytes": 21768,
+      "sha256": "89c5b2ec39509057b3c71f44218424fc8d15d4041b16f31c96613f8fe0965534"
+    },
+    {
+      "path": "atlas/raw/jk_main.m",
+      "bytes": 1915,
+      "sha256": "5de2a99c8e3d94685d49e5768b92c6822d8d998f57471d01c61a35ce7a88b193"
+    },
+    {
+      "path": "atlas/raw/jk_mypc.m",
+      "bytes": 758,
+      "sha256": "7efcb94510ff96e7e084f3e0c24f6f55367bb9195d78fee6fe633012572b356c"
+    },
+    {
+      "path": "atlas/raw/jk_signrestr_median.m",
+      "bytes": 1536,
+      "sha256": "574cb3b7f7f88f4bc7164336a569c98442b6256642588ff20f256ae1724d7918"
+    },
+    {
+      "path": "atlas/raw/ukmpd_latest.xlsx",
+      "bytes": 150549,
+      "sha256": "e05353caf126dd3c599ff66aa85d5fae2883ad2d40bfcfa6af3233adc694ec0e"
+    },
+    {
+      "path": "atlas/raw/usmpd_latest.xlsx",
+      "bytes": 199373,
+      "sha256": "2b91297c42cf692dd74f65eabf7ee97f81d452676e23fa02edb222bfa60f0d0a"
+    },
+    {
+      "path": "atlas/raw/usmpd_surprises.zip",
+      "bytes": 78948,
+      "sha256": "ee9f98bc6a2b49e43078dde0028413c6ca008df39fa57104ca1bf1174c27af0d"
+    }
+  ],
+  "excluded": "regenerable internal LP score arrays/repeated sample-key lists and duplicated coefficient tables; permanent attempt records retain all economic estimates/covariances/diagnostics"
+}

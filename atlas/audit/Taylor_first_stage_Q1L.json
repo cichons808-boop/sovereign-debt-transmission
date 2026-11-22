@@ -1,0 +1,6179 @@
+[
+  {
+    "country": "ABW",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.AW.FID_PA",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "AFG",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "AGO",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "ALB",
+    "frequency": "Q",
+    "n": 95,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2001Q3",
+    "last_period": "2025Q1",
+    "beta": [
+      -0.2593219846298947,
+      0.008569280480358953,
+      0.15486855771498953,
+      0.01671698245769251,
+      0.07988099117470562
+    ],
+    "se_HAC": [
+      0.07684731601018817,
+      0.009721744813891656,
+      0.11620942619301589,
+      0.011157298750209136,
+      0.029969056983207645
+    ],
+    "covariance_HAC": [
+      [
+        0.005905509977969722,
+        -9.426333124538055e-05,
+        0.006123146238945302,
+        -0.00015701476847779312,
+        -0.0021578045057309685
+      ],
+      [
+        -9.426333124538052e-05,
+        9.451232222642933e-05,
+        2.8765770231746435e-05,
+        9.317758629239827e-06,
+        4.249089624319488e-05
+      ],
+      [
+        0.0061231462389453005,
+        2.87657702317464e-05,
+        0.013504630736110008,
+        -0.0002421585263779026,
+        -0.0024630241930641288
+      ],
+      [
+        -0.0001570147684777935,
+        9.317758629239834e-06,
+        -0.0002421585263779026,
+        0.00012448531540141833,
+        3.1221567790416644e-05
+      ],
+      [
+        -0.0021578045057309685,
+        4.2490896243194895e-05,
+        -0.0024630241930641305,
+        3.122156779041667e-05,
+        0.0008981443764627469
+      ]
+    ],
+    "p_raw": [
+      0.0010926244303961228,
+      0.38041960469713226,
+      0.186005023121823,
+      0.1375546455942231,
+      0.009113282245647062
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.2553708884176601,
+    "r_squared": 0.2604906469645215,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "ARE",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "ARG",
+    "frequency": "Q",
+    "n": 29,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "ARM",
+    "frequency": "Q",
+    "n": 99,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2001Q3",
+    "last_period": "2026Q1",
+    "beta": [
+      -0.17647302957537572,
+      -0.0009740915644673069,
+      0.19939753029453264,
+      -0.030880430533988455,
+      0.028938208732245407
+    ],
+    "se_HAC": [
+      0.12371693077012864,
+      0.0020267590876049467,
+      0.0720812192570911,
+      0.022611188849494746,
+      0.021813615617196115
+    ],
+    "covariance_HAC": [
+      [
+        0.015305878959180804,
+        0.00011912732340468403,
+        0.006162513046252663,
+        0.0016308445914049747,
+        -0.0019364644484566955
+      ],
+      [
+        0.00011912732340468414,
+        4.107752399189235e-06,
+        4.632095825595722e-05,
+        1.4696296950361649e-05,
+        -5.797293758545393e-06
+      ],
+      [
+        0.006162513046252663,
+        4.632095825595721e-05,
+        0.00519570216958884,
+        0.0008849083437331164,
+        -0.0007716838918282531
+      ],
+      [
+        0.0016308445914049762,
+        1.4696296950361645e-05,
+        0.0008849083437331166,
+        0.0005112658611875155,
+        -0.0001026949337757761
+      ],
+      [
+        -0.001936464448456694,
+        -5.797293758545379e-06,
+        -0.0007716838918282529,
+        -0.00010269493377577605,
+        0.00047583382629478227
+      ]
+    ],
+    "p_raw": [
+      0.15705837172166817,
+      0.6319065908506697,
+      0.006826582529126701,
+      0.17528756163055587,
+      0.18785090248296865
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.7236739215412854,
+    "r_squared": 0.1277294984269216,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "ATG",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "AUS",
+    "frequency": "Q",
+    "n": 5,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "AUT",
+    "frequency": "Q",
+    "n": 14,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "AZE",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BDI",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BEL",
+    "frequency": "Q",
+    "n": 14,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BEN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BFA",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BGD",
+    "frequency": "Q",
+    "n": 6,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BGR",
+    "frequency": "Q",
+    "n": 80,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2005Q3",
+    "last_period": "2025Q2",
+    "beta": [
+      -0.06663234683084068,
+      0.47155078432032743,
+      -0.02457084826862569,
+      0.006070207744055603,
+      0.016215408956828038
+    ],
+    "se_HAC": [
+      0.046660408751153355,
+      0.12382123875767176,
+      0.029679466796284026,
+      0.018913990046474462,
+      0.014406029885082806
+    ],
+    "covariance_HAC": [
+      [
+        0.002177193744824709,
+        0.002337605251130184,
+        3.16234343797103e-05,
+        -0.0001568222837990176,
+        -0.0005265485838361109
+      ],
+      [
+        0.0023376052511301835,
+        0.015331699167484353,
+        0.002006283568238827,
+        -0.002015156120177982,
+        -0.0004052306286775531
+      ],
+      [
+        3.162343437971174e-05,
+        0.002006283568238827,
+        0.0008808707493117259,
+        -0.00037799869215634704,
+        0.00020923965065825268
+      ],
+      [
+        -0.0001568222837990175,
+        -0.0020151561201779814,
+        -0.0003779986921563472,
+        0.00035773901947813507,
+        -2.266777405608062e-05
+      ],
+      [
+        -0.0005265485838361095,
+        -0.0004052306286775529,
+        0.00020923965065825273,
+        -2.2667774056080637e-05,
+        0.00020753369704989895
+      ]
+    ],
+    "p_raw": [
+      0.1574349555790663,
+      0.00028412487955617726,
+      0.4103686522812841,
+      0.7491503835215524,
+      0.2639244944733234
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.33357323509601633,
+    "r_squared": 0.3653906781201579,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "BHR",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.BH.FPOLM_PA",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BHS",
+    "frequency": "Q",
+    "n": 39,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BIH",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BLR",
+    "frequency": "Q",
+    "n": 47,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BLZ",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BOL",
+    "frequency": "Q",
+    "n": 33,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BRA",
+    "frequency": "Q",
+    "n": 121,
+    "features": [
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1996Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      -0.0673471910791908,
+      0.01403107723609659,
+      -0.04456660894046563,
+      -0.06981811930462029,
+      0.25950245135854194
+    ],
+    "se_HAC": [
+      0.14037391271592514,
+      0.2774930244656747,
+      0.14112006315996897,
+      0.12277410461503524,
+      1.026148138069643
+    ],
+    "covariance_HAC": [
+      [
+        0.019704835371178172,
+        -0.016747711505798374,
+        -0.007456172132601194,
+        -0.003441423248673944,
+        0.06712413193760652
+      ],
+      [
+        -0.016747711505798384,
+        0.07700237862710754,
+        0.011724706269868719,
+        0.030731353058105947,
+        -0.15569223452313175
+      ],
+      [
+        -0.007456172132601193,
+        0.011724706269868691,
+        0.01991487222627363,
+        0.0031303188455118623,
+        -0.13405059883978462
+      ],
+      [
+        -0.003441423248673944,
+        0.030731353058105915,
+        0.0031303188455118723,
+        0.015073480764023619,
+        -0.05010414581985524
+      ],
+      [
+        0.06712413193760647,
+        -0.15569223452313125,
+        -0.13405059883978473,
+        -0.05010414581985516,
+        1.052980001263795
+      ]
+    ],
+    "p_raw": [
+      0.6322943259958325,
+      0.959760144075711,
+      0.7527170108310238,
+      0.5706784969336431,
+      0.8008009340136083
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 3.4366881834897085,
+    "r_squared": 0.03322998241831143,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "BRB",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BRN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BTN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "BWA",
+    "frequency": "Q",
+    "n": 77,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2006Q3",
+    "last_period": "2025Q3",
+    "beta": [
+      -0.027141368613846677,
+      0.012752921408615297,
+      0.14922215068228903,
+      0.01448015490377378,
+      -0.02485182896021054
+    ],
+    "se_HAC": [
+      0.09781486356678644,
+      0.01497478842053924,
+      0.16072432992574537,
+      0.014188998315024083,
+      0.022362174593283064
+    ],
+    "covariance_HAC": [
+      [
+        0.009567747534589045,
+        0.0011017715283381847,
+        0.010782162885087383,
+        0.0002478339042931517,
+        -0.0019467589137615062
+      ],
+      [
+        0.0011017715283381845,
+        0.0002242442882399161,
+        0.001395758170142846,
+        8.07499537895659e-05,
+        -0.0002597567230226755
+      ],
+      [
+        0.010782162885087392,
+        0.0013957581701428475,
+        0.02583231023007985,
+        -0.0003324958744228446,
+        -0.0016123241147707765
+      ],
+      [
+        0.00024783390429315217,
+        8.074995378956599e-05,
+        -0.00033249587442284303,
+        0.00020132767318375628,
+        -0.00014173535432933398
+      ],
+      [
+        -0.0019467589137615053,
+        -0.00025975672302267546,
+        -0.0016123241147707743,
+        -0.0001417353543293339,
+        0.0005000668525404745
+      ]
+    ],
+    "p_raw": [
+      0.7822090766607308,
+      0.3972453325199245,
+      0.35628392623818406,
+      0.3108988142143594,
+      0.27012225411442753
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.41052276535194654,
+    "r_squared": 0.10627782078624659,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "CAF",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "CAN",
+    "frequency": "Q",
+    "n": 261,
+    "features": [
+      "depreciation_lag1",
+      "intercept",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1961Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      -0.03360197476306325,
+      -0.13364590128458287,
+      0.06872294556875383,
+      0.12142800176437926,
+      0.012682708099081636
+    ],
+    "se_HAC": [
+      0.016438643778657204,
+      0.10394204468824213,
+      0.07410779306854046,
+      0.08097642653715367,
+      0.031354604047934664
+    ],
+    "covariance_HAC": [
+      [
+        0.00027022900928158524,
+        0.00017048518442452134,
+        0.0001140454784978308,
+        -9.808719941617461e-05,
+        -4.251301338396412e-05
+      ],
+      [
+        0.00017048518442452158,
+        0.010803948653972523,
+        0.0023784378946901104,
+        -0.004040173520469388,
+        -0.0022157638541158912
+      ],
+      [
+        0.00011404547849783083,
+        0.002378437894690111,
+        0.005491964993489613,
+        -0.00103936790300931,
+        -0.0005203326302567327
+      ],
+      [
+        -9.808719941617472e-05,
+        -0.004040173520469391,
+        -0.0010393679030093106,
+        0.006557181654727046,
+        -0.00046891701657576096
+      ],
+      [
+        -4.2513013383964135e-05,
+        -0.00221576385411589,
+        -0.0005203326302567325,
+        -0.00046891701657576166,
+        0.0009831111950027607
+      ]
+    ],
+    "p_raw": [
+      0.04196850897558979,
+      0.1996840206579515,
+      0.3546247164493014,
+      0.13496383038389062,
+      0.6861881973524708
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.924387174643081,
+    "r_squared": 0.04439775024660031,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "CHE",
+    "frequency": "Q",
+    "n": 120,
+    "features": [
+      "growth_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "inflation_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1995Q3",
+    "last_period": "2025Q2",
+    "beta": [
+      0.031357389413030075,
+      -0.004038209469801517,
+      0.25689804277334305,
+      -0.015393290879598743,
+      -0.024804686938737427
+    ],
+    "se_HAC": [
+      0.043086838909767736,
+      0.008158274120672456,
+      0.0911095284517247,
+      0.056527417891105526,
+      0.023690339089243662
+    ],
+    "covariance_HAC": [
+      [
+        0.0018564756872362746,
+        6.556906525381007e-05,
+        -0.0010491742098227336,
+        0.0007141988551913909,
+        -0.0005500208241308093
+      ],
+      [
+        6.55690652538101e-05,
+        6.655743662803393e-05,
+        -3.9729057836775325e-05,
+        0.00019280336627645732,
+        -9.407438723084886e-06
+      ],
+      [
+        -0.0010491742098227331,
+        -3.9729057836775325e-05,
+        0.008300946174695631,
+        0.0014165170792693207,
+        -0.000408749113306998
+      ],
+      [
+        0.0007141988551913913,
+        0.0001928033662764573,
+        0.0014165170792693202,
+        0.003195348973435677,
+        -0.0006845866998956823
+      ],
+      [
+        -0.0005500208241308089,
+        -9.407438723084876e-06,
+        -0.00040874911330699765,
+        -0.0006845866998956829,
+        0.0005612321661633462
+      ]
+    ],
+    "p_raw": [
+      0.4682324112905341,
+      0.6215563070511899,
+      0.005662953579284434,
+      0.7858677867766409,
+      0.29727768472838134
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.37401810401441327,
+    "r_squared": 0.08407947655934878,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "CHL",
+    "frequency": "Q",
+    "n": 117,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1997Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      -0.19375222002352346,
+      0.08354147968620165,
+      -0.043629606954468506,
+      0.11314624496997348,
+      0.030485958930213407
+    ],
+    "se_HAC": [
+      0.2512884462544501,
+      0.24809201074831505,
+      0.042049318832484334,
+      0.10215039202437667,
+      0.05798915018816024
+    ],
+    "covariance_HAC": [
+      [
+        0.06314588322097568,
+        0.04179833015964161,
+        -0.0021780203071876084,
+        -0.01819765118100494,
+        -0.012140576001246918
+      ],
+      [
+        0.04179833015964159,
+        0.06154964579714207,
+        -0.0023939926535914984,
+        -0.013859769361431781,
+        -0.005594109550483542
+      ],
+      [
+        -0.002178020307187607,
+        -0.0023939926535914984,
+        0.001768145214275922,
+        0.0006092645950602604,
+        0.0007034162474084109
+      ],
+      [
+        -0.01819765118100494,
+        -0.013859769361431785,
+        0.0006092645950602605,
+        0.010434702590733837,
+        0.0023593045172018087
+      ],
+      [
+        -0.012140576001246921,
+        -0.005594109550483542,
+        0.0007034162474084115,
+        0.002359304517201808,
+        0.003362741539545005
+      ]
+    ],
+    "p_raw": [
+      0.4423096778064177,
+      0.7369461649185856,
+      0.30169972610054857,
+      0.2703888050306078,
+      0.6001232771829331
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 1.1907508615227766,
+    "r_squared": 0.07062761321635658,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "CHN",
+    "frequency": "Q",
+    "n": 61,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "growth_lag1",
+      "rate_change_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2011Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      -0.01477098239807247,
+      0.0008055428870764276,
+      0.0022975747532525503,
+      0.5512440737517064,
+      -0.008712085606808034
+    ],
+    "se_HAC": [
+      0.014731851413856542,
+      0.0037106908041327487,
+      0.001232740029680533,
+      0.09968053439837665,
+      0.006705893001414626
+    ],
+    "covariance_HAC": [
+      [
+        0.00021702744607994697,
+        -4.21705319431134e-06,
+        -2.9227083459311726e-06,
+        -0.0001101486928120434,
+        -6.180269487369113e-05
+      ],
+      [
+        -4.217053194311344e-06,
+        1.3769226243875346e-05,
+        -2.1001453693873225e-06,
+        -0.0001387438133562735,
+        -1.5673971919524582e-06
+      ],
+      [
+        -2.9227083459311794e-06,
+        -2.100145369387326e-06,
+        1.5196479807767612e-06,
+        7.271820457527959e-05,
+        -1.3207242452370569e-06
+      ],
+      [
+        -0.00011014869281204408,
+        -0.00013874381335627362,
+        7.271820457527961e-05,
+        0.00993620893794595,
+        -5.1303497416396755e-05
+      ],
+      [
+        -6.180269487369124e-05,
+        -1.567397191952453e-06,
+        -1.3207242452370581e-06,
+        -5.130349741639658e-05,
+        4.496900094642166e-05
+      ]
+    ],
+    "p_raw": [
+      0.32033969796044487,
+      0.828929494022716,
+      0.06759631000020745,
+      8.717034017129949e-07,
+      0.1992096339740406
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.09619111218670286,
+    "r_squared": 0.33232798972424904,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "CIV",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "CMR",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "COD",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "COG",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "COL",
+    "frequency": "Q",
+    "n": 85,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2005Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      0.15923753961047146,
+      0.7543300695929008,
+      -0.01212199314209985,
+      0.04799411250809933,
+      -0.03592879796232268
+    ],
+    "se_HAC": [
+      0.11899919243904902,
+      0.09666623664185629,
+      0.019870622473966586,
+      0.02479848896267157,
+      0.028714788076272656
+    ],
+    "covariance_HAC": [
+      [
+        0.014160807801145823,
+        0.002544615721354322,
+        -0.0011896026417260556,
+        -0.001336010507993949,
+        -0.003080004576727372
+      ],
+      [
+        0.0025446157213543184,
+        0.009344361306499361,
+        -0.0007771020353610021,
+        -0.0003255294458192191,
+        -0.00036697506800925113
+      ],
+      [
+        -0.0011896026417260563,
+        -0.0007771020353610022,
+        0.000394841637502906,
+        0.0001227431581093859,
+        0.0002725482263327551
+      ],
+      [
+        -0.0013360105079939489,
+        -0.00032552944581921896,
+        0.0001227431581093859,
+        0.0006149650548317438,
+        0.00022178654756823158
+      ],
+      [
+        -0.0030800045767273706,
+        -0.00036697506800925325,
+        0.00027254822633275506,
+        0.0002217865475682315,
+        0.0008245390542652503
+      ]
+    ],
+    "p_raw": [
+      0.18464201972476757,
+      1.9607098271064873e-11,
+      0.5435603738452824,
+      0.056479012177461534,
+      0.21449731014509182
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.5567353197266096,
+    "r_squared": 0.5662023171264088,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "COM",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "CPV",
+    "frequency": "Q",
+    "n": 51,
+    "features": [
+      "growth_lag1",
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2013Q2",
+    "last_period": "2025Q4",
+    "beta": [
+      0.004342501625297115,
+      -0.12624508885390867,
+      -0.005060446083703749,
+      -0.06372012568468587,
+      0.03690334234857246
+    ],
+    "se_HAC": [
+      0.006476267514700579,
+      0.08373492285005277,
+      0.013146862281654164,
+      0.07034615811180127,
+      0.020563413503278772
+    ],
+    "covariance_HAC": [
+      [
+        4.194204092196602e-05,
+        3.054190206765279e-05,
+        -1.2195105376480444e-05,
+        -0.00021462516049013287,
+        -3.557327924744261e-05
+      ],
+      [
+        3.054190206765283e-05,
+        0.007011537304704289,
+        -0.0001707936895133546,
+        0.0038362543467248995,
+        -0.0011950730662935417
+      ],
+      [
+        -1.219510537648045e-05,
+        -0.0001707936895133545,
+        0.00017283998785278093,
+        -2.785890575230683e-05,
+        1.0323932732081398e-05
+      ],
+      [
+        -0.00021462516049013277,
+        0.003836254346724901,
+        -2.78589057523069e-05,
+        0.004948581961090543,
+        -0.000347153449229409
+      ],
+      [
+        -3.557327924744261e-05,
+        -0.0011950730662935425,
+        1.0323932732081419e-05,
+        -0.0003471534492294088,
+        0.00042285397490682774
+      ]
+    ],
+    "p_raw": [
+      0.5058756689051184,
+      0.13847535187218576,
+      0.7020731917263224,
+      0.36975766074815425,
+      0.07928838015369984
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.4200134638809406,
+    "r_squared": 0.04439970239993929,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "CRI",
+    "frequency": "Q",
+    "n": 78,
+    "features": [
+      "rate_change_lag1",
+      "growth_lag1",
+      "depreciation_lag1",
+      "inflation_lag1",
+      "intercept"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2006Q3",
+    "last_period": "2025Q4",
+    "beta": [
+      0.39868065475112463,
+      -0.03951466202807023,
+      0.0691647316927665,
+      -0.0006634767871792685,
+      -0.0013785983443638133
+    ],
+    "se_HAC": [
+      0.14127373608678706,
+      0.04008459549143257,
+      0.04088455998845285,
+      0.023310997945701538,
+      0.13040741272380055
+    ],
+    "covariance_HAC": [
+      [
+        0.01995826850791916,
+        0.00066946525776568,
+        -0.0009292165133695069,
+        -0.00034440173977250854,
+        0.008007644271455986
+      ],
+      [
+        0.0006694652577656629,
+        0.0016067747957117762,
+        -0.00023417003477256787,
+        0.0004363707319438663,
+        -0.002780540498360103
+      ],
+      [
+        -0.0009292165133695049,
+        -0.00023417003477256839,
+        0.0016715472454493997,
+        -0.00020825121410946424,
+        0.0010040185019470186
+      ],
+      [
+        -0.0003444017397725217,
+        0.0004363707319438667,
+        -0.0002082512141094638,
+        0.0005434026252245013,
+        -0.00195802627269344
+      ],
+      [
+        0.008007644271455977,
+        -0.0027805404983600995,
+        0.0010040185019470139,
+        -0.001958026272693439,
+        0.01700609329331566
+      ]
+    ],
+    "p_raw": [
+      0.006143960117723262,
+      0.3274963335252411,
+      0.09496663515907659,
+      0.9773713716644484,
+      0.9915941802656142
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.8020011350408647,
+    "r_squared": 0.24558667074856488,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "CUW",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "CYP",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "CZE",
+    "frequency": "Q",
+    "n": 117,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1996Q2",
+    "last_period": "2025Q2",
+    "beta": [
+      -0.09261252832764616,
+      0.012009029021524129,
+      0.03442486964425753,
+      0.06772060979836783,
+      -0.00247425140803
+    ],
+    "se_HAC": [
+      0.09866972586364833,
+      0.014076444064271781,
+      0.291483445124469,
+      0.04801279271722865,
+      0.03413183730913117
+    ],
+    "covariance_HAC": [
+      [
+        0.009735714802007514,
+        0.0007177543117200041,
+        0.02114620325538216,
+        -0.002159856847447721,
+        -0.002393974544271511
+      ],
+      [
+        0.0007177543117200043,
+        0.00019814627749457228,
+        0.0016308511865600205,
+        4.201726234956541e-05,
+        -0.0001955620589310691
+      ],
+      [
+        0.02114620325538216,
+        0.0016308511865600207,
+        0.08496259878162933,
+        -0.004514007565295846,
+        -0.005565066490748304
+      ],
+      [
+        -0.0021598568474477217,
+        4.201726234956551e-05,
+        -0.004514007565295847,
+        0.002305228264507564,
+        0.0003341239670704346
+      ],
+      [
+        -0.00239397454427151,
+        -0.00019556205893106907,
+        -0.0055650664907483036,
+        0.00033412396707043466,
+        0.0011649823180969983
+      ]
+    ],
+    "p_raw": [
+      0.34995006722372723,
+      0.39540834851991125,
+      0.9061981389153709,
+      0.1611722565601454,
+      0.9423404557407563
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.9113386178036502,
+    "r_squared": 0.01337021461203225,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "DEU",
+    "frequency": "Q",
+    "n": 30,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "DJI",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "DMA",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "DNK",
+    "frequency": "Q",
+    "n": 136,
+    "features": [
+      "growth_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "inflation_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1991Q3",
+    "last_period": "2025Q2",
+    "beta": [
+      0.08728227253443824,
+      -0.03262536129076751,
+      0.02682817295436053,
+      0.12155235761747436,
+      -0.32260827500767164
+    ],
+    "se_HAC": [
+      0.06287444770541462,
+      0.023471861561189803,
+      0.14172759486251316,
+      0.04584265965513684,
+      0.120430761698585
+    ],
+    "covariance_HAC": [
+      [
+        0.003953196174260917,
+        -0.0007824181904498706,
+        -0.004154875731573674,
+        0.0013163928759520522,
+        -0.004978036449964468
+      ],
+      [
+        -0.0007824181904498706,
+        0.0005509282851476594,
+        0.0020116703948317473,
+        -0.0004456957827288506,
+        0.0016270835380959672
+      ],
+      [
+        -0.004154875731573674,
+        0.0020116703948317473,
+        0.020086711145512668,
+        -0.0039660158617757695,
+        0.011151684798234914
+      ],
+      [
+        0.0013163928759520518,
+        -0.00044569578272885067,
+        -0.0039660158617757695,
+        0.002101549444256711,
+        -0.0047436567230345165
+      ],
+      [
+        -0.004978036449964467,
+        0.0016270835380959674,
+        0.011151684798234912,
+        -0.004743656723034517,
+        0.01450356836330137
+      ]
+    ],
+    "p_raw": [
+      0.1674325744958759,
+      0.1668931140310188,
+      0.8501554261823167,
+      0.00900228783949904,
+      0.008336342936170592
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.564884856364016,
+    "r_squared": 0.1471826371197944,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "DOM",
+    "frequency": "Q",
+    "n": 85,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2004Q3",
+    "last_period": "2025Q3",
+    "beta": [
+      0.41684802164987916,
+      0.027841359416988502,
+      -0.12124398623703121,
+      0.028402293229134873,
+      -0.1088941587012275
+    ],
+    "se_HAC": [
+      0.34599525317092406,
+      0.030604990636518444,
+      0.09528618600194595,
+      0.019055272677032054,
+      0.0666234059676684
+    ],
+    "covariance_HAC": [
+      [
+        0.11971271521681184,
+        -0.007387235669992715,
+        -0.027700709144206366,
+        0.0017521173346544713,
+        -0.0206807116137417
+      ],
+      [
+        -0.007387235669992706,
+        0.0009366654518613817,
+        0.0014676685577230738,
+        -4.0656140238940196e-05,
+        0.0012457010450078417
+      ],
+      [
+        -0.02770070914420638,
+        0.0014676685577230777,
+        0.009079457242797441,
+        -0.0005351667831853957,
+        0.006243080492583063
+      ],
+      [
+        0.001752117334654477,
+        -4.06561402389407e-05,
+        -0.0005351667831853971,
+        0.0003631034167960443,
+        -0.00037108791433101057
+      ],
+      [
+        -0.020680711613741708,
+        0.0012457010450078443,
+        0.006243080492583061,
+        -0.0003710879143310095,
+        0.004438678222732754
+      ]
+    ],
+    "p_raw": [
+      0.23184042032365348,
+      0.3657134119827518,
+      0.20691006540700885,
+      0.14001960995569096,
+      0.10608886161479601
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 1.091670862061848,
+    "r_squared": 0.27092269424432447,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "DZA",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "ECU",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "EGY",
+    "frequency": "Q",
+    "n": 20,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "ESP",
+    "frequency": "Q",
+    "n": 14,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "EST",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "ETH",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.ET.FID_PA",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "FIN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "FJI",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "FRA",
+    "frequency": "Q",
+    "n": 74,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1980Q3",
+    "last_period": "1998Q4",
+    "beta": [
+      -0.6319643683173305,
+      0.03362792888328874,
+      -0.3376339778490502,
+      0.7361569710827032,
+      0.013400715997498123
+    ],
+    "se_HAC": [
+      0.33622680902638685,
+      0.029843077377841917,
+      0.1590057445212792,
+      0.3242450494548141,
+      0.05133196114404824
+    ],
+    "covariance_HAC": [
+      [
+        0.11304846710806642,
+        -0.007470786266577476,
+        0.03622990701079876,
+        -0.10336085671748906,
+        -0.015836357934365976
+      ],
+      [
+        -0.0074707862665774815,
+        0.0008906092673798599,
+        -0.002494257079628584,
+        0.0067300056746586396,
+        0.0011888712497629954
+      ],
+      [
+        0.03622990701079877,
+        -0.002494257079628584,
+        0.025282826790766304,
+        -0.03179344266506434,
+        -0.005386848044749971
+      ],
+      [
+        -0.10336085671748904,
+        0.00673000567465864,
+        -0.031793442665064335,
+        0.10513485209595481,
+        0.013990233602681021
+      ],
+      [
+        -0.015836357934365976,
+        0.0011888712497629948,
+        -0.00538684804474997,
+        0.013990233602681024,
+        0.002634970234894078
+      ]
+    ],
+    "p_raw": [
+      0.064388644485371,
+      0.26372001165462805,
+      0.03730806675142716,
+      0.02631102527276107,
+      0.7948239365271085
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.9707493240425307,
+    "r_squared": 0.1817555055527169,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "GAB",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "GBR",
+    "frequency": "Q",
+    "n": 262,
+    "features": [
+      "inflation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "depreciation_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1961Q2",
+    "last_period": "2026Q3",
+    "beta": [
+      -0.007296392561904555,
+      0.13075954356786051,
+      0.001377742453638915,
+      -0.0172757448775752,
+      0.03574046029872074
+    ],
+    "se_HAC": [
+      0.018953014036132938,
+      0.05959214293754348,
+      0.01930235043809757,
+      0.01813001192009566,
+      0.07465379977087973
+    ],
+    "covariance_HAC": [
+      [
+        0.0003592167410538521,
+        -0.00024972897109005007,
+        2.300362537218684e-05,
+        -2.420542099627613e-05,
+        -0.0010797124071812013
+      ],
+      [
+        -0.0002497289710900501,
+        0.0035512234998886136,
+        -0.00010161344380550468,
+        -0.0001953173118088574,
+        0.00028775795916101003
+      ],
+      [
+        2.300362537218692e-05,
+        -0.00010161344380550465,
+        0.0003725807324351255,
+        0.00014775466316245387,
+        -0.00043722349254588714
+      ],
+      [
+        -2.4205420996276116e-05,
+        -0.00019531731180885738,
+        0.00014775466316245387,
+        0.0003286973322228107,
+        -6.018630207114827e-05
+      ],
+      [
+        -0.001079712407181202,
+        0.0002877579591610102,
+        -0.00043722349254588704,
+        -6.0186302071148195e-05,
+        0.005573189820230601
+      ]
+    ],
+    "p_raw": [
+      0.7005760596513061,
+      0.02911342778274147,
+      0.9431532852474203,
+      0.341545674563887,
+      0.6325239848635558
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.9238838931926753,
+    "r_squared": 0.022032082126774655,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "GEO",
+    "frequency": "Q",
+    "n": 19,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "GHA",
+    "frequency": "Q",
+    "n": 41,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "GIN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS171_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "GLP",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "GMB",
+    "frequency": "Q",
+    "n": 39,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "GNB",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "GNQ",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "GRC",
+    "frequency": "Q",
+    "n": 22,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "GRD",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "GTM",
+    "frequency": "Q",
+    "n": 50,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2013Q3",
+    "last_period": "2025Q4",
+    "beta": [
+      -0.23259307087058093,
+      0.04371397204446718,
+      0.3701074589728175,
+      -0.008720734365927348,
+      0.05603706411610678
+    ],
+    "se_HAC": [
+      0.1641036540348477,
+      0.03563972015351397,
+      0.2401526196148972,
+      0.010374599405804269,
+      0.038585160153958104
+    ],
+    "covariance_HAC": [
+      [
+        0.026930009267588984,
+        -0.0022326641985958985,
+        0.03386631473554503,
+        0.0008175426031138198,
+        -0.006171989052397702
+      ],
+      [
+        -0.002232664198595903,
+        0.00127018965262079,
+        -0.0035406612553317025,
+        0.00010581349941923304,
+        0.0005035727495644901
+      ],
+      [
+        0.033866314735545265,
+        -0.0035406612553317038,
+        0.05767328070789751,
+        0.0008724294647784985,
+        -0.007225225074592652
+      ],
+      [
+        0.000817542603113822,
+        0.00010581349941923309,
+        0.0008724294647784983,
+        0.00010763231283091428,
+        -0.0002231028296099549
+      ],
+      [
+        -0.006171989052397759,
+        0.0005035727495644904,
+        -0.0072252250745926585,
+        -0.00022310282960995515,
+        0.0014888145841065964
+      ]
+    ],
+    "p_raw": [
+      0.1632662964551693,
+      0.22637029117231497,
+      0.13028748561641892,
+      0.40502474159775165,
+      0.15335677010624682
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.21618360981473947,
+    "r_squared": 0.4711241791053016,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "GUY",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "HKG",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "HND",
+    "frequency": "Q",
+    "n": 81,
+    "features": [
+      "growth_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "inflation_lag1",
+      "intercept"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2005Q4",
+    "last_period": "2025Q4",
+    "beta": [
+      0.03187974267884635,
+      -0.03698623817011165,
+      0.3983365310430336,
+      -0.03914742401158206,
+      0.1886421292471121
+    ],
+    "se_HAC": [
+      0.020241143140706543,
+      0.058939805008099554,
+      0.17787682949610567,
+      0.04523321142904357,
+      0.21680159123548212
+    ],
+    "covariance_HAC": [
+      [
+        0.0004097038756425716,
+        -0.0002842191847087848,
+        4.0751502756378694e-05,
+        -0.0005909418220500325,
+        0.0028488807321349514
+      ],
+      [
+        -0.00028421918470878657,
+        0.0034739006143927973,
+        -0.0028832058534903095,
+        0.00024109344559247498,
+        -0.003728537762165622
+      ],
+      [
+        4.075150275638063e-05,
+        -0.0028832058534902947,
+        0.03164016647158665,
+        -0.0035588799385057484,
+        0.01832734171166484
+      ],
+      [
+        -0.0005909418220500335,
+        0.00024109344559246741,
+        -0.0035588799385057454,
+        0.0020460434161845577,
+        -0.009440629261697944
+      ],
+      [
+        0.0028488807321349597,
+        -0.0037285377621655794,
+        0.018327341711664828,
+        -0.00944062926169794,
+        0.047002929962237074
+      ]
+    ],
+    "p_raw": [
+      0.11941098420616951,
+      0.532195671080691,
+      0.028054768942379085,
+      0.3895114840579546,
+      0.38697798759272256
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.47758677448434406,
+    "r_squared": 0.21240655751037574,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "HRV",
+    "frequency": "Q",
+    "n": 90,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1995Q3",
+    "last_period": "2017Q4",
+    "beta": [
+      0.013434961511786199,
+      0.03501996044169183,
+      -0.024395055147124735,
+      0.2927887912557383,
+      -0.16127412500259314
+    ],
+    "se_HAC": [
+      0.3518006393805863,
+      0.07341924950746158,
+      0.1797576420520312,
+      0.348838896690635,
+      0.12891367798864276
+    ],
+    "covariance_HAC": [
+      [
+        0.12376368986858934,
+        -0.008634486769648758,
+        0.008522585151626495,
+        -0.06615444252781415,
+        -0.02228294713212138
+      ],
+      [
+        -0.00863448676964876,
+        0.005390386198238897,
+        -0.003472161971339171,
+        0.012020853202687976,
+        0.00098668789060099
+      ],
+      [
+        0.008522585151626499,
+        -0.0034721619713391715,
+        0.03231280987610618,
+        -0.0064140284990490334,
+        -0.012565709037475656
+      ],
+      [
+        -0.06615444252781416,
+        0.012020853202687979,
+        -0.0064140284990490334,
+        0.12168857584433951,
+        -0.000857309284038101
+      ],
+      [
+        -0.022282947132121436,
+        0.0009866878906009903,
+        -0.012565709037475656,
+        -0.0008573092840380972,
+        0.016618736372559475
+      ]
+    ],
+    "p_raw": [
+      0.9696264354555023,
+      0.6345961012453073,
+      0.8923707840367511,
+      0.4036420404585138,
+      0.2143581192043372
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 3.0056472001998493,
+    "r_squared": 0.036685334882480714,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "HTI",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "HUN",
+    "frequency": "Q",
+    "n": 120,
+    "features": [
+      "inflation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "depreciation_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1995Q3",
+    "last_period": "2025Q2",
+    "beta": [
+      -0.025907372339859007,
+      0.4288620035722641,
+      0.03926441982316204,
+      0.01854147396561102,
+      0.03472696070430129
+    ],
+    "se_HAC": [
+      0.008973987001642397,
+      0.15043242005495305,
+      0.03152807105944068,
+      0.0178991066958299,
+      0.09289104871217788
+    ],
+    "covariance_HAC": [
+      [
+        8.053244270564671e-05,
+        0.0002902161388826792,
+        2.797983383282758e-05,
+        -2.3643842099254318e-05,
+        -0.0003868998264675687
+      ],
+      [
+        0.0002902161388826797,
+        0.02262991300358984,
+        0.0015958180451350018,
+        0.000696669928812405,
+        0.0031978967068656654
+      ],
+      [
+        2.7979833832827632e-05,
+        0.001595818045135002,
+        0.000994019264729141,
+        0.00022439547280520553,
+        0.0003333227202955323
+      ],
+      [
+        -2.364384209925426e-05,
+        0.0006966699288124053,
+        0.0002243954728052055,
+        0.00032037802050870277,
+        0.00018665612382710202
+      ],
+      [
+        -0.0003868998264675684,
+        0.0031978967068656675,
+        0.00033332272029553285,
+        0.00018665612382710227,
+        0.008628746930848202
+      ]
+    ],
+    "p_raw": [
+      0.004647978078002767,
+      0.005169423925485839,
+      0.21552376055732644,
+      0.30242762701667814,
+      0.709207130147458
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.904790329512718,
+    "r_squared": 0.23330250980501221,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "IDN",
+    "frequency": "Q",
+    "n": 83,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2006Q1",
+    "last_period": "2026Q3",
+    "beta": [
+      0.1635577255824268,
+      0.4238838029690281,
+      -0.015464480351564468,
+      0.0203836078163104,
+      -0.04986326851918383
+    ],
+    "se_HAC": [
+      0.09487686362572466,
+      0.08024400111172864,
+      0.016758802908661292,
+      0.014907300345667434,
+      0.01796165150934829
+    ],
+    "covariance_HAC": [
+      [
+        0.009001619251454355,
+        0.0033477706159041887,
+        -0.0004416918757455804,
+        0.00016442581725452732,
+        -0.0014379406036693207
+      ],
+      [
+        0.003347770615904188,
+        0.006439099714419107,
+        -0.0004983627255365887,
+        -0.00022751807239873134,
+        -0.00030100585075918074
+      ],
+      [
+        -0.0004416918757455815,
+        -0.0004983627255365917,
+        0.0002808574749313542,
+        0.00011192808837009655,
+        2.5727350654169373e-05
+      ],
+      [
+        0.00016442581725451973,
+        -0.00022751807239873237,
+        0.00011192808837009654,
+        0.00022222760359593641,
+        -3.9860566456503565e-05
+      ],
+      [
+        -0.0014379406036693185,
+        -0.0003010058507591807,
+        2.5727350654169258e-05,
+        -3.9860566456503904e-05,
+        0.0003226209249432737
+      ]
+    ],
+    "p_raw": [
+      0.08868841424321061,
+      1.122404453997456e-06,
+      0.3589739781590992,
+      0.17544072050039428,
+      0.006884921611037412
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.4236008719789648,
+    "r_squared": 0.2746288647213271,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "IND",
+    "frequency": "Q",
+    "n": 88,
+    "features": [
+      "growth_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "inflation_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2004Q4",
+    "last_period": "2026Q3",
+    "beta": [
+      -0.0038761886272355474,
+      -0.021308378898580844,
+      0.441216293520822,
+      0.016612716063685293,
+      -0.0814321639005375
+    ],
+    "se_HAC": [
+      0.0032099229118843567,
+      0.019959024628812622,
+      0.09184389041610118,
+      0.01399440832959484,
+      0.08007076017817068
+    ],
+    "covariance_HAC": [
+      [
+        1.0303605100240148e-05,
+        2.2002034272437932e-05,
+        2.8362391115863912e-05,
+        7.499312376721999e-07,
+        -4.3988833142983354e-05
+      ],
+      [
+        2.2002034272437865e-05,
+        0.00039836266413354886,
+        0.0013493900484285188,
+        0.00013657998762076144,
+        -0.0007250504825686334
+      ],
+      [
+        2.8362391115863502e-05,
+        0.0013493900484285192,
+        0.008435300206764801,
+        0.0007395625981086463,
+        -0.003016682706302859
+      ],
+      [
+        7.499312376721613e-07,
+        0.00013657998762076133,
+        0.0007395625981086462,
+        0.00019584346449543348,
+        -0.0010155010930242045
+      ],
+      [
+        -4.398883314298315e-05,
+        -0.000725050482568633,
+        -0.003016682706302859,
+        -0.0010155010930242036,
+        0.006411326635510122
+      ]
+    ],
+    "p_raw": [
+      0.23064469456783704,
+      0.2887935816603992,
+      6.819832201192385e-06,
+      0.23857593582977177,
+      0.31210763873238373
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.3900911789512119,
+    "r_squared": 0.24440348400010792,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "IRL",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "IRN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.IR.FID_PA",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "IRQ",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "ISL",
+    "frequency": "Q",
+    "n": 113,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1998Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      0.3301604712975227,
+      0.25548900594133706,
+      0.029700583411224675,
+      0.06935319143370522,
+      -0.08346216523187522
+    ],
+    "se_HAC": [
+      0.2543291213398298,
+      0.1963168955009785,
+      0.02161305783468168,
+      0.04934671077974227,
+      0.07112745980966045
+    ],
+    "covariance_HAC": [
+      [
+        0.06468330196148987,
+        -0.02664076765650745,
+        0.003343066100804457,
+        0.008980156741162282,
+        -0.017556789833773016
+      ],
+      [
+        -0.026640767656507466,
+        0.03854032345914211,
+        -0.0026692880191766643,
+        -0.00699862677908029,
+        0.008041979230317102
+      ],
+      [
+        0.003343066100804457,
+        -0.002669288019176664,
+        0.00046712426896529515,
+        0.0007902607170020749,
+        -0.0010240699243937899
+      ],
+      [
+        0.008980156741162289,
+        -0.0069986267790802924,
+        0.0007902607170020753,
+        0.002435097864779532,
+        -0.00263843518281122
+      ],
+      [
+        -0.01755678983377302,
+        0.0080419792303171,
+        -0.0010240699243937899,
+        -0.0026384351828112186,
+        0.0050591155389748624
+      ]
+    ],
+    "p_raw": [
+      0.19699701368989186,
+      0.1958871115022915,
+      0.17222586713816998,
+      0.16276453853617673,
+      0.2432100021662338
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.8579031947464327,
+    "r_squared": 0.22207990152248736,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "ISR",
+    "frequency": "Q",
+    "n": 125,
+    "features": [
+      "rate_change_lag1",
+      "growth_lag1",
+      "depreciation_lag1",
+      "inflation_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1995Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      0.08866078497175668,
+      0.03139710202575675,
+      0.01866917950052462,
+      -0.009979001202475827,
+      -0.07682540057567927
+    ],
+    "se_HAC": [
+      0.1318848000166438,
+      0.028624491160736697,
+      0.037313642498108986,
+      0.02660417303478387,
+      0.08385275545004958
+    ],
+    "covariance_HAC": [
+      [
+        0.017393600475430128,
+        -0.0008466325460008727,
+        -0.0017868437003406366,
+        -0.0003703057171914445,
+        -0.00038617093073420566
+      ],
+      [
+        -0.0008466325460008725,
+        0.0008193614942110933,
+        0.00035643078612522517,
+        9.323687000959311e-05,
+        -0.0007084052230213727
+      ],
+      [
+        -0.001786843700340636,
+        0.00035643078612522517,
+        0.001392307916476685,
+        1.7093721200152543e-05,
+        0.0010968459154987581
+      ],
+      [
+        -0.0003703057171914447,
+        9.3236870009593e-05,
+        1.7093721200152587e-05,
+        0.0007077820228647211,
+        -0.0012263521322026906
+      ],
+      [
+        -0.00038617093073420414,
+        -0.0007084052230213724,
+        0.001096845915498758,
+        -0.00122635213220269,
+        0.007031284596565821
+      ]
+    ],
+    "p_raw": [
+      0.5027109668717269,
+      0.274898186037506,
+      0.6177582332968782,
+      0.7082544905532746,
+      0.3614026392255983
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.8651952332114778,
+    "r_squared": 0.016895409143363183,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "ITA",
+    "frequency": "Q",
+    "n": 10,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "JAM",
+    "frequency": "Q",
+    "n": 83,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2002Q2",
+    "last_period": "2022Q4",
+    "beta": [
+      -0.04758295225610173,
+      0.031578279270199516,
+      0.5219708472484182,
+      0.03434611350433925,
+      -0.0046597192144339425
+    ],
+    "se_HAC": [
+      0.15018670228763287,
+      0.025732836357130903,
+      0.10667292288633669,
+      0.039805877914574087,
+      0.01932829554085604
+    ],
+    "covariance_HAC": [
+      [
+        0.022556045544034065,
+        0.0005690438806511642,
+        0.006289442073961716,
+        -0.0018506084586417853,
+        -0.0020799438572256077
+      ],
+      [
+        0.0005690438806511669,
+        0.0006621788669828781,
+        -2.2580075067327013e-05,
+        0.0004763629761948891,
+        -0.0002057743918861605
+      ],
+      [
+        0.006289442073961713,
+        -2.258007506732752e-05,
+        0.011379112477114334,
+        -0.0016544130455945192,
+        -1.1922795470178153e-05
+      ],
+      [
+        -0.0018506084586417792,
+        0.0004763629761948893,
+        -0.0016544130455945199,
+        0.0015845079165499772,
+        -0.00025806273618896773
+      ],
+      [
+        -0.002079943857225616,
+        -0.00020577439188616023,
+        -1.192279547018006e-05,
+        -0.00025806273618896665,
+        0.00037358300851467543
+      ]
+    ],
+    "p_raw": [
+      0.7522225614898177,
+      0.22345389327335796,
+      5.2310117601517365e-06,
+      0.39087056900213935,
+      0.8101235579284914
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.6052573961256663,
+    "r_squared": 0.3374381959198063,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "JOR",
+    "frequency": "Q",
+    "n": 10,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "JPN",
+    "frequency": "Q",
+    "n": 85,
+    "features": [
+      "growth_lag1",
+      "rate_change_lag1",
+      "intercept",
+      "depreciation_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1994Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      -0.0011908397410559995,
+      0.25996824084409975,
+      -0.010148327409411106,
+      0.004253387042208259,
+      0.009741483424155394
+    ],
+    "se_HAC": [
+      0.006247632789894124,
+      0.10839788955646547,
+      0.014017102736885029,
+      0.004401203334028456,
+      0.0065803036888941865
+    ],
+    "covariance_HAC": [
+      [
+        3.903291547736024e-05,
+        -0.00031817503566342905,
+        5.5762688791033235e-05,
+        -2.011370146846954e-05,
+        -6.648143398473189e-06
+      ],
+      [
+        -0.00031817503566342894,
+        0.011750102460295685,
+        -0.0005822820355017839,
+        0.0002668464051200593,
+        -0.00020786308076038777
+      ],
+      [
+        5.5762688791033235e-05,
+        -0.0005822820355017833,
+        0.00019647916913638976,
+        -3.5121275786585265e-05,
+        -1.487783430317634e-05
+      ],
+      [
+        -2.011370146846953e-05,
+        0.00026684640512005935,
+        -3.5121275786585265e-05,
+        1.93705907874632e-05,
+        7.19947057507174e-06
+      ],
+      [
+        -6.648143398473212e-06,
+        -0.00020786308076038647,
+        -1.487783430317636e-05,
+        7.1994705750717555e-06,
+        4.3300396638074444e-05
+      ]
+    ],
+    "p_raw": [
+      0.8493167266206688,
+      0.018800573345555772,
+      0.4711800486707024,
+      0.3367492588281367,
+      0.1426941069417488
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.12474404599288598,
+    "r_squared": 0.11949843597716625,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "KAZ",
+    "frequency": "Q",
+    "n": 61,
+    "features": [
+      "inflation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "depreciation_lag1",
+      "intercept"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2005Q4",
+    "last_period": "2020Q4",
+    "beta": [
+      -0.09464233197083893,
+      0.3628879874438842,
+      0.04593594564499958,
+      -0.0117741536659508,
+      0.7331940724163382
+    ],
+    "se_HAC": [
+      0.05481376071062217,
+      0.2126444333162211,
+      0.0761536989082282,
+      0.026409884078310488,
+      0.6075766814581159
+    ],
+    "covariance_HAC": [
+      [
+        0.003004548363241347,
+        -0.004511378088866041,
+        0.0027069129123909403,
+        0.0004739918824787167,
+        -0.031690488176900504
+      ],
+      [
+        -0.004511378088866039,
+        0.0452176550203768,
+        -0.009060424967768993,
+        -0.005114066210784571,
+        0.06872101130367352
+      ],
+      [
+        0.002706912912390936,
+        -0.009060424967768991,
+        0.005799385857405077,
+        0.0009239474938256897,
+        -0.03675351481195204
+      ],
+      [
+        0.00047399188247871537,
+        -0.0051140662107845665,
+        0.000923947493825689,
+        0.0006974819770297978,
+        -0.007377584052052122
+      ],
+      [
+        -0.031690488176900504,
+        0.0687210113036735,
+        -0.03675351481195207,
+        -0.007377584052052132,
+        0.36914942385165694
+      ]
+    ],
+    "p_raw": [
+      0.08974986499279387,
+      0.09344637929816403,
+      0.5488107257717739,
+      0.657443508913681,
+      0.23260087707259755
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 1.125957734526269,
+    "r_squared": 0.20230745873365474,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "KEN",
+    "frequency": "Q",
+    "n": 65,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2009Q3",
+    "last_period": "2025Q3",
+    "beta": [
+      -0.4738712134520986,
+      0.36754639851044585,
+      0.1397071196936191,
+      0.038603095480785964,
+      0.051944243274977875
+    ],
+    "se_HAC": [
+      0.7916566206751189,
+      0.23049908626521037,
+      0.08766056549388351,
+      0.0392767326134369,
+      0.13022170692809262
+    ],
+    "covariance_HAC": [
+      [
+        0.6267202050587491,
+        0.1349509309017525,
+        -0.047910988690374884,
+        -0.011648572228926275,
+        -0.10195643512329836
+      ],
+      [
+        0.13495093090175234,
+        0.05312982876909689,
+        -0.013805654916584163,
+        -0.003058016221959054,
+        -0.020861139510119857
+      ],
+      [
+        -0.04791098869037482,
+        -0.013805654916584155,
+        0.00768437474270744,
+        0.0012619846370299766,
+        0.007037838281523616
+      ],
+      [
+        -0.011648572228926238,
+        -0.003058016221959066,
+        0.0012619846370299766,
+        0.0015426617247874177,
+        0.0014610295951751908
+      ],
+      [
+        -0.10195643512329829,
+        -0.020861139510119864,
+        0.007037838281523621,
+        0.0014610295951751882,
+        0.016957692955266043
+      ]
+    ],
+    "p_raw": [
+      0.5517050024885383,
+      0.11606355158206993,
+      0.11625176367747284,
+      0.3296285152667265,
+      0.6913898055814591
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 1.0360592530009056,
+    "r_squared": 0.3945395604173708,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "KGZ",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "KHM",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "KIR",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "KNA",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "KOR",
+    "frequency": "Q",
+    "n": 108,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1999Q4",
+    "last_period": "2026Q3",
+    "beta": [
+      -0.038179279685824165,
+      -0.0007185817802117853,
+      0.32061163805109594,
+      0.05154290410128988,
+      -0.007362962013038427
+    ],
+    "se_HAC": [
+      0.0773080989183988,
+      0.008304392683082607,
+      0.13652631426821363,
+      0.022554776325387806,
+      0.03899313250244638
+    ],
+    "covariance_HAC": [
+      [
+        0.005976542158376934,
+        -0.0003794105211162507,
+        -0.005323245278643776,
+        -0.0004583096667178754,
+        -0.002761525440518433
+      ],
+      [
+        -0.0003794105211162505,
+        6.896293783483593e-05,
+        0.0009985159338462472,
+        -4.110292003237047e-06,
+        0.0002390872894970807
+      ],
+      [
+        -0.005323245278643766,
+        0.0009985159338462472,
+        0.018639434487663035,
+        -0.0010307439482999156,
+        0.0038757323529017068
+      ],
+      [
+        -0.00045830966671787135,
+        -4.110292003236957e-06,
+        -0.0010307439482999167,
+        0.0005087179350882742,
+        -3.616011699763185e-05
+      ],
+      [
+        -0.002761525440518426,
+        0.00023908728949708082,
+        0.0038757323529017107,
+        -3.6160116997630306e-05,
+        0.0015204643823533404
+      ]
+    ],
+    "p_raw": [
+      0.6224574629267268,
+      0.9312128442645302,
+      0.020766509700162444,
+      0.024348417997251418,
+      0.8505998567666703
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.30782952243761047,
+    "r_squared": 0.15746271622875696,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "KWT",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "LAO",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.LA.FID_PA",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "LBN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.LB.FID_PA",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "LBR",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "LBY",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.LY.FID_PA",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "LCA",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "LKA",
+    "frequency": "Q",
+    "n": 39,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "LSO",
+    "frequency": "Q",
+    "n": 71,
+    "features": [
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "intercept"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2007Q3",
+    "last_period": "2025Q1",
+    "beta": [
+      -0.026886342135118115,
+      0.009693327936089279,
+      -0.02116107237351536,
+      0.2805618177157927,
+      -0.006894670750751454
+    ],
+    "se_HAC": [
+      0.019185726653079056,
+      0.005364480561233032,
+      0.013228188030109837,
+      0.15298368596355236,
+      0.05761112966263698
+    ],
+    "covariance_HAC": [
+      [
+        0.00036809210720666806,
+        2.5434849568786517e-05,
+        0.00019807276173082914,
+        -0.0023738135188009777,
+        -3.857224660049255e-05
+      ],
+      [
+        2.543484956878646e-05,
+        2.8777651691847065e-05,
+        7.573457659194103e-06,
+        -0.0003365176770347708,
+        -3.1069806958928034e-05
+      ],
+      [
+        0.00019807276173082917,
+        7.573457659194117e-06,
+        0.00017498495855994116,
+        -0.0014291697344875334,
+        6.377224325687515e-05
+      ],
+      [
+        -0.002373813518800977,
+        -0.00033651767703477085,
+        -0.001429169734487533,
+        0.023404008170994806,
+        0.0009790119673427113
+      ],
+      [
+        -3.8572246600492375e-05,
+        -3.106980695892812e-05,
+        6.377224325687528e-05,
+        0.0009790119673427121,
+        0.00331904226100517
+      ]
+    ],
+    "p_raw": [
+      0.16578781695265482,
+      0.07532890816998784,
+      0.11444267786466458,
+      0.07117273643002989,
+      0.9051033449905569
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.5613732124745316,
+    "r_squared": 0.09819584870426401,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "LTU",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "LUX",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "LVA",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MAC",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MAR",
+    "frequency": "Q",
+    "n": 48,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MDA",
+    "frequency": "Q",
+    "n": 39,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MDG",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS161_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MDV",
+    "frequency": "Q",
+    "n": 85,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2003Q3",
+    "last_period": "2024Q3",
+    "beta": [
+      -0.1250421787819595,
+      0.000633065382859731,
+      -0.01580289741871292,
+      0.0047555519510293015,
+      0.005100727299098679
+    ],
+    "se_HAC": [
+      0.09475409919642107,
+      0.0021043635938434433,
+      0.01825645423802194,
+      0.010436347313883165,
+      0.00733545538373181
+    ],
+    "covariance_HAC": [
+      [
+        0.008978339314525203,
+        -4.293919734128134e-05,
+        0.0015364183620937908,
+        -0.0008212941000747696,
+        0.0001550356685085278
+      ],
+      [
+        -4.2939197341281354e-05,
+        4.428346135093693e-06,
+        -2.118445032987158e-06,
+        3.6244233839405507e-06,
+        1.253543569598849e-06
+      ],
+      [
+        0.0015364183620937895,
+        -2.11844503298716e-06,
+        0.0003332981213449893,
+        -0.00016300669501041968,
+        5.62415005419928e-05
+      ],
+      [
+        -0.0008212941000747683,
+        3.6244233839405447e-06,
+        -0.00016300669501041943,
+        0.00010891734525599633,
+        -5.490290327289829e-05
+      ],
+      [
+        0.00015503566850852635,
+        1.2535435695988543e-06,
+        5.624150054199234e-05,
+        -5.4902903272898167e-05,
+        5.3808905686719995e-05
+      ]
+    ],
+    "p_raw": [
+      0.19071623593430675,
+      0.7643210877733589,
+      0.3892946936547179,
+      0.6498602617004285,
+      0.48884935202770946
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.8862722196937586,
+    "r_squared": 0.0010124484427433966,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "MEX",
+    "frequency": "Q",
+    "n": 110,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1999Q2",
+    "last_period": "2026Q3",
+    "beta": [
+      0.46384180894108523,
+      -0.04422271067943267,
+      0.001470650597091828,
+      0.038539396248578536,
+      -0.12166125023446314
+    ],
+    "se_HAC": [
+      0.2449329788952476,
+      0.017272818225881406,
+      0.14519313868727823,
+      0.03659131627133687,
+      0.06045325047191242
+    ],
+    "covariance_HAC": [
+      [
+        0.05999216415049981,
+        -0.00029954521315530116,
+        -0.017912788951581222,
+        0.0021111252447745693,
+        -0.013759267978701799
+      ],
+      [
+        -0.0002995452131553009,
+        0.0002983502494643409,
+        -0.0002609116399969907,
+        0.0001403948654489508,
+        0.000182453818887405
+      ],
+      [
+        -0.01791278895158121,
+        -0.0002609116399969911,
+        0.021081047521863207,
+        -0.0024146327980566033,
+        0.0046760158703547695
+      ],
+      [
+        0.002111125244774565,
+        0.00014039486544895096,
+        -0.002414632798056603,
+        0.0013389244264690023,
+        -0.0004308157333464245
+      ],
+      [
+        -0.013759267978701811,
+        0.00018245381888740502,
+        0.004676015870354773,
+        -0.000430815733346425,
+        0.003654595492619779
+      ]
+    ],
+    "p_raw": [
+      0.061010567695005125,
+      0.011882253273870623,
+      0.9919376442788523,
+      0.29464924279093757,
+      0.04672903895677395
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 1.1646518592291064,
+    "r_squared": 0.09416824690251935,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "MKD",
+    "frequency": "Q",
+    "n": 100,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2000Q3",
+    "last_period": "2025Q2",
+    "beta": [
+      -0.26289508604911516,
+      -0.061511123546130135,
+      -0.028991805719282747,
+      -0.003798805035260133,
+      0.07962646727070086
+    ],
+    "se_HAC": [
+      0.17532520620644593,
+      0.05230764299008331,
+      0.17093877579357059,
+      0.03776751229052198,
+      0.0402186817239125
+    ],
+    "covariance_HAC": [
+      [
+        0.03073892793133278,
+        -0.0019222403232378273,
+        0.01744909892908726,
+        -0.0020897114196349468,
+        -0.0029407352081629685
+      ],
+      [
+        -0.001922240323237825,
+        0.0027360895151780115,
+        -0.0027746798282263334,
+        -0.00047272477760987265,
+        -0.00113946289505293
+      ],
+      [
+        0.017449098929087255,
+        -0.002774679828226333,
+        0.02922006506980459,
+        -0.0016842355800821577,
+        -0.0017373598526828132
+      ],
+      [
+        -0.0020897114196349476,
+        -0.00047272477760987286,
+        -0.001684235580082158,
+        0.0014263849846147285,
+        0.0003685804639135543
+      ],
+      [
+        -0.0029407352081629707,
+        -0.00113946289505293,
+        -0.0017373598526828154,
+        0.0003685804639135545,
+        0.0016175423596093731
+      ]
+    ],
+    "p_raw": [
+      0.13706740893385927,
+      0.24255374876973884,
+      0.8656826479573129,
+      0.920092720446013,
+      0.0506153726279468
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 1.6876998551004572,
+    "r_squared": 0.04278726146766165,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "MLI",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MLT",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MMR",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MNE",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MNG",
+    "frequency": "Q",
+    "n": 29,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MOZ",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MRT",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MSR",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MTQ",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MUS",
+    "frequency": "Q",
+    "n": 49,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MWI",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "MYS",
+    "frequency": "Q",
+    "n": 20,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "NAM",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "NCL",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "NER",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "NGA",
+    "frequency": "Q",
+    "n": 56,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2010Q3",
+    "last_period": "2024Q2",
+    "beta": [
+      -1.2457360339418848,
+      0.01622494729294958,
+      0.14286703689123248,
+      -0.03020213212359276,
+      0.12825953279698313
+    ],
+    "se_HAC": [
+      0.8199527758168497,
+      0.013753473634275955,
+      0.15450898922114217,
+      0.015431877860949558,
+      0.07284172223947273
+    ],
+    "covariance_HAC": [
+      [
+        0.672322554569757,
+        -0.004337448959554672,
+        0.08721461393730598,
+        0.00827242292911607,
+        -0.058920754458488996
+      ],
+      [
+        -0.0043374489595546725,
+        0.00018915803700872384,
+        7.925750355767183e-05,
+        -0.00011591290327597185,
+        0.0004044652100036034
+      ],
+      [
+        0.087214613937306,
+        7.925750355767206e-05,
+        0.02387302775013903,
+        0.00011451528112677649,
+        -0.007749066826929336
+      ],
+      [
+        0.008272422929116077,
+        -0.00011591290327597185,
+        0.00011451528112677764,
+        0.00023814285431526512,
+        -0.0007910057596457253
+      ],
+      [
+        -0.0589207544584889,
+        0.0004044652100036032,
+        -0.0077490668269293295,
+        -0.0007910057596457232,
+        0.0053059164988124964
+      ]
+    ],
+    "p_raw": [
+      0.13486820907454938,
+      0.24359404037377244,
+      0.3595015560739265,
+      0.05581691793707841,
+      0.08426780830871408
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.9577323906417474,
+    "r_squared": 0.23839285529953846,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "NIC",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "NLD",
+    "frequency": "Q",
+    "n": 10,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "NOR",
+    "frequency": "Q",
+    "n": 155,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1986Q3",
+    "last_period": "2025Q1",
+    "beta": [
+      -0.030627855818351854,
+      -0.007157727105232539,
+      0.4064614077849781,
+      0.05615598610437023,
+      -0.012318678729692487
+    ],
+    "se_HAC": [
+      0.0697786603795518,
+      0.012468651486615441,
+      0.0890515877050102,
+      0.030823982508224993,
+      0.020922409605685456
+    ],
+    "covariance_HAC": [
+      [
+        0.004869061444364832,
+        0.0003101606536609856,
+        8.380032269039993e-05,
+        -0.0006789342312154732,
+        -0.0010448819659901723
+      ],
+      [
+        0.0003101606536609855,
+        0.00015546726989467744,
+        0.00022825441752693832,
+        -7.537719500706756e-05,
+        -1.5924070988574074e-05
+      ],
+      [
+        8.380032269039942e-05,
+        0.00022825441752693826,
+        0.007930185272783125,
+        0.00011993973844870299,
+        0.0001138742473181663
+      ],
+      [
+        -0.0006789342312154736,
+        -7.53771950070676e-05,
+        0.00011993973844870299,
+        0.0009501178976673603,
+        1.0429759222380478e-05
+      ],
+      [
+        -0.001044881965990169,
+        -1.5924070988574037e-05,
+        0.00011387424731816642,
+        1.0429759222380043e-05,
+        0.0004377472237080791
+      ]
+    ],
+    "p_raw": [
+      0.6613448001550308,
+      0.5667884764673643,
+      1.0361387725512959e-05,
+      0.07047320551257882,
+      0.5568950175404079
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.5667505483819183,
+    "r_squared": 0.1877910455584061,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "NPL",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "NRU",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "NZL",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "OMN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "PAK",
+    "frequency": "Q",
+    "n": 22,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "PAN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "PER",
+    "frequency": "Q",
+    "n": 77,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2007Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      0.1614752812944096,
+      0.7233092948207758,
+      -0.02715250842043766,
+      0.00444618564770418,
+      -0.04971505982355087
+    ],
+    "se_HAC": [
+      0.09221650678003865,
+      0.12505159908873317,
+      0.03149818535699946,
+      0.010297759481288716,
+      0.03436482711330963
+    ],
+    "covariance_HAC": [
+      [
+        0.008503884122712914,
+        0.004056063775204425,
+        -0.0008099543236769805,
+        0.00020081687345762696,
+        -0.002760426451437518
+      ],
+      [
+        0.004056063775204432,
+        0.01563790243464925,
+        -0.00025918834956771406,
+        3.186432976247116e-05,
+        -0.0013761106107580189
+      ],
+      [
+        -0.000809954323676979,
+        -0.00025918834956771325,
+        0.0009921356807838953,
+        -0.00010884917717780887,
+        0.0005514165897545552
+      ],
+      [
+        0.00020081687345762652,
+        3.1864329762471045e-05,
+        -0.00010884917717780888,
+        0.00010604385033447163,
+        -0.00013041356668423305
+      ],
+      [
+        -0.0027604264514375196,
+        -0.0013761106107580184,
+        0.0005514165897545556,
+        -0.00013041356668423308,
+        0.0011809413425276608
+      ]
+    ],
+    "p_raw": [
+      0.08419713129900677,
+      1.7485462074930915e-07,
+      0.39153082329884004,
+      0.6672042904417929,
+      0.1523250015226787
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.4662171677456781,
+    "r_squared": 0.4616805227637131,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "PHL",
+    "frequency": "Q",
+    "n": 104,
+    "features": [
+      "depreciation_lag1",
+      "growth_lag1",
+      "rate_change_lag1",
+      "inflation_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2000Q3",
+    "last_period": "2026Q2",
+    "beta": [
+      -0.0010649676253336713,
+      0.03498483879229968,
+      0.15150076584650718,
+      0.022808169087793186,
+      -0.17025235572491543
+    ],
+    "se_HAC": [
+      0.029239762664210946,
+      0.043183824871461066,
+      0.17859498251682449,
+      0.027456256716588603,
+      0.12950311950583676
+    ],
+    "covariance_HAC": [
+      [
+        0.0008549637206593844,
+        -0.00045500673235105365,
+        0.003090621039214367,
+        0.00024322677460811594,
+        0.0004492987551932476
+      ],
+      [
+        -0.00045500673235105354,
+        0.001864842730529019,
+        -0.004237233198425284,
+        0.0001149410557253743,
+        -0.0032394922496317056
+      ],
+      [
+        0.003090621039214368,
+        -0.004237233198425284,
+        0.03189616778018484,
+        -0.0010430182767729513,
+        0.014258392483875327
+      ],
+      [
+        0.00024322677460811615,
+        0.00011494105572537444,
+        -0.0010430182767729526,
+        0.0007538460328872168,
+        -0.0027098584215659587
+      ],
+      [
+        0.00044929875519324593,
+        -0.0032394922496317056,
+        0.014258392483875322,
+        -0.0027098584215659582,
+        0.016771057961743035
+      ]
+    ],
+    "p_raw": [
+      0.9710192941273608,
+      0.41980420650049594,
+      0.39832153283264,
+      0.40813676919003894,
+      0.19166218259445758
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.5989741050867367,
+    "r_squared": 0.050592058206811674,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "POL",
+    "frequency": "Q",
+    "n": 120,
+    "features": [
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1995Q3",
+    "last_period": "2025Q2",
+    "beta": [
+      -0.01231083872294795,
+      0.010138544139782619,
+      0.5683094827471125,
+      0.06579256552863785,
+      -0.07602517219322179
+    ],
+    "se_HAC": [
+      0.012878932294977278,
+      0.01114909991124205,
+      0.08308382110970762,
+      0.05756659323858532,
+      0.08117521745039846
+    ],
+    "covariance_HAC": [
+      [
+        0.00016586689705860868,
+        -1.5820457986044343e-05,
+        -0.00015166237600544423,
+        9.474197059687203e-05,
+        -0.00042829982145473603
+      ],
+      [
+        -1.5820457986044347e-05,
+        0.00012430242883085748,
+        7.801301821099738e-05,
+        -3.358650400459348e-05,
+        0.00033188341906251163
+      ],
+      [
+        -0.0001516623760054442,
+        7.801301821099738e-05,
+        0.006902921330189898,
+        0.0002785345955836618,
+        0.0012948633455815422
+      ],
+      [
+        9.474197059687198e-05,
+        -3.3586504004593485e-05,
+        0.00027853459558366175,
+        0.003313912657096737,
+        -0.003110035364426218
+      ],
+      [
+        -0.00042829982145473685,
+        0.00033188341906251163,
+        0.0012948633455815428,
+        -0.003110035364426218,
+        0.006589415928119476
+      ]
+    ],
+    "p_raw": [
+      0.3411330790886405,
+      0.3650621074122415,
+      4.046040458549607e-10,
+      0.25545599059194707,
+      0.35094941114350425
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.7266881234689955,
+    "r_squared": 0.4074556030645967,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "PRT",
+    "frequency": "Q",
+    "n": 14,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "PRY",
+    "frequency": "Q",
+    "n": 41,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "QAT",
+    "frequency": "Q",
+    "n": 15,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "ROU",
+    "frequency": "Q",
+    "n": 88,
+    "features": [
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2003Q3",
+    "last_period": "2025Q2",
+    "beta": [
+      -0.0033816431046300045,
+      0.0166401695584728,
+      0.5122926067868014,
+      0.02509503548323285,
+      -0.07302238067559674
+    ],
+    "se_HAC": [
+      0.028317080668527835,
+      0.01454962759057274,
+      0.18768734297345582,
+      0.023326644872014957,
+      0.12102777550062419
+    ],
+    "covariance_HAC": [
+      [
+        0.0008018570575879127,
+        0.00016637954446626713,
+        -0.002910623843410647,
+        0.00028563809778736523,
+        -0.003065134443969996
+      ],
+      [
+        0.00016637954446626713,
+        0.00021169166302435554,
+        -0.0008835563652090921,
+        0.0001508015354253166,
+        -0.0008323788065401417
+      ],
+      [
+        -0.002910623843410646,
+        -0.0008835563652090925,
+        0.03522653871243564,
+        -0.0013694157133101446,
+        0.014690041209438077
+      ],
+      [
+        0.0002856380977873649,
+        0.00015080153542531655,
+        -0.0013694157133101452,
+        0.0005441323609851017,
+        -0.0014423488110521983
+      ],
+      [
+        -0.0030651344439700003,
+        -0.0008323788065401417,
+        0.014690041209438074,
+        -0.0014423488110521983,
+        0.014647722442629489
+      ]
+    ],
+    "p_raw": [
+      0.9052307103554879,
+      0.2560427570185556,
+      0.00774282178589151,
+      0.2851295426082713,
+      0.5479196821286231
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.7536476437394798,
+    "r_squared": 0.282478961936639,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "RUS",
+    "frequency": "Q",
+    "n": 61,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "growth_lag1",
+      "depreciation_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2011Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      1.0687125640541315,
+      -0.16146674681204984,
+      0.06635657396311297,
+      0.006932095286778038,
+      -0.1516149282270895
+    ],
+    "se_HAC": [
+      0.6655190705839802,
+      0.16749783865684006,
+      0.033021850622515454,
+      0.03209673298347109,
+      0.08867343336749807
+    ],
+    "covariance_HAC": [
+      [
+        0.4429156333109648,
+        -0.06583616940671573,
+        0.014710083496532892,
+        0.008637844796201874,
+        -0.05211548512078205
+      ],
+      [
+        -0.06583616940671579,
+        0.028055525954712827,
+        -0.0035601213504727926,
+        -0.0025748802859341447,
+        0.011318422891659869
+      ],
+      [
+        0.014710083496532897,
+        -0.0035601213504727947,
+        0.0010904426185357244,
+        0.00010282390108931173,
+        -0.0017496833967545447
+      ],
+      [
+        0.008637844796201877,
+        -0.0025748802859341417,
+        0.00010282390108931128,
+        0.0010302002682122413,
+        -0.0016396440741753885
+      ],
+      [
+        -0.05211548512078206,
+        0.011318422891659869,
+        -0.0017496833967545447,
+        -0.0016396440741753887,
+        0.007862977785180119
+      ]
+    ],
+    "p_raw": [
+      0.11393555859524761,
+      0.33919390577150627,
+      0.04931519829576344,
+      0.8297919212441935,
+      0.09283673685132306
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 2.492526353943961,
+    "r_squared": 0.13113414247533173,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "RWA",
+    "frequency": "Q",
+    "n": 77,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2006Q3",
+    "last_period": "2025Q3",
+    "beta": [
+      -0.12467140020847671,
+      0.11126237970010243,
+      0.005957228492130457,
+      0.009050572059653062,
+      0.004259659928242506
+    ],
+    "se_HAC": [
+      0.07521740268981972,
+      0.08514019234004677,
+      0.004152093413875309,
+      0.007105277918462877,
+      0.041187099352164074
+    ],
+    "covariance_HAC": [
+      [
+        0.005657657667402498,
+        0.001569847465824541,
+        8.448421692210698e-06,
+        2.4174841490143018e-05,
+        -0.002288896649672745
+      ],
+      [
+        0.0015698474658245466,
+        0.0072488523517001595,
+        0.00017159048096324092,
+        -0.00015054125626336515,
+        -0.0003971489936940266
+      ],
+      [
+        8.448421692210842e-06,
+        0.00017159048096324016,
+        1.7239879717546716e-05,
+        -6.122855438283269e-06,
+        -3.72176922523133e-07
+      ],
+      [
+        2.4174841490141785e-05,
+        -0.0001505412562633658,
+        -6.122855438283275e-06,
+        5.048497429859616e-05,
+        -0.00016497504928086876
+      ],
+      [
+        -0.0022888966496727413,
+        -0.0003971489936940227,
+        -3.7217692252309414e-07,
+        -0.00016497504928086914,
+        0.0016963771530450341
+      ]
+    ],
+    "p_raw": [
+      0.10177363480998666,
+      0.1954345811477062,
+      0.1556870492832855,
+      0.20683746766029995,
+      0.9179154351474923
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.4103368816340146,
+    "r_squared": 0.06113536176917289,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "SAU",
+    "frequency": "Q",
+    "n": 65,
+    "features": [
+      "intercept",
+      "depreciation_lag1",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2010Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      -0.010990614730056723,
+      -0.09321187304278841,
+      0.6464082772350447,
+      0.0028182539215943995,
+      0.010923835289420303
+    ],
+    "se_HAC": [
+      0.06122204438624966,
+      0.3607663908303236,
+      0.17894092090868127,
+      0.023887679524605653,
+      0.022090693675367982
+    ],
+    "covariance_HAC": [
+      [
+        0.0037481387188319235,
+        0.016344951698147515,
+        0.004095115392137278,
+        0.0008037341681675238,
+        -0.001194950535548404
+      ],
+      [
+        0.016344951698148247,
+        0.13015238875273777,
+        0.040997112568681354,
+        0.007214224016547048,
+        -0.007026277133126315
+      ],
+      [
+        0.004095115392137276,
+        0.04099711256867847,
+        0.03201985317564693,
+        0.003332122777592654,
+        -0.0022651218697995975
+      ],
+      [
+        0.0008037341681675235,
+        0.007214224016546608,
+        0.003332122777592655,
+        0.0005706212330702641,
+        -0.00039889932326424537
+      ],
+      [
+        -0.0011949505355484042,
+        -0.007026277133125977,
+        -0.0022651218697995992,
+        -0.00039889932326424554,
+        0.000487998747058943
+      ]
+    ],
+    "p_raw": [
+      0.8581338758148178,
+      0.7970042004225337,
+      0.0006212476321369954,
+      0.9064780646671636,
+      0.6227593151230781
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.2676913904779578,
+    "r_squared": 0.43754696032103113,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "SDN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SEN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SGP",
+    "frequency": "Q",
+    "n": 131,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.SG.FPOLM_PA",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1988Q1",
+    "last_period": "2021Q2",
+    "beta": [
+      -0.04085190524344392,
+      -0.3791420936245714,
+      0.055638180476823944,
+      0.048243239966687904,
+      -0.02202189702060504
+    ],
+    "se_HAC": [
+      0.09426805720929658,
+      0.14687217483999265,
+      0.04950457407336984,
+      0.02779634343239474,
+      0.034926825851240885
+    ],
+    "covariance_HAC": [
+      [
+        0.008886466610015213,
+        0.0025713272500654722,
+        -0.0016481890759073715,
+        -0.0014441114687615744,
+        -0.0017906885294511842
+      ],
+      [
+        0.0025713272500654727,
+        0.02157143574222937,
+        -0.004325961224604598,
+        -0.0016665510304196844,
+        -0.000492892977349191
+      ],
+      [
+        -0.0016481890759073715,
+        -0.004325961224604597,
+        0.002450702854185761,
+        0.0009264933008309043,
+        1.6732934410388188e-05
+      ],
+      [
+        -0.0014441114687615741,
+        -0.0016665510304196844,
+        0.0009264933008309042,
+        0.0007726367082116342,
+        8.209280539531473e-05
+      ],
+      [
+        -0.0017906885294511838,
+        -0.0004928929773491906,
+        1.6732934410388005e-05,
+        8.209280539531423e-05,
+        0.0012198831640429088
+      ]
+    ],
+    "p_raw": [
+      0.6654950165424725,
+      0.01098341407794477,
+      0.26319223695567506,
+      0.08507994955454855,
+      0.5294994345025861
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.9406929138440212,
+    "r_squared": 0.14363635947550524,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "SLB",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SLE",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SLV",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SMR",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SOM",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.SO.FPOLM_PA",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SRB",
+    "frequency": "Q",
+    "n": 111,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "growth_lag1",
+      "depreciation_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1997Q3",
+    "last_period": "2025Q1",
+    "beta": [
+      -0.08286990395553,
+      -0.2691113015294841,
+      0.23536000953144148,
+      -0.0004701144195738071,
+      -0.032497887891791026
+    ],
+    "se_HAC": [
+      0.2805038913957446,
+      0.18571891117686462,
+      0.16632140273702747,
+      0.039884401914148354,
+      0.017237182003793688
+    ],
+    "covariance_HAC": [
+      [
+        0.07868243308815567,
+        0.02839237010886098,
+        -0.02792592594563948,
+        0.0007081540200019218,
+        -0.002770844833775927
+      ],
+      [
+        0.028392370108860983,
+        0.03449151396872013,
+        -0.015663040790825672,
+        0.0031609737062213276,
+        -0.002002556792859702
+      ],
+      [
+        -0.027925925945639488,
+        -0.015663040790825672,
+        0.027662809008412486,
+        -0.0012230208174412022,
+        0.0007475938813070028
+      ],
+      [
+        0.0007081540200019161,
+        0.003160973706221317,
+        -0.0012230208174411994,
+        0.0015907655160493207,
+        -0.00026724957538250125
+      ],
+      [
+        -0.002770844833775931,
+        -0.002002556792859702,
+        0.0007475938813070025,
+        -0.00026724957538250147,
+        0.00029712044343190903
+      ]
+    ],
+    "p_raw": [
+      0.768241597477066,
+      0.15028261155101577,
+      0.1599727848685794,
+      0.9906177687180292,
+      0.06212262898235455
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 2.1957769769390807,
+    "r_squared": 0.21647299270056197,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "SSD",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "STP",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SUR",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SVK",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SVN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SWE",
+    "frequency": "Q",
+    "n": 128,
+    "features": [
+      "growth_lag1",
+      "rate_change_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "intercept"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1993Q3",
+    "last_period": "2025Q2",
+    "beta": [
+      0.042324445456948405,
+      0.46490327566699885,
+      0.013882068337862248,
+      0.006188731234336384,
+      -0.07595585480639366
+    ],
+    "se_HAC": [
+      0.033930487474708754,
+      0.138210658721887,
+      0.01852656842891088,
+      0.010413388364784186,
+      0.05287050715742206
+    ],
+    "covariance_HAC": [
+      [
+        0.0011512779802713678,
+        -0.00264706765377624,
+        0.00020811544304475278,
+        -8.676983729055266e-05,
+        -0.0013868219879185342
+      ],
+      [
+        -0.0026470676537762397,
+        0.019102186184337924,
+        -0.0006569448879573335,
+        0.0010739414864076545,
+        0.004477194970401334
+      ],
+      [
+        0.00020811544304475267,
+        -0.0006569448879573334,
+        0.0003432337377511174,
+        5.285615705099994e-07,
+        -0.0004952519827640879
+      ],
+      [
+        -8.676983729055274e-05,
+        0.0010739414864076552,
+        5.285615705099278e-07,
+        0.00010843865723582268,
+        0.00011535197731957772
+      ],
+      [
+        -0.0013868219879185338,
+        0.004477194970401334,
+        -0.000495251982764088,
+        0.00011535197731957758,
+        0.002795290527083017
+      ]
+    ],
+    "p_raw": [
+      0.21462545813656034,
+      0.001025728776241399,
+      0.45510347295340076,
+      0.5533995367680761,
+      0.15335920134532846
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.39006258402517235,
+    "r_squared": 0.26725437190047907,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "SWZ",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SXM",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SYC",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "SYR",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "TCD",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "TGO",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "THA",
+    "frequency": "Q",
+    "n": 93,
+    "features": [
+      "growth_lag1",
+      "rate_change_lag1",
+      "depreciation_lag1",
+      "intercept",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2003Q3",
+    "last_period": "2026Q3",
+    "beta": [
+      0.004810065881174845,
+      0.5379683776646235,
+      0.009312582235017327,
+      -0.003493736619019504,
+      0.0023301398914245637
+    ],
+    "se_HAC": [
+      0.009139116433644054,
+      0.09323984246547537,
+      0.013222486947871048,
+      0.024958745920785612,
+      0.017882602164420884
+    ],
+    "covariance_HAC": [
+      [
+        8.352344918770281e-05,
+        -0.000140429320713065,
+        -1.3395408681325324e-05,
+        -7.945894075005103e-05,
+        -3.8430887738848276e-05
+      ],
+      [
+        -0.0001404293207130653,
+        0.008693668222986664,
+        0.00019689390066850946,
+        0.0010129069041114038,
+        -0.0004488939191105558
+      ],
+      [
+        -1.3395408681325336e-05,
+        0.00019689390066850987,
+        0.0001748341610866202,
+        -1.6502782259407236e-05,
+        8.198981309106993e-05
+      ],
+      [
+        -7.945894075005099e-05,
+        0.0010129069041114032,
+        -1.65027822594073e-05,
+        0.0006229389979383324,
+        -0.00018017281369161233
+      ],
+      [
+        -3.8430887738848255e-05,
+        -0.0004488939191105558,
+        8.198981309106995e-05,
+        -0.00018017281369161233,
+        0.00031978746017095053
+      ]
+    ],
+    "p_raw": [
+      0.5999924904233324,
+      1.1647972433022373e-07,
+      0.4831063647882524,
+      0.8889953244235003,
+      0.8966248503209489
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.2655000525080606,
+    "r_squared": 0.321771360633641,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "TJK",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "TLS",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "TON",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "TTO",
+    "frequency": "Q",
+    "n": 47,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "TUN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "TUR",
+    "frequency": "Q",
+    "n": 91,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "growth_lag1",
+      "depreciation_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "2002Q3",
+    "last_period": "2025Q1",
+    "beta": [
+      -0.08711753981485792,
+      0.6338000636480072,
+      0.09664674006145232,
+      -0.015554537097761471,
+      2.6049814452733002e-05
+    ],
+    "se_HAC": [
+      0.36178311647756384,
+      0.10245469520449212,
+      0.09528483713061234,
+      0.040588524156467166,
+      0.02854081781483005
+    ],
+    "covariance_HAC": [
+      [
+        0.13088702336821853,
+        -0.010419197951171062,
+        -0.01879353260764512,
+        -0.0007624616399402827,
+        -0.006081308676473785
+      ],
+      [
+        -0.01041919795117107,
+        0.010496964569445379,
+        0.002727938593637534,
+        -0.0007575023698391083,
+        0.0016507997488238004
+      ],
+      [
+        -0.018793532607645103,
+        0.002727938593637534,
+        0.009079200187007318,
+        0.0008574791500391902,
+        0.0005161822775510524
+      ],
+      [
+        -0.0007624616399402674,
+        -0.0007575023698391073,
+        0.000857479150039189,
+        0.0016474282932001187,
+        -0.0005071719457688732
+      ],
+      [
+        -0.006081308676473789,
+        0.0016507997488237997,
+        0.000516182277551053,
+        -0.0005071719457688733,
+        0.0008145782815393203
+      ]
+    ],
+    "p_raw": [
+      0.8102829130847119,
+      2.0166567769277485e-08,
+      0.3132881269661669,
+      0.7024986065999739,
+      0.9992738676827431
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 2.6616119516379424,
+    "r_squared": 0.39889174811400807,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "TZA",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "UGA",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "UKR",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "URY",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "USA",
+    "frequency": "Q",
+    "n": 261,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "growth_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [
+      "depreciation_lag1"
+    ],
+    "status": "ok",
+    "first_period": "1961Q2",
+    "last_period": "2026Q3",
+    "beta": [
+      -0.10382172699679444,
+      -0.2653414942730539,
+      0.09950373764656033,
+      0.010354294654701406
+    ],
+    "se_HAC": [
+      0.14068104329574366,
+      0.10941976756045765,
+      0.06760193090482974,
+      0.05193888622032595
+    ],
+    "covariance_HAC": [
+      [
+        0.0197911559427789,
+        -0.0005547487612471026,
+        -6.790881676003453e-05,
+        -0.006324773719889221
+      ],
+      [
+        -0.0005547487612471018,
+        0.011972685532984582,
+        0.0007723217389232929,
+        -5.277464332852164e-05
+      ],
+      [
+        -6.790881676003866e-05,
+        0.0007723217389232924,
+        0.004570021062061374,
+        -0.0012178482160421767
+      ],
+      [
+        -0.006324773719889227,
+        -5.277464332852163e-05,
+        -0.0012178482160421773,
+        0.0026976479018079647
+      ]
+    ],
+    "p_raw": [
+      0.4611915889781654,
+      0.015998742000941795,
+      0.14226953985605084,
+      0.8421424226019995
+    ],
+    "rank": 4,
+    "shock_sd_source_unit": 1.3660912754632608,
+    "r_squared": 0.06873344020029348,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "UZB",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_MFS166_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "VCT",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "VEN",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "VGB",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "VNM",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.VN.FPOLM_PA",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "WSM",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "YEM",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_IFS_M.YE.FID_PA",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "ZAF",
+    "frequency": "Q",
+    "n": 132,
+    "features": [
+      "intercept",
+      "rate_change_lag1",
+      "growth_lag1",
+      "depreciation_lag1",
+      "inflation_lag1"
+    ],
+    "rate_source": "BIS_CBPOL_EOP",
+    "dropped_redundant_regressors": [],
+    "status": "ok",
+    "first_period": "1993Q3",
+    "last_period": "2026Q2",
+    "beta": [
+      0.27840292402875144,
+      0.427746982825562,
+      0.005154867416924285,
+      0.0005128631185325698,
+      -0.05561484279090345
+    ],
+    "se_HAC": [
+      0.13116908937732358,
+      0.12209117904688312,
+      0.017933717750278078,
+      0.01613087511417614,
+      0.026374766553124505
+    ],
+    "covariance_HAC": [
+      [
+        0.017205330008076298,
+        0.002603024040940218,
+        -2.4833794385862515e-05,
+        -0.00040793308003356883,
+        -0.0031474526133146753
+      ],
+      [
+        0.0026030240409402232,
+        0.014906256001058072,
+        -0.001117266941510847,
+        -0.0004219999029560711,
+        -0.0008795449628815973
+      ],
+      [
+        -2.4833794385863436e-05,
+        -0.0011172669415108489,
+        0.000321618232346639,
+        0.00012362463768832892,
+        1.4134858299914237e-05
+      ],
+      [
+        -0.00040793308003356926,
+        -0.00042199990295606967,
+        0.00012362463768832876,
+        0.00026020513194914714,
+        9.047801214434408e-05
+      ],
+      [
+        -0.003147452613314672,
+        -0.0008795449628815973,
+        1.4134858299914154e-05,
+        9.047801214434415e-05,
+        0.0006956283107318151
+      ]
+    ],
+    "p_raw": [
+      0.035739457547924174,
+      0.0006347029944875377,
+      0.7742439442366762,
+      0.974686338921477,
+      0.03694016403238972
+    ],
+    "rank": 5,
+    "shock_sd_source_unit": 0.8013515584128289,
+    "r_squared": 0.1935164763294709,
+    "important_limit": "lag_only_full_sample_Taylor_residual_not_an_exogenous_HF_shock;generated_regressor_uncertainty_not_in_LP_SE"
+  },
+  {
+    "country": "ZMB",
+    "frequency": "Q",
+    "n": 44,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "IMF_MFS_IR_DISR_RT_PT_A_PT",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  },
+  {
+    "country": "ZWE",
+    "frequency": "Q",
+    "n": 0,
+    "features": [
+      "intercept",
+      "growth_lag1",
+      "inflation_lag1",
+      "depreciation_lag1",
+      "rate_change_lag1"
+    ],
+    "rate_source": "",
+    "status": "not_estimable",
+    "reason": "insufficient_observed_lag_support",
+    "required": 50
+  }
+]
